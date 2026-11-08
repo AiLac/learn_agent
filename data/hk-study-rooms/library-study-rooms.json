@@ -1,0 +1,229 @@
+{
+  "title": "香港公共图书馆学生自修室课程样本",
+  "attribution": "来源：DATA.GOV.HK 及香港特别行政区政府教育局。原始数据的知识产权归香港特别行政区政府及相关机构所有。",
+  "source_url": "https://www.edb.gov.hk/attachment/sc/student-parents/parents-related/students-related/study-rooms/list_of_study_room_sc.csv",
+  "catalog_url": "https://data.gov.hk/tc-data/dataset/hk-edb-studyroom-study-room-info/resource/2e072fa1-55d2-4b66-b55b-24950ca8f06a",
+  "terms_url": "https://data.gov.hk/en/terms-and-conditions",
+  "retrieved_on": "2026-11-08",
+  "source_sha256": "2ad432d6bf797d07f42c6b4c7eaf8f54e4eaff49c859cc1847d0b6915c4c3399",
+  "source_row_count": 194,
+  "selection": "选取自修室中心名称含“公共图书馆”的记录。id、name、district、address 分别来自编号、自修室中心名称、地区、自修室中心地址，保留原值与原顺序。",
+  "records": [
+    {
+      "id": "A05",
+      "name": "柴湾公共图书馆学生自修室",
+      "district": "东区",
+      "address": "柴湾道338号柴湾市政大厦四楼"
+    },
+    {
+      "id": "A11",
+      "name": "鲗鱼涌公共图书馆学生自修室",
+      "district": "东区",
+      "address": "鲗鱼涌街三十八号鲗鱼涌巿政大厦五楼"
+    },
+    {
+      "id": "B02",
+      "name": "骆克道公共图书馆学生自修室",
+      "district": "湾仔",
+      "address": "湾仔轩尼诗道225号骆克道巿政大厦三楼"
+    },
+    {
+      "id": "C02",
+      "name": "石塘咀公共图书馆学生自修室",
+      "district": "中西区",
+      "address": "皇后大道西470号石塘咀市政大厦四楼"
+    },
+    {
+      "id": "D02",
+      "name": "香港仔公共图书馆学生自修室",
+      "district": "南区",
+      "address": "香港仔大道203号香港仔巿政大厦三楼"
+    },
+    {
+      "id": "D07",
+      "name": "薄扶林公共图书馆学生自修室",
+      "district": "南区",
+      "address": "华富邨华珍楼611-619室"
+    },
+    {
+      "id": "E01",
+      "name": "油麻地公共图书馆学生自修室",
+      "district": "油尖旺",
+      "address": "油麻地上海街251号一楼"
+    },
+    {
+      "id": "E06",
+      "name": "花园街公共图书馆学生自修室",
+      "district": "油尖旺",
+      "address": "旺角花园街123A号花园街巿政大厦五楼"
+    },
+    {
+      "id": "F04",
+      "name": "保安道公共图书馆学生自修室",
+      "district": "深水埗",
+      "address": "深水埗保安道325-329号保安道巿政大厦二楼"
+    },
+    {
+      "id": "F06",
+      "name": "荔枝角公共图书馆学生自修室",
+      "district": "深水埗",
+      "address": "深水埗荔枝角荔湾道十九号地下"
+    },
+    {
+      "id": "F08",
+      "name": "深水埗公共图书馆学生自修室",
+      "district": "深水埗",
+      "address": "深水埗深旺道38号深水埗康乐文化大楼一楼"
+    },
+    {
+      "id": "G01",
+      "name": "土瓜湾公共图书馆学生自修室",
+      "district": "九龙城",
+      "address": "九龙城马头围道165号土瓜湾政府合署六楼"
+    },
+    {
+      "id": "G04",
+      "name": "九龙公共图书馆学生自修室",
+      "district": "九龙城",
+      "address": "九龙城培正道5号"
+    },
+    {
+      "id": "H06",
+      "name": "牛池湾公共图书馆学生自修室",
+      "district": "黄大仙",
+      "address": "黄大仙清水湾道11号牛池湾巿政大厦六楼"
+    },
+    {
+      "id": "H11",
+      "name": "新蒲岗公共图书馆学生自修室",
+      "district": "黄大仙",
+      "address": "黄大仙新蒲岗崇龄街33号新蒲岗广场三楼"
+    },
+    {
+      "id": "J03",
+      "name": "牛头角公共图书馆学生自修室",
+      "district": "观塘",
+      "address": "观塘牛头角道183号牛头角巿政大厦三楼"
+    },
+    {
+      "id": "J13",
+      "name": "瑞和街公共图书馆学生自修室",
+      "district": "观塘",
+      "address": "观塘瑞和街9号瑞和街巿政大厦5楼"
+    },
+    {
+      "id": "J17",
+      "name": "蓝田公共图书馆学生自修室",
+      "district": "观塘",
+      "address": "蓝田庆田街1号蓝田综合大楼五楼"
+    },
+    {
+      "id": "K08",
+      "name": "马鞍山公共图书馆学生自修室",
+      "district": "沙田",
+      "address": "沙田马鞍山鞍骏街14号"
+    },
+    {
+      "id": "K11",
+      "name": "圆洲角公共图书馆学生自修室",
+      "district": "沙田",
+      "address": "沙田银城街35号圆洲角综合大楼高座2楼"
+    },
+    {
+      "id": "K17",
+      "name": "沙田公共图书馆学生自修室",
+      "district": "沙田",
+      "address": "沙田源禾路一号"
+    },
+    {
+      "id": "L03",
+      "name": "大埔公共图书馆学生自修室",
+      "district": "大埔",
+      "address": "大埔乡事会街8号大埔综合大楼5楼"
+    },
+    {
+      "id": "M02",
+      "name": "上水公共图书馆学生自修室",
+      "district": "北区",
+      "address": "上水智昌路13号石湖墟巿政大厦3楼"
+    },
+    {
+      "id": "M03",
+      "name": "粉岭公共图书馆学生自修室",
+      "district": "北区",
+      "address": "粉岭和满街9号2楼"
+    },
+    {
+      "id": "N01",
+      "name": "西贡公共图书馆学生自修室",
+      "district": "西贡",
+      "address": "西贡亲民街34号西贡政府合署五楼"
+    },
+    {
+      "id": "N02",
+      "name": "调景岭公共图书馆学生自修室",
+      "district": "西贡",
+      "address": "将军澳翠岭路4号"
+    },
+    {
+      "id": "N03",
+      "name": "将军澳公共图书馆学生自修室",
+      "district": "西贡",
+      "address": "将军澳运隆路9号"
+    },
+    {
+      "id": "P07",
+      "name": "屯门公共图书馆学生自修室",
+      "district": "屯门",
+      "address": "屯门屯喜路一号"
+    },
+    {
+      "id": "Q06",
+      "name": "屏山天水围公共图书馆学生自修室",
+      "district": "元朗",
+      "address": "天水围聚星路1号屏山天水围文化康乐大楼高座1楼"
+    },
+    {
+      "id": "Q11",
+      "name": "元朗公共图书馆学生自修室",
+      "district": "元朗",
+      "address": "元朗马田路52号元朗文化康乐大楼地下"
+    },
+    {
+      "id": "R03",
+      "name": "荃湾公共图书馆学生自修室",
+      "district": "荃湾",
+      "address": "荃湾西楼角路38号4楼"
+    },
+    {
+      "id": "S04",
+      "name": "北葵涌公共图书馆学生自修室",
+      "district": "葵青",
+      "address": "葵涌石荫路北葵涌街巿及图书馆三楼及四楼"
+    },
+    {
+      "id": "S11",
+      "name": "青衣公共图书馆学生自修室",
+      "district": "葵青",
+      "address": "青衣青绿街38号青衣巿政大厦一楼"
+    },
+    {
+      "id": "S16",
+      "name": "南葵涌公共图书馆学生自修室",
+      "district": "葵青",
+      "address": "葵涌兴芳路166-174号葵兴政府合署4字楼"
+    },
+    {
+      "id": "T03",
+      "name": "长洲公共图书馆学生自修室",
+      "district": "离岛",
+      "address": "长洲大兴堤路2号长洲市政大厦二楼"
+    },
+    {
+      "id": "T04",
+      "name": "东涌公共图书馆学生自修室",
+      "district": "离岛",
+      "address": "东涌文东路39号东涌市政大楼一楼"
+    }
+  ]
+}
