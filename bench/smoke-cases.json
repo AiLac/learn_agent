@@ -1,0 +1,6 @@
+[
+  {"id":"address-district","query":"花园街公共图书馆学生自修室在哪个地区？","expected":[{"room_id":"E06","field":"district","value":"油尖旺","evidence_ids":["registry:E06"]}]},
+  {"id":"sat-open","query":"按11月普通周六的常规时刻表，花园街自修室晚上7点还开放吗？","expected":[{"room_id":"E06","field":"open_at","value":true,"evidence_ids":["E06-nov-sat"]}]},
+  {"id":"sun-closed","query":"按11月普通周日的常规时刻表，花园街自修室晚上7点还开放吗？","expected":[{"room_id":"E06","field":"open_at","value":false,"evidence_ids":["E06-nov-sun"]}]},
+  {"id":"compare-two","query":"按11月普通周六的常规时刻表，花园街和薄扶林的学生自修室在晚上7点各自还开放吗？","expected":[{"room_id":"E06","field":"open_at","value":true,"evidence_ids":["E06-nov-sat"]},{"room_id":"D07","field":"open_at","value":false,"evidence_ids":["D07-nov-sat"]}]}
+]
