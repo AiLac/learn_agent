@@ -23,4 +23,4 @@ Spring AI 的工具执行管理器从模型消息里提取工具请求并组装�
 
 自检：同一调用 ID 被重新观察到是否足以证明任务完成？还需有执行结果或检查点，才能判断是只派发了请求，还是已经取得证据。[MCP 生命周期](https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle) · [MCP 工具规范](https://modelcontextprotocol.io/specification/2025-11-25/server/tools)
 
-[本周实践讲义](./lab.md) · [课程总目录](../../README.md)
+[本周实践讲义](./lab.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)

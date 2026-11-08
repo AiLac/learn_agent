@@ -6,18 +6,20 @@
 
 每周先用约 2 小时读理论、走读案例与源码，再用约 8 小时完成上机练习。建议把同一份 Java 项目逐周扩展，记录实际运行结果。前 8 周完成一个可演示的应用；第 9–10 周为新增的架构设计与性能优化专题，按每周 10–15 小时另需 20–30 小时。若目前只能投入两个月，可先完成第 8 周，在后续两周继续生产专题。
 
-| 周次 | 课程 | 原理、设计取舍与自检 | 动手步骤、故障实验与验收 |
-| --- | --- | --- | --- |
-| 1 | 模型与工具调用 | [理论讲义](lessons/week-01/theory.md) | [实践讲义](lessons/week-01/lab.md) |
-| 2 | 语义检索与 RAG | [理论讲义](lessons/week-02/theory.md) | [实践讲义](lessons/week-02/lab.md) |
-| 3 | 单 Agent 执行循环 | [理论讲义](lessons/week-03/theory.md) | [实践讲义](lessons/week-03/lab.md) |
-| 4 | 评测与失败诊断 | [理论讲义](lessons/week-04/theory.md) | [实践讲义](lessons/week-04/lab.md) |
-| 5 | 多轮对话与状态 | [理论讲义](lessons/week-05/theory.md) | [实践讲义](lessons/week-05/lab.md) |
-| 6 | MCP 与故障恢复 | [理论讲义](lessons/week-06/theory.md) | [实践讲义](lessons/week-06/lab.md) |
-| 7 | 规划与子 Agent | [理论讲义](lessons/week-07/theory.md) | [实践讲义](lessons/week-07/lab.md) |
-| 8 | 复现与面试作品 | [理论讲义](lessons/week-08/theory.md) | [实践讲义](lessons/week-08/lab.md) |
-| 9 | 架构对照与路由设计 | [理论讲义](lessons/week-09/theory.md) | [实践讲义](lessons/week-09/lab.md) |
-| 10 | 时延预算、压测与优化 | [理论讲义](lessons/week-10/theory.md) | [实践讲义](lessons/week-10/lab.md) |
+**从第 1 天开始。** [第一课：一次搜索命中，到底回答了什么？](lessons/week-01/daily.md)。10 周共 70 个学习日。每日页按“讲解 → 课堂推演 → 动手 → 过关”组织；理论与实践讲义供当天深入阅读。每周第 1 天 90 分钟，第 2–5 天各 75 分钟，第 6 天 150 分钟，第 7 天 60 分钟，合计 10 小时（阅读与讲解 2 小时，上机 8 小时）。额外时间用于选修或重做未掌握的实验，学习日可按个人日程顺延。
+
+| 周次 | 课程 | 每日课程 | 原理、设计取舍与自检 | 动手步骤、故障实验与验收 |
+| --- | --- | --- | --- | --- |
+| 1 | 模型与工具调用 | [第 1–7 天](lessons/week-01/daily.md) | [理论讲义](lessons/week-01/theory.md) | [实践讲义](lessons/week-01/lab.md) |
+| 2 | 语义检索与 RAG | [第 8–14 天](lessons/week-02/daily.md) | [理论讲义](lessons/week-02/theory.md) | [实践讲义](lessons/week-02/lab.md) |
+| 3 | 单 Agent 执行循环 | [第 15–21 天](lessons/week-03/daily.md) | [理论讲义](lessons/week-03/theory.md) | [实践讲义](lessons/week-03/lab.md) |
+| 4 | 评测与失败诊断 | [第 22–28 天](lessons/week-04/daily.md) | [理论讲义](lessons/week-04/theory.md) | [实践讲义](lessons/week-04/lab.md) |
+| 5 | 多轮对话与状态 | [第 29–35 天](lessons/week-05/daily.md) | [理论讲义](lessons/week-05/theory.md) | [实践讲义](lessons/week-05/lab.md) |
+| 6 | MCP 与故障恢复 | [第 36–42 天](lessons/week-06/daily.md) | [理论讲义](lessons/week-06/theory.md) | [实践讲义](lessons/week-06/lab.md) |
+| 7 | 规划与子 Agent | [第 43–49 天](lessons/week-07/daily.md) | [理论讲义](lessons/week-07/theory.md) | [实践讲义](lessons/week-07/lab.md) |
+| 8 | 复现与面试作品 | [第 50–56 天](lessons/week-08/daily.md) | [理论讲义](lessons/week-08/theory.md) | [实践讲义](lessons/week-08/lab.md) |
+| 9 | 架构对照与路由设计 | [第 57–63 天](lessons/week-09/daily.md) | [理论讲义](lessons/week-09/theory.md) | [实践讲义](lessons/week-09/lab.md) |
+| 10 | 时延预算、压测与优化 | [第 64–70 天](lessons/week-10/daily.md) | [理论讲义](lessons/week-10/theory.md) | [实践讲义](lessons/week-10/lab.md) |
 
 ## 课程目标与时间
 

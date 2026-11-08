@@ -18,4 +18,4 @@ Agent 推荐周日 19:00 去花园街自修。这个错答可能对应四种故�
 
 **自检。** 在 8 条留出题上多答对 1 条，该怎么报告？写“两方案各通过几题/8、哪一题从错变对、哪题退化”，易波动的案例保留 3 次运行。这个样本适合检查设计与失败机制，大范围提升需要更多独立查询。[Anthropic 的 Agent 评测实践](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
 
-[本周实践讲义](./lab.md) · [课程总目录](../../README.md)
+[本周实践讲义](./lab.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)

@@ -24,4 +24,4 @@
 
 当优化只改善了首个提示文字、静默丢弃困难查询或让更多用户拿到“未知”，它可能并未改善服务目标。用同一质量判分器与负载再测一次。[超时、重试、退避与抖动](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/)
 
-[本周实践讲义](./lab.md) · [课程总目录](../../README.md)
+[本周实践讲义](./lab.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)

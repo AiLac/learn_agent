@@ -29,4 +29,4 @@
 2. 名录能确认地址，能否顺带说“现在有空座”？答：两者需要不同来源。简介只能使用与当前结论对应的证据。
 3. 读 Hello-Agents 第 1、3 章相关小节，再读一个供应商的工具调用协议。分别圈出工具声明、调用请求和结果消息。[教材目录](https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md) · [工具调用消息示例](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use)
 
-[本周实践讲义](./lab.md) · [课程总目录](../../README.md)
+[本周实践讲义](./lab.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)

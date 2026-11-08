@@ -24,4 +24,4 @@
 
 **口述题。** 为什么必须分别做“同预算架构对照”和“各自优化后的端到端对照”？前者帮助归因决策机制的差异，后者回答哪套服务值得上线。一次实验无法同时隔离所有因素并展示不同架构的最佳成本。[工作流与 Agent](https://www.anthropic.com/engineering/building-effective-agents) · [Codex 子任务派发](https://github.com/openai/codex/blob/748ab55ca7de0b647d9a7a9d9a8e70e00f28666d/codex-rs/core/src/tools/handlers/multi_agents/spawn.rs)
 
-[本周实践讲义](./lab.md) · [课程总目录](../../README.md)
+[本周实践讲义](./lab.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)

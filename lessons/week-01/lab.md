@@ -51,4 +51,4 @@ static List<Room> search(List<Room> rooms, String query, int limit) {
 
 **验收。** `search("花园街")` 包含 `E06`，`search("油尖旺")` 返回两家，空字符串触发参数错误。提交一次真实工具轨迹：用户消息、模型请求、本地执行结果、带调用 ID 的回传和最终答复。尚无模型接入时，用脚本响应跑通单测，并将“真实调用”标为待补。[官方时刻表](https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html)
 
-[本周理论讲义](./theory.md) · [课程总目录](../../README.md)
+[本周理论讲义](./theory.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)

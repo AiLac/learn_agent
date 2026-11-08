@@ -16,4 +16,4 @@
 
 **自检。** 面试官问“为什么不一直使用固定流程？”应以一个固定流程足够的例子和一个确实需要追加查证的例子回答，再给出二者实测耗时与失败差异。如果当前结果支持固定流程，就说明它的适用条件。这同样是工程结论。[Agent 评测与运行轨迹](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
 
-[本周实践讲义](./lab.md) · [课程总目录](../../README.md)
+[本周实践讲义](./lab.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)

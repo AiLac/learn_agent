@@ -20,4 +20,4 @@
 
 思考题：工具的第三次调用拿到关键证据，可以正常回答吗？可以，只要保留整理答案的模型轮与总时间预算。若模型随后仍要求第四次工具调用，应停止继续调工具，返回清楚的部分结果或终止原因。[ReAct 原论文](https://arxiv.org/abs/2210.03629) · [工作流与 Agent 的设计选择](https://www.anthropic.com/engineering/building-effective-agents)
 
-[本周实践讲义](./lab.md) · [课程总目录](../../README.md)
+[本周实践讲义](./lab.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)

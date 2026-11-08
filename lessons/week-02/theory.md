@@ -20,4 +20,4 @@ BM25 利用词频、文档频率和长度衡量字词匹配；余弦相似度是
 
 如果混合检索赢在有 3 家馆附了长描述、关键词路却只看名字，能证明向量有效吗？不能。候选、可索引文本、同义词政策和标注要在实验说明里写清。通过取回证据片段与资料日期，才有机会区分排序改善与语料变化。[Hello-Agents 第 8 章入口](https://github.com/datawhalechina/hello-agents/blob/36f583c233ea5cee4537ef93455702b55053af18/README.md) · [Elastic 混合检索](https://www.elastic.co/docs/solutions/search/hybrid-search) · [RRF 计算方式](https://www.elastic.co/docs/reference/elasticsearch/rest-apis/reciprocal-rank-fusion)
 
-[本周实践讲义](./lab.md) · [课程总目录](../../README.md)
+[本周实践讲义](./lab.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)
