@@ -1,60 +1,66 @@
-# 第 1 周 · 实践讲义｜把模型接到一个真实的 Java 工具上
+# 第 1 周实践讲义｜亲手运行、拆开再接好一个 Agent
 
-## 先看一份能运行的实现，再动手改
+## 准备与第一条轨迹
 
-第一天从 [Java 完整例题](../../examples/day-01/RoomSearch.java) 开始。安装 JDK 17+ 与 Python 3.9+ 后，在仓库根目录运行 `py -3 examples/day-01/run.py "油尖旺" --limit 1`。macOS/Linux 可用 `python3` 替代 `py -3`。可以先跳过建 Maven 工程，等能独立解释检索结果后，再把检索函数接入自己的模型宿主。
-
-观察第一行：`scanned=36` 说的是本快照，`totalMatched=2` 说的是按检索条件命中的集合，`returned=1` 说的是这一页展示的集合。运行 `--simulate-timeout` 后后两者应为 unknown。把命令换为查“花园街”，若一次检索既返回地址又宣布今晚可入座，先指出后一个断言需要的证据在什么地方产生。完整操作与参考解均在[第 1 天](daily.md)。
-
-## 实验目标与准备
-
-第 1 天可以直接用上面的示例开始。做后续模型集成时，用 JDK 17+、Maven 和你熟悉的 JSON 库建立自己的 Java 命令行项目。建议用 JUnit 5；从仓库根目录读取[已提交的名录](../../data/hk-study-rooms/library-study-rooms.json)。选择一个支持工具调用的模型，密钥放在本地环境变量。仓库提供本地检索参考程序；后续的工具注册、模型连接和评测由你逐步实现。
-
-## 第一次上机的 90 分钟
-
-1. **20 分钟，核对输入。** Windows PowerShell 在仓库根目录执行下列命令。第一次先看数据的顶层结构，记录编号、地区、地址分别来自哪里。
-2. **40 分钟，实现本地检索。** 建议用 `record Room(String id, String name, String district, String address)`。读顶层 `records` 数组，按名称、地区、地址匹配，按 ID 去重；并列时按 ID 排序。先处理空查询和无命中。
-3. **30 分钟，写人工答案。** 查花园街的地址，再从下方官方时间表找普通 11 月周六和周日 19:00 的答案。将适用对象写成“学生自修室”，同时注明只核实了常规安排。
+在仓库根目录打开 PowerShell，准备 Python 3.9+ 和 JDK 17+，用 `java -version` 核对。下面命令都可以离线运行，Linux/macOS 把 `py -3` 换为 `python3`。
 
 ```powershell
-$rooms = (Get-Content -Raw -Encoding UTF8 data/hk-study-rooms/library-study-rooms.json | ConvertFrom-Json).records
-$rooms.Count
-$rooms | Where-Object district -eq '油尖旺' | Select-Object id,name,address
+py -3 examples/agent-loop/run.py sun
 ```
 
-预期计数为 36，油尖旺包含 `E01` 和 `E06`。比较地址时以 JSON 原文为准，保留繁简及异体字符。此命令用于查看数据，自己的检索入口用 Java 实现。
+应看到以下三行。运行前先遮住最后一行，只用中间的观察推一次结论。
 
-**Java 检索最小实现。** 在自己的类中加入下面的方法和前述 `Room` 记录，使用包 `java.util`、`java.util.stream.Stream`。调用前先让 JSON 解析器取出顶层 `records`，映射为 `List<Room>`。这段实现刻意从精确子串匹配起步，第 2 周可保留作基线。
-
-```java
-static List<Room> search(List<Room> rooms, String query, int limit) {
-    if (query == null || query.isBlank() || limit < 1 || limit > 2) {
-        throw new IllegalArgumentException("query and limit out of bounds");
-    }
-    String term = query.strip();
-    Map<String, Room> matches = new TreeMap<>();
-    for (Room room : rooms) {
-        if (Stream.of(room.name(), room.district(), room.address())
-                .anyMatch(field -> field.contains(term))) {
-            matches.putIfAbsent(room.id(), room);
-        }
-    }
-    return matches.values().stream().limit(limit).toList();
-}
+```text
+mode=scripted case=sun
+c1 lookup_hours -> FOUND hours:E06 SUN 09:00-17:00 | rounds=1 toolAttempts=1
+c2 finish -> DONE closed at 19:00 [hours:E06] | rounds=2 toolAttempts=1
 ```
 
-可以在截断前读取 `matches.size()` 作为命中总数；上面的方法只返回展示列表。
+打开 [AgentHost.java](../../examples/agent-loop/AgentHost.java)，依次在 `step`、`lookup`、`finish` 打断点。第一处收到的字段为调用 ID、动作名、参数、引用。第二处把 `observedHours` 从 false 改成 true。最后一处检查同一个范围内的时间条件。Python [驱动程序](../../examples/agent-loop/run.py)从[课程快照](../../data/hk-study-rooms/search-v2/evidence.json)选取 `hours:E06` 的星期切片，把值交给 Java 工具；初始模型消息中没有时段。驱动程序负责把 Java 的观察送回下一轮。离线运行时，`scripted` 按教学情景提出动作，用来稳定复现分支。
 
-## 余下的上机时间
+## 做三个能解释因果关系的改动
 
-- **90 分钟，接入工具。** 写工具描述、JSON Schema 和执行分派。建议先允许一个工具，每次最多返回两条记录，并附命中总数。用下面的参数定义起步。
-- **2 小时，跑通真实调用。** 发出带工具声明的模型请求，读取它实际返回的工具名、参数与调用 ID；本地执行后保留模型上一轮完整消息，并按供应商协议回传工具结果。以 Anthropic Messages 为例，`tool_use.id` 对应后续 `tool_result.tool_use_id`。再次请求模型得到地址答复。存一份去掉凭据的轨迹。
-- **3 小时，建题与测试。** 写 4 道开发题，覆盖名称、地区、时间、证据缺失。第 2 周调参前另锁定 8 道留出题及参考证据，成对改写放在同一组。课件公开演示的题放开发集；留出题可用其他馆或独立问题组。答案文件留在评测端，生成时只给查询。
+1. **先变输入。** 跑 `sat` 和 `sun`，记录模型轮数、工具尝试数、时段与结论。对象相同且调用次数相同，区别来自证据切片。如果结果仍一样，优先查星期映射与 `finish` 的区间判断。
+2. **再变观察。** 跑 `timeout`。工具已经消耗一次尝试，但没有观测到时段。第二轮允许生成“本次未核实”。把它跟 `early` 放在一起看，后者根本没查就申请提交肯定结论，宿主应拒绝。为两个结果写不同的业务提示。
+3. **最后变决策。** 跑 `wrong`。工具与数据均成功，模型提交了错误判断。在自己的副本里临时跳过 `finish` 中检查区间的那一行，重跑一次 `wrong`，记录谁放过了错误；恢复该行再跑。这个小实验展示引用有效与结论有效的区别。
+
+| 场景参数 | 必须观察到的终态或原因 | 能检验的问题 |
+| --- | --- | --- |
+| `ambiguous` | ASK_USER、0 次工具尝试 | 缺星期时开发者是否允许模型追问 |
+| `forbidden` | REJECTED、unknown_tool | 模型说要订场时宿主会不会执行 |
+| `repeat` | LIMIT、tool_attempts，已执行 2 次 | 新调用 ID 能否绕过业务预算 |
+| `replay` | REJECTED、replayed_call_id | 同一调用 ID 的重放是否会再次调用工具 |
+
+另外试 `missing-day` 和 `skip`。前者故意在缺星期时读，宿主返回 NEED_DAY，实际查表次数保持 0；后者在明确星期、没有尝试取证时直接报未知，宿主拒绝。只有观察到本次读取真的失败，才允许这道已知星期题降级。
+
+## 一份不用 SDK 也能看懂的线上消息
+
+下面是入门适配器使用的消息形状，为讲解手写。第一轮请求含 system、用户问题和 tools，服务返回 assistant；宿主执行后，再发起一次模型请求，在原历史末尾追加下列两条。工具结果与断言均可由程序解析。
 
 ```json
-{"type":"object","properties":{"query":{"type":"string","minLength":1},"limit":{"type":"integer","minimum":1,"maximum":2}},"required":["query"],"additionalProperties":false}
+[
+  {"role":"assistant","content":null,"tool_calls":[{"id":"c1","type":"function","function":{"name":"lookup_hours","arguments":"{\"place\":\"E06\"}"}}]},
+  {"role":"tool","tool_call_id":"c1","content":"{\"status\":\"FOUND\",\"detail\":\"hours:E06 SUN 09:00-17:00\"}"}
+]
 ```
 
-**验收。** `search("花园街")` 包含 `E06`，`search("油尖旺")` 返回两家，空字符串触发参数错误。提交一次真实工具轨迹：用户消息、模型请求、本地执行结果、带调用 ID 的回传和最终答复。尚无模型接入时，用脚本响应跑通单测，并将“真实调用”标为待补。[官方时刻表](https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html)
+`arguments` 和 `content` 在这种线上格式里是字符串，解码后才得到对象。用相同 ID 配对很重要，应用可以同时保存业务地点 E06、证据 hours:E06，两者都无法替代本轮调用的 c1。
 
-[本周理论讲义](./theory.md) · [本周每日课程](./daily.md) · [课程总目录](../../README.md)
+## 把决策者换成真实模型
+
+当前示例同时提供脚本决策与模型接口。下例适用于提供 Chat Completions 兼容格式、支持 `tools` 和 `tool_choice=required` 的服务。把模型名、完整 HTTPS 请求 URL 和密钥放入本地环境变量 `AGENT_MODEL`、`AGENT_CHAT_URL`、`AGENT_API_KEY`。只把它们发往自己信任的服务地址。
+
+```powershell
+py -3 examples/agent-loop/run.py sat --live
+py -3 examples/agent-loop/run.py ambiguous --live
+```
+
+真实调用需要自己的模型访问权限。每轮模型返回一个函数提议，Python 将提议交给与回放相同的 Java 宿主；观察消息用 `tool_call_id` 关联。提供商若返回多个候选工具调用或普通文本，这个入门适配器会报错；记为接口或策略不兼容。模型输出错误被 Java 拒绝也要保留，不能改作成功样例。没有密钥可以做完离线作业，但“模型能否主动选对工具”一栏须标为未测。
+
+## 从空实现练一次（约 2 小时）
+
+在自己的练习分支清空 `finish` 的方法体。先写出四个输入和预期：没有观察、来源 ID 错、周日答开放、周日答关闭。按“先验有没有证据，再验引用，再验时间，最后渲染”的顺序重写；把前面几条命令当回归测试。接着把固定流程写成另一方法：星期未知直接追问，已知则查表一次并判区间。对同一道题记录两种方案的模型轮数，结合第 2 周实验继续比较。
+
+**提交自己的作业。** 一条成功轨迹、一条失败轨迹、一次你有意破坏后修好的断言，以及 120 字说明“下一个动作是谁决定的，执行和验收是谁负责的”。只保存公开事实与可观测动作。
+
+[当日课程](daily.md) · [本周理论](theory.md)

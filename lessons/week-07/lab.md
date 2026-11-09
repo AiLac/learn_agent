@@ -1,5 +1,21 @@
 # 第 7 周 · 实践讲义｜任务规划、工具并行与子 Agent
 
+## 不用模型密钥，先验算三条控制路径
+
+```powershell
+java examples/architecture/ArchitectureLab.java compare healthy
+java examples/architecture/ArchitectureLab.java first healthy
+java examples/architecture/ArchitectureLab.java compare timeout
+```
+
+[可运行的调度例题](../../examples/architecture/ArchitectureLab.java)使用虚构 A/B 和固定耗时，不调用真实模型。fixed 对两项并行读取，step 以脚本模拟每轮观察后再决定，plan 模拟先计划、并发执行、再汇总。第一题三者都要比较两项，预计 virtualMs 依次为 120、1700、1120。第二题只需第一个可用结果，step 在观察 A 后可以省下一次工具读取。第三题 A 超时，即使 B 返回也不能宣称两者已完成比较。读 events 顺序，修改 first 的固定策略也允许早停，观察之前的优势是否来自策略编写方式。这里的 virtualMs 是按依赖关系累加的教学模型；实测端到端延迟需换真实时钟、执行器和决策源。
+
+## 写一个会拒绝坏计划的执行器
+
+先把 `A=查甲, B=查乙, C=汇总(A,B)` 作为固定对象输入。入队前统计每个节点的未完成依赖，A、B 为零可开始；每完成一个前置节点就更新其依赖者，C 只有在两项都到达终态后才可作完整比较。全部节点未处理完、队列却已空时应报告环或无效依赖。给规划器的草案故意加上 `A dependsOn C`、重复 ID 和未注册的写工具，三个输入都要在首次业务执行前被拒绝。
+
+第二次让 B 超时，按任务 ID 交回部分报告。第三次让 B 的迟到结果先于用户下一轮追问出现，核对 runId 和 planVersion；过期结果可归档，不能覆盖新计划。把同一对 A/B 改成普通工具并发与有独立模型的 worker。统计父子全部模型轮数及真实工具调用数，避免只报父端少用了一轮。
+
 ## 老师先汇总一对分支结果
 
 给合并函数输入 `{E06: FOUND(open=true), D07: ERROR(timeout)}`。唯一能支撑的时间结论是“花园街按表开放”；对于 D07 只能写“尚未核实”。把 D07 改为 `FOUND(open=false)` 后，就有条件说“两者中仅 E06 符合”。汇总函数必须检查两馆是否都获得同一比较时点的结果。
