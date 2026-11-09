@@ -1,5 +1,29 @@
 # 第 6 周 · 实践讲义｜MCP 工具边界与可恢复的只读查询
 
+**本周实验的流程参照：模型、宿主、客户端与服务器的消息顺序**
+
+```mermaid
+sequenceDiagram
+    participant M as 模型
+    participant H as 宿主
+    participant C as MCP客户端
+    participant S as 工具服务器
+    C->>S: initialize
+    S-->>C: 版本与能力
+    C->>S: notifications/initialized
+    C->>S: tools/list
+    S-->>C: 工具名和模式
+    M-->>H: 提议业务调用 c7
+    H->>C: 已校验的工具请求
+    C->>S: tools/call 请求3
+    S-->>C: 请求3的业务结果
+    C-->>H: 结构化观察
+    H->>M: 关联回 c7
+```
+
+将实际执行记录与图中边界对齐；图所描述的是课程契约，尚未运行的依赖和分支不能据此标成已验证。
+
+
 ## 先跑一次真的本地进程通信
 
 ```powershell

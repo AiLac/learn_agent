@@ -1,5 +1,26 @@
 # 第 1 周实践讲义｜亲手运行、拆开再接好一个 Agent
 
+**本周实验的流程参照：两次推理怎样跨过一次真实工具执行**
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant H as Java宿主
+    participant M as 模型
+    participant T as 时段工具
+    U->>H: 核实周日到访
+    H->>M: 问题与可用动作
+    M-->>H: c1 提议读取 E06
+    H->>T: 校验通过后读资料
+    T-->>H: 时段及证据编号
+    H->>M: c1 对应的工具观察
+    M-->>H: c2 提交命题
+    H-->>U: 核验后的结论
+```
+
+将实际执行记录与图中边界对齐；图所描述的是课程契约，尚未运行的依赖和分支不能据此标成已验证。
+
+
 ## 准备与第一条轨迹
 
 在仓库根目录打开 PowerShell，准备 Python 3.9+ 和 JDK 17+，用 `java -version` 核对。下面命令都可以离线运行，Linux/macOS 把 `py -3` 换为 `python3`。
