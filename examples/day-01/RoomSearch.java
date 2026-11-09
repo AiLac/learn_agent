@@ -5,12 +5,14 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.TimeoutException;
 
 class RoomSearch {
-    record Room(String id, String name, String district, String address) {
+    record Room(String id, String name, String district, String address, String extra) {
         boolean matches(String term) {
-            return name.contains(term) || district.contains(term) || address.contains(term);
+            return name.contains(term) || district.contains(term) || address.contains(term)
+                    || extra.toLowerCase(Locale.ROOT).contains(term.toLowerCase(Locale.ROOT));
         }
     }
 
@@ -32,10 +34,11 @@ class RoomSearch {
         var reader = new BufferedReader(new InputStreamReader(System.in, StandardCharsets.UTF_8));
         for (String line; (line = reader.readLine()) != null;) {
             String[] fields = line.split("\t", -1);
-            if (fields.length != 4) {
+            if (fields.length != 4 && fields.length != 5) {
                 throw new IOException("invalid snapshot row");
             }
-            rooms.add(new Room(fields[0], fields[1], fields[2], fields[3]));
+            rooms.add(new Room(fields[0], fields[1], fields[2], fields[3],
+                    fields.length == 5 ? fields[4] : ""));
         }
         return rooms;
     }

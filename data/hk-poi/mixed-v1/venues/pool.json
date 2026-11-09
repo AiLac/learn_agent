@@ -1,0 +1,1080 @@
+{
+  "attribution": "香港特别行政区政府康乐及文化事务署。数据来自 DATA.GOV.HK 和 CSDI Portal。原始资料知识产权归香港特别行政区政府及相关机构。",
+  "terms": [
+    "https://data.gov.hk/en/terms-and-conditions",
+    "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC"
+  ],
+  "source": {
+    "id": "pool",
+    "label": "游泳池",
+    "provider": "香港特别行政区政府康乐及文化事务署",
+    "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-swimming-pools",
+    "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1634540558875_77434/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "raw_sha256": "9cbe39fd6cea880414f8d08189cb0858e6ee72ffa874fe55e8fcbeee585a91f7",
+    "source_rows": 46,
+    "places": 46,
+    "shard": "venues/pool.json",
+    "retrieved_on": "2026-11-09"
+  },
+  "records": [
+    {
+      "id": "POOL-050cd287f5f2",
+      "category": "pool",
+      "name": "沙田赛马会游泳池",
+      "name_tc": "沙田賽馬會游泳池",
+      "name_en": "Sha Tin Jockey Club Swimming Pool",
+      "district": "沙田",
+      "address": "沙田源禾路10号",
+      "longitude": 114.1938978,
+      "latitude": 22.3841077,
+      "evidence": [
+        {
+          "id": "source:POOL-050cd287f5f2:14",
+          "source_ref": "pool",
+          "source_row": 14,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=32"
+        }
+      ]
+    },
+    {
+      "id": "POOL-07cbf1bb25e4",
+      "category": "pool",
+      "name": "屯门西北游泳池",
+      "name_tc": "屯門西北游泳池",
+      "name_en": "Tuen Mun North West Swimming Pool",
+      "district": "屯门",
+      "address": "屯门鸣琴路95号",
+      "longitude": 113.9659322,
+      "latitude": 22.4082314,
+      "evidence": [
+        {
+          "id": "source:POOL-07cbf1bb25e4:7",
+          "source_ref": "pool",
+          "source_row": 7,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-27",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=43"
+        }
+      ]
+    },
+    {
+      "id": "POOL-09ce5b5fc001",
+      "category": "pool",
+      "name": "摩士公园游泳池",
+      "name_tc": "摩士公園游泳池",
+      "name_en": "Morse Park Swimming Pool",
+      "district": "黄大仙",
+      "address": "黄大仙凤舞街80号",
+      "longitude": 114.1905609,
+      "latitude": 22.3408959,
+      "evidence": [
+        {
+          "id": "source:POOL-09ce5b5fc001:32",
+          "source_ref": "pool",
+          "source_row": 32,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=15"
+        }
+      ]
+    },
+    {
+      "id": "POOL-0fc16b9db154",
+      "category": "pool",
+      "name": "小西湾游泳池",
+      "name_tc": "小西灣游泳池",
+      "name_en": "Siu Sai Wan Swimming Pool",
+      "district": "东区",
+      "address": "香港小西湾道15号小西湾综合大楼一楼",
+      "longitude": 114.2496693,
+      "latitude": 22.2635203,
+      "evidence": [
+        {
+          "id": "source:POOL-0fc16b9db154:9",
+          "source_ref": "pool",
+          "source_row": 9,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-27",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=39"
+        }
+      ]
+    },
+    {
+      "id": "POOL-123608b56e26",
+      "category": "pool",
+      "name": "斧山道游泳池",
+      "name_tc": "斧山道游泳池",
+      "name_en": "Hammer Hill Road Swimming Pool",
+      "district": "黄大仙",
+      "address": "黄大仙龙翔道30号",
+      "longitude": 114.2064552,
+      "latitude": 22.3375615,
+      "evidence": [
+        {
+          "id": "source:POOL-123608b56e26:31",
+          "source_ref": "pool",
+          "source_row": 31,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=16"
+        }
+      ]
+    },
+    {
+      "id": "POOL-19cce425e26a",
+      "category": "pool",
+      "name": "天水围游泳池",
+      "name_tc": "天水圍游泳池",
+      "name_en": "Tin Shui Wai Swimming Pool",
+      "district": "元朗",
+      "address": "天水围天柏路1号",
+      "longitude": 114.0069132,
+      "latitude": 22.4561726,
+      "evidence": [
+        {
+          "id": "source:POOL-19cce425e26a:27",
+          "source_ref": "pool",
+          "source_row": 27,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=23"
+        }
+      ]
+    },
+    {
+      "id": "POOL-215689d82809",
+      "category": "pool",
+      "name": "何文田游泳池",
+      "name_tc": "何文田游泳池",
+      "name_en": "Ho Man Tin Swimming Pool",
+      "district": "九龙城",
+      "address": "何文田忠义街1号",
+      "longitude": 114.181037,
+      "latitude": 22.3122686,
+      "evidence": [
+        {
+          "id": "source:POOL-215689d82809:34",
+          "source_ref": "pool",
+          "source_row": 34,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=13"
+        }
+      ]
+    },
+    {
+      "id": "POOL-25280a966d4e",
+      "category": "pool",
+      "name": "屯门游泳池",
+      "name_tc": "屯門游泳池",
+      "name_en": "Tuen Mun Swimming Pool",
+      "district": "屯门",
+      "address": "龙门路50号",
+      "longitude": 113.9631473,
+      "latitude": 22.3830725,
+      "evidence": [
+        {
+          "id": "source:POOL-25280a966d4e:1",
+          "source_ref": "pool",
+          "source_row": 1,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池。设施说明：室内设施: ；^主池 (长50米 x 阔25米，水深：1.4米-1.9米)；^训练池1 (长25米 x 阔15米，水深：1.2米-1.4米) ；观众看台(1200个座位)、电子计分板、家庭更衣室、育婴间 ；；户外设施: ；训练池2 (长25米 x 阔30米，水深：1.1米-1.4米)；习泳池 (长25米 x 阔12.5米，水深：0.7米-0.9米) ；嬉水池 (不规则形状，水深：0.1米-0.3米)；跳水池 (长11.75米 x 阔11米，水深：4.4米-4.6米)；；无障碍设施: 升降台(室内主池、室内训练池)、斜道(户外训练池)、畅通易达/通用更衣室及洗手间、畅通易达洗手间、畅通易达升降机、触觉引路带、视像火警警报、触觉点字及触觉平面图。来源时段或服务备注：冬季开放时间表；第一节：上午6时30分至中午12时；；第二节：下午1时至6时；；第三节：晚上7时至9时30分；；（暂停开放时间：中午12时至下午1时及下午6时至7时）",
+          "facility_types": "游泳池",
+          "details": "室内设施: ；^主池 (长50米 x 阔25米，水深：1.4米-1.9米)；^训练池1 (长25米 x 阔15米，水深：1.2米-1.4米) ；观众看台(1200个座位)、电子计分板、家庭更衣室、育婴间 ；；户外设施: ；训练池2 (长25米 x 阔30米，水深：1.1米-1.4米)；习泳池 (长25米 x 阔12.5米，水深：0.7米-0.9米) ；嬉水池 (不规则形状，水深：0.1米-0.3米)；跳水池 (长11.75米 x 阔11米，水深：4.4米-4.6米)；；无障碍设施: 升降台(室内主池、室内训练池)、斜道(户外训练池)、畅通易达/通用更衣室及洗手间、畅通易达洗手间、畅通易达升降机、触觉引路带、视像火警警报、触觉点字及触觉平面图",
+          "hours_note": "冬季开放时间表；第一节：上午6时30分至中午12时；；第二节：下午1时至6时；；第三节：晚上7时至9时30分；；（暂停开放时间：中午12时至下午1时及下午6时至7时）",
+          "source_row_date_utc": "2026-10-20",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?dist=loc12"
+        }
+      ]
+    },
+    {
+      "id": "POOL-3220cd7ff2fb",
+      "category": "pool",
+      "name": "屏山天水围游泳池",
+      "name_tc": "屏山天水圍游泳池",
+      "name_en": "Ping Shan Tin Shui Wai Swimming Pool",
+      "district": "元朗",
+      "address": "元朗天水围聚星路一号",
+      "longitude": 114.004674,
+      "latitude": 22.4473701,
+      "evidence": [
+        {
+          "id": "source:POOL-3220cd7ff2fb:25",
+          "source_ref": "pool",
+          "source_row": 25,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=41"
+        }
+      ]
+    },
+    {
+      "id": "POOL-3cc77004f1fd",
+      "category": "pool",
+      "name": "荃景围胡忠游泳池",
+      "name_tc": "荃景圍胡忠游泳池",
+      "name_en": "Tsuen King Circuit Wu Chung Swimming Pool",
+      "district": "荃湾",
+      "address": "荃湾荃景围178号",
+      "longitude": 114.1042046,
+      "latitude": 22.377975,
+      "evidence": [
+        {
+          "id": "source:POOL-3cc77004f1fd:23",
+          "source_ref": "pool",
+          "source_row": 23,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=24"
+        }
+      ]
+    },
+    {
+      "id": "POOL-3e8a81175c2b",
+      "category": "pool",
+      "name": "东涌游泳池",
+      "name_tc": "東涌游泳池",
+      "name_en": "Tung Chung Swimming Pool",
+      "district": "离岛",
+      "address": "新界 东涌 达东路5号",
+      "longitude": 113.9386278,
+      "latitude": 22.289343,
+      "evidence": [
+        {
+          "id": "source:POOL-3e8a81175c2b:6",
+          "source_ref": "pool",
+          "source_row": 6,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-27",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=38"
+        }
+      ]
+    },
+    {
+      "id": "POOL-4188dbb8e794",
+      "category": "pool",
+      "name": "摩理臣山游泳池",
+      "name_tc": "摩理臣山游泳池",
+      "name_en": "Morrison Hill Swimming Pool",
+      "district": "湾仔",
+      "address": "湾仔爱群道7号",
+      "longitude": 114.1783938,
+      "latitude": 22.2763647,
+      "evidence": [
+        {
+          "id": "source:POOL-4188dbb8e794:2",
+          "source_ref": "pool",
+          "source_row": 2,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2025-04-22",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=4"
+        }
+      ]
+    },
+    {
+      "id": "POOL-424832ea21e0",
+      "category": "pool",
+      "name": "天秀路游泳池",
+      "name_tc": "天秀路游泳池",
+      "name_en": "Tin Sau Road Swimming Pool",
+      "district": "元朗",
+      "address": "新界元朗天水围天秀路20号",
+      "longitude": 114.0026636,
+      "latitude": 22.4671094,
+      "evidence": [
+        {
+          "id": "source:POOL-424832ea21e0:3",
+          "source_ref": "pool",
+          "source_row": 3,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2024-12-30",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=261"
+        }
+      ]
+    },
+    {
+      "id": "POOL-4505d6309f03",
+      "category": "pool",
+      "name": "蓝田游泳池",
+      "name_tc": "藍田游泳池",
+      "name_en": "Lam Tin Swimming Pool",
+      "district": "观塘",
+      "address": "蓝田庆田街1号蓝田综合大楼1楼",
+      "longitude": 114.2372794,
+      "latitude": 22.3101641,
+      "evidence": [
+        {
+          "id": "source:POOL-4505d6309f03:10",
+          "source_ref": "pool",
+          "source_row": 10,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-27",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=42"
+        }
+      ]
+    },
+    {
+      "id": "POOL-4a82e6f603c7",
+      "category": "pool",
+      "name": "九龙仔游泳池",
+      "name_tc": "九龍仔游泳池",
+      "name_en": "Kowloon Tsai Swimming Pool",
+      "district": "九龙城",
+      "address": "九龙城延文礼士道13号",
+      "longitude": 114.1846166,
+      "latitude": 22.3331291,
+      "evidence": [
+        {
+          "id": "source:POOL-4a82e6f603c7:33",
+          "source_ref": "pool",
+          "source_row": 33,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=14"
+        }
+      ]
+    },
+    {
+      "id": "POOL-4e8e2189dbcd",
+      "category": "pool",
+      "name": "赛马会仁爱堂游泳池",
+      "name_tc": "賽馬會仁愛堂游泳池",
+      "name_en": "The Jockey Club Yan Oi Tong Swimming Pool",
+      "district": "屯门",
+      "address": "屯门青松观路",
+      "longitude": 113.974035,
+      "latitude": 22.4021923,
+      "evidence": [
+        {
+          "id": "source:POOL-4e8e2189dbcd:28",
+          "source_ref": "pool",
+          "source_row": 28,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=21"
+        }
+      ]
+    },
+    {
+      "id": "POOL-52bebbbdb478",
+      "category": "pool",
+      "name": "维多利亚公园游泳池",
+      "name_tc": "維多利亞公園游泳池",
+      "name_en": "Victoria Park Swimming Pool",
+      "district": "湾仔",
+      "address": "香港铜锣湾兴发街一号",
+      "longitude": 114.1904747,
+      "latitude": 22.2833358,
+      "evidence": [
+        {
+          "id": "source:POOL-52bebbbdb478:5",
+          "source_ref": "pool",
+          "source_row": 5,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-27",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=5"
+        }
+      ]
+    },
+    {
+      "id": "POOL-53eefa2c7d9b",
+      "category": "pool",
+      "name": "马鞍山游泳池",
+      "name_tc": "馬鞍山游泳池",
+      "name_en": "Ma On Shan Swimming Pool",
+      "district": "沙田",
+      "address": "马鞍山鞍骏街33号",
+      "longitude": 114.2296485,
+      "latitude": 22.4272007,
+      "evidence": [
+        {
+          "id": "source:POOL-53eefa2c7d9b:15",
+          "source_ref": "pool",
+          "source_row": 15,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=34"
+        }
+      ]
+    },
+    {
+      "id": "POOL-5aaf0c85b6ad",
+      "category": "pool",
+      "name": "葵盛游泳池",
+      "name_tc": "葵盛游泳池",
+      "name_en": "Kwai Shing Swimming Pool",
+      "district": "葵青",
+      "address": "葵涌葵盛围306号",
+      "longitude": 114.1231366,
+      "latitude": 22.3593018,
+      "evidence": [
+        {
+          "id": "source:POOL-5aaf0c85b6ad:22",
+          "source_ref": "pool",
+          "source_row": 22,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=26"
+        }
+      ]
+    },
+    {
+      "id": "POOL-66092ce76d65",
+      "category": "pool",
+      "name": "粉岭游泳池",
+      "name_tc": "粉嶺游泳池",
+      "name_en": "Fanling Swimming Pool",
+      "district": "北区",
+      "address": "粉岭新运路73号",
+      "longitude": 114.1360921,
+      "latitude": 22.4949063,
+      "evidence": [
+        {
+          "id": "source:POOL-66092ce76d65:19",
+          "source_ref": "pool",
+          "source_row": 19,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=29"
+        }
+      ]
+    },
+    {
+      "id": "POOL-6866ce43df1e",
+      "category": "pool",
+      "name": "观塘游泳池",
+      "name_tc": "觀塘游泳池",
+      "name_en": "Kwun Tong Swimming Pool",
+      "district": "观塘",
+      "address": "九龙观塘翠屏道2 号",
+      "longitude": 114.2299433,
+      "latitude": 22.3107943,
+      "evidence": [
+        {
+          "id": "source:POOL-6866ce43df1e:11",
+          "source_ref": "pool",
+          "source_row": 11,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-27",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=18"
+        }
+      ]
+    },
+    {
+      "id": "POOL-6c921b3e21b3",
+      "category": "pool",
+      "name": "上水游泳池",
+      "name_tc": "上水游泳池",
+      "name_en": "Sheung Shui Swimming Pool",
+      "district": "北区",
+      "address": "上水天平路38号",
+      "longitude": 114.1313401,
+      "latitude": 22.5061894,
+      "evidence": [
+        {
+          "id": "source:POOL-6c921b3e21b3:18",
+          "source_ref": "pool",
+          "source_row": 18,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=30"
+        }
+      ]
+    },
+    {
+      "id": "POOL-705d6424cdf4",
+      "category": "pool",
+      "name": "青衣西南游泳池",
+      "name_tc": "青衣西南游泳池",
+      "name_en": "Tsing Yi Southwest Swimming Pool",
+      "district": "葵青",
+      "address": "新界青衣涌美路70号",
+      "longitude": 114.1020679,
+      "latitude": 22.3515588,
+      "evidence": [
+        {
+          "id": "source:POOL-705d6424cdf4:8",
+          "source_ref": "pool",
+          "source_row": 8,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-27",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=44"
+        }
+      ]
+    },
+    {
+      "id": "POOL-747cb67d4c9d",
+      "category": "pool",
+      "name": "九龙公园游泳池",
+      "name_tc": "九龍公園游泳池",
+      "name_en": "Kowloon Park Swimming Pool",
+      "district": "油尖旺",
+      "address": "尖沙咀柯士甸道22号",
+      "longitude": 114.1703926,
+      "latitude": 22.3013803,
+      "evidence": [
+        {
+          "id": "source:POOL-747cb67d4c9d:37",
+          "source_ref": "pool",
+          "source_row": 37,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=11"
+        }
+      ]
+    },
+    {
+      "id": "POOL-7d1fdfeaef11",
+      "category": "pool",
+      "name": "元朗游泳池",
+      "name_tc": "元朗游泳池",
+      "name_en": "Yuen Long Swimming Pool",
+      "district": "元朗",
+      "address": "元朗体育路10号",
+      "longitude": 114.0213854,
+      "latitude": 22.4413457,
+      "evidence": [
+        {
+          "id": "source:POOL-7d1fdfeaef11:26",
+          "source_ref": "pool",
+          "source_row": 26,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=22"
+        }
+      ]
+    },
+    {
+      "id": "POOL-80dd4b91154a",
+      "category": "pool",
+      "name": "西贡游泳池",
+      "name_tc": "西貢游泳池",
+      "name_en": "Sai Kung Swimming pool",
+      "district": "西贡",
+      "address": "西贡惠民路",
+      "longitude": 114.2754505,
+      "latitude": 22.3834653,
+      "evidence": [
+        {
+          "id": "source:POOL-80dd4b91154a:13",
+          "source_ref": "pool",
+          "source_row": 13,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=36"
+        }
+      ]
+    },
+    {
+      "id": "POOL-99a399f1c1e7",
+      "category": "pool",
+      "name": "北葵涌赛马会游泳池",
+      "name_tc": "北葵涌賽馬會游泳池",
+      "name_en": "North Kwai Chung Jockey Club Swimming Pool",
+      "district": "葵青",
+      "address": "葵涌和宜合道290号",
+      "longitude": 114.1367822,
+      "latitude": 22.3726511,
+      "evidence": [
+        {
+          "id": "source:POOL-99a399f1c1e7:21",
+          "source_ref": "pool",
+          "source_row": 21,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=27"
+        }
+      ]
+    },
+    {
+      "id": "POOL-a3555bd78a47",
+      "category": "pool",
+      "name": "荔枝角公园游泳池",
+      "name_tc": "荔枝角公園游泳池",
+      "name_en": "Lai Chi Kok Park Swimming Pool",
+      "district": "深水埗",
+      "address": "荔枝角荔湾道1号",
+      "longitude": 114.1372739,
+      "latitude": 22.3403245,
+      "evidence": [
+        {
+          "id": "source:POOL-a3555bd78a47:40",
+          "source_ref": "pool",
+          "source_row": 40,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=8"
+        }
+      ]
+    },
+    {
+      "id": "POOL-abefd25a835a",
+      "category": "pool",
+      "name": "东昌街游泳池",
+      "name_tc": "東昌街游泳池",
+      "name_en": "Tung Cheong Street Swimming Pool",
+      "district": "大埔",
+      "address": "大埔东昌街25号大埔东昌街康体大楼1楼",
+      "longitude": 114.1701749,
+      "latitude": 22.4497862,
+      "evidence": [
+        {
+          "id": "source:POOL-abefd25a835a:4",
+          "source_ref": "pool",
+          "source_row": 4,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-08-31"
+        }
+      ]
+    },
+    {
+      "id": "POOL-b05a02fd0e46",
+      "category": "pool",
+      "name": "柴湾游泳池",
+      "name_tc": "柴灣游泳池",
+      "name_en": "Chai Wan Swimming Pool",
+      "district": "东区",
+      "address": "香港柴湾新厦街345号",
+      "longitude": 114.2462527,
+      "latitude": 22.2645025,
+      "evidence": [
+        {
+          "id": "source:POOL-b05a02fd0e46:42",
+          "source_ref": "pool",
+          "source_row": 42,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=7"
+        }
+      ]
+    },
+    {
+      "id": "POOL-bb1d3b3a80b2",
+      "category": "pool",
+      "name": "李郑屋游泳池",
+      "name_tc": "李鄭屋游泳池",
+      "name_en": "Lei Cheng Uk Swimming Pool",
+      "district": "深水埗",
+      "address": "深水埗广利道25号",
+      "longitude": 114.1621231,
+      "latitude": 22.3388233,
+      "evidence": [
+        {
+          "id": "source:POOL-bb1d3b3a80b2:39",
+          "source_ref": "pool",
+          "source_row": 39,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=10"
+        }
+      ]
+    },
+    {
+      "id": "POOL-c0198a601ada",
+      "category": "pool",
+      "name": "坚尼地城游泳池",
+      "name_tc": "堅尼地城游泳池",
+      "name_en": "Kennedy Town Swimming Pool",
+      "district": "中西区",
+      "address": "坚尼地城西祥街北2号",
+      "longitude": 114.1313119,
+      "latitude": 22.2857547,
+      "evidence": [
+        {
+          "id": "source:POOL-c0198a601ada:45",
+          "source_ref": "pool",
+          "source_row": 45,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=2"
+        }
+      ]
+    },
+    {
+      "id": "POOL-c33e4785e820",
+      "category": "pool",
+      "name": "湾仔游泳池",
+      "name_tc": "灣仔游泳池",
+      "name_en": "Wan Chai Swimming Pool",
+      "district": "湾仔",
+      "address": "湾仔港湾道27号",
+      "longitude": 114.1768841,
+      "latitude": 22.2812141,
+      "evidence": [
+        {
+          "id": "source:POOL-c33e4785e820:43",
+          "source_ref": "pool",
+          "source_row": 43,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=3"
+        }
+      ]
+    },
+    {
+      "id": "POOL-c5c99dfe8866",
+      "category": "pool",
+      "name": "佐敦谷游泳池",
+      "name_tc": "佐敦谷游泳池",
+      "name_en": "Jordan Valley Swimming Pool",
+      "district": "观塘",
+      "address": "牛头角彩霞道6号",
+      "longitude": 114.2183299,
+      "latitude": 22.3238378,
+      "evidence": [
+        {
+          "id": "source:POOL-c5c99dfe8866:30",
+          "source_ref": "pool",
+          "source_row": 30,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=17"
+        }
+      ]
+    },
+    {
+      "id": "POOL-ce24490e2647",
+      "category": "pool",
+      "name": "包玉刚游泳池",
+      "name_tc": "包玉剛游泳池",
+      "name_en": "Pao Yue Kong Swimming Pool",
+      "district": "南区",
+      "address": "黄竹坑深湾道2号",
+      "longitude": 114.1652507,
+      "latitude": 22.2457549,
+      "evidence": [
+        {
+          "id": "source:POOL-ce24490e2647:46",
+          "source_ref": "pool",
+          "source_row": 46,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=1"
+        }
+      ]
+    },
+    {
+      "id": "POOL-d0ce22f371c4",
+      "category": "pool",
+      "name": "深水埗公园游泳池",
+      "name_tc": "深水埗公園游泳池",
+      "name_en": "Sham Shui Po Park Swimming Pool",
+      "district": "深水埗",
+      "address": "深水埗荔枝角道733号",
+      "longitude": 114.1549963,
+      "latitude": 22.3311384,
+      "evidence": [
+        {
+          "id": "source:POOL-d0ce22f371c4:38",
+          "source_ref": "pool",
+          "source_row": 38,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=9"
+        }
+      ]
+    },
+    {
+      "id": "POOL-d1a6fbb5ffb6",
+      "category": "pool",
+      "name": "青衣游泳池",
+      "name_tc": "青衣游泳池",
+      "name_en": "Tsing Yi Swimming Pool",
+      "district": "葵青",
+      "address": "青衣青敬路",
+      "longitude": 114.1079617,
+      "latitude": 22.3575532,
+      "evidence": [
+        {
+          "id": "source:POOL-d1a6fbb5ffb6:20",
+          "source_ref": "pool",
+          "source_row": 20,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=28"
+        }
+      ]
+    },
+    {
+      "id": "POOL-d390064d212f",
+      "category": "pool",
+      "name": "梅窝游泳池",
+      "name_tc": "梅窩游泳池",
+      "name_en": "Mui Wo Swimming Pool",
+      "district": "离岛",
+      "address": "大屿山梅窝银石街5号",
+      "longitude": 113.9959857,
+      "latitude": 22.2663466,
+      "evidence": [
+        {
+          "id": "source:POOL-d390064d212f:29",
+          "source_ref": "pool",
+          "source_row": 29,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=19"
+        }
+      ]
+    },
+    {
+      "id": "POOL-d3b72cc7d7d7",
+      "category": "pool",
+      "name": "大环山游泳池",
+      "name_tc": "大環山游泳池",
+      "name_en": "Tai Wan Shan Swimming Pool",
+      "district": "九龙城",
+      "address": "红磡环海街7号",
+      "longitude": 114.1923062,
+      "latitude": 22.3051066,
+      "evidence": [
+        {
+          "id": "source:POOL-d3b72cc7d7d7:35",
+          "source_ref": "pool",
+          "source_row": 35,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=12"
+        }
+      ]
+    },
+    {
+      "id": "POOL-d7018b0654b2",
+      "category": "pool",
+      "name": "显田游泳池",
+      "name_tc": "顯田游泳池",
+      "name_en": "Hin Tin Swimming Pool",
+      "district": "沙田",
+      "address": "大围车公庙路68号",
+      "longitude": 114.1732674,
+      "latitude": 22.3672648,
+      "evidence": [
+        {
+          "id": "source:POOL-d7018b0654b2:16",
+          "source_ref": "pool",
+          "source_row": 16,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=33"
+        }
+      ]
+    },
+    {
+      "id": "POOL-dfb21eab8d33",
+      "category": "pool",
+      "name": "大埔游泳池",
+      "name_tc": "大埔游泳池",
+      "name_en": "Tai Po Swimming Pool",
+      "district": "大埔",
+      "address": "大埔汀太路11号",
+      "longitude": 114.1632534,
+      "latitude": 22.4555897,
+      "evidence": [
+        {
+          "id": "source:POOL-dfb21eab8d33:17",
+          "source_ref": "pool",
+          "source_row": 17,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=31"
+        }
+      ]
+    },
+    {
+      "id": "POOL-e211d8fe9715",
+      "category": "pool",
+      "name": "将军澳游泳池",
+      "name_tc": "將軍澳游泳池",
+      "name_en": "Tseung Kwan O Swimming Pool",
+      "district": "西贡",
+      "address": "将军澳运隆路9号",
+      "longitude": 114.2600527,
+      "latitude": 22.3179555,
+      "evidence": [
+        {
+          "id": "source:POOL-e211d8fe9715:12",
+          "source_ref": "pool",
+          "source_row": 12,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=35"
+        }
+      ]
+    },
+    {
+      "id": "POOL-e370b3a891f2",
+      "category": "pool",
+      "name": "大角咀游泳池",
+      "name_tc": "大角咀游泳池",
+      "name_en": "Tai Kok Tsui Swimming Pool",
+      "district": "油尖旺",
+      "address": "大角咀福全街63号大角咀市政大厦4楼",
+      "longitude": 114.1628723,
+      "latitude": 22.3220328,
+      "evidence": [
+        {
+          "id": "source:POOL-e370b3a891f2:36",
+          "source_ref": "pool",
+          "source_row": 36,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=37"
+        }
+      ]
+    },
+    {
+      "id": "POOL-e6586c034c0f",
+      "category": "pool",
+      "name": "城门谷游泳池",
+      "name_tc": "城門谷游泳池",
+      "name_en": "Shing Mun Valley Swimming Pool",
+      "district": "荃湾",
+      "address": "荃湾城门道21号",
+      "longitude": 114.1235196,
+      "latitude": 22.3731774,
+      "evidence": [
+        {
+          "id": "source:POOL-e6586c034c0f:24",
+          "source_ref": "pool",
+          "source_row": 24,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=25"
+        }
+      ]
+    },
+    {
+      "id": "POOL-ecb500793551",
+      "category": "pool",
+      "name": "港岛东游泳池",
+      "name_tc": "港島東游泳池",
+      "name_en": "Island East Swimming Pool",
+      "district": "东区",
+      "address": "西湾河鲤景道52号",
+      "longitude": 114.2222919,
+      "latitude": 22.2847532,
+      "evidence": [
+        {
+          "id": "source:POOL-ecb500793551:41",
+          "source_ref": "pool",
+          "source_row": 41,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=6"
+        }
+      ]
+    },
+    {
+      "id": "POOL-f7d39ee91d2c",
+      "category": "pool",
+      "name": "中山纪念公园游泳池",
+      "name_tc": "中山紀念公園游泳池",
+      "name_en": "Sun Yat Sen Memorial Park Swimming Pool",
+      "district": "中西区",
+      "address": "香港西营盘东边街北16号",
+      "longitude": 114.1443526,
+      "latitude": 22.2899805,
+      "evidence": [
+        {
+          "id": "source:POOL-f7d39ee91d2c:44",
+          "source_ref": "pool",
+          "source_row": 44,
+          "scope": "venue_listing",
+          "text": "设施类别：游泳池",
+          "facility_types": "游泳池",
+          "source_row_date_utc": "2022-05-20",
+          "venue_website": "http://www.lcsd.gov.hk/clpss/tc/webApp/Swimming.do?swpId=40"
+        }
+      ]
+    }
+  ]
+}

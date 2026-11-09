@@ -1,0 +1,1028 @@
+{
+  "attribution": "香港特别行政区政府康乐及文化事务署。数据来自 DATA.GOV.HK 和 CSDI Portal。原始资料知识产权归香港特别行政区政府及相关机构。",
+  "terms": [
+    "https://data.gov.hk/en/terms-and-conditions",
+    "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC"
+  ],
+  "source": {
+    "id": "beach",
+    "label": "泳滩",
+    "provider": "香港特别行政区政府康乐及文化事务署",
+    "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-beaches",
+    "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1634536032820_39080/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "raw_sha256": "d79317ade1bfd689400203f35bd96dcee75c1bd540062c5b9699b578884f3278",
+    "source_rows": 42,
+    "places": 42,
+    "shard": "venues/beach.json",
+    "retrieved_on": "2026-11-09"
+  },
+  "records": [
+    {
+      "id": "BEACH-1c0abb01e38d",
+      "category": "beach",
+      "name": "蝴蝶湾泳滩",
+      "name_tc": "蝴蝶灣泳灘",
+      "name_en": "Butterfly Beach",
+      "district": "屯门",
+      "address": "屯门龙门路",
+      "longitude": 113.9564585,
+      "latitude": 22.3728049,
+      "evidence": [
+        {
+          "id": "source:BEACH-1c0abb01e38d:23",
+          "source_ref": "beach",
+          "source_row": 23,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：更衣室、淋浴设备、自助式贮物笼和洗手间",
+          "facility_types": "泳滩",
+          "details": "更衣室、淋浴设备、自助式贮物笼和洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tm.html#butterfly"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-1ed319319004",
+      "category": "beach",
+      "name": "海美湾泳滩",
+      "name_tc": "海美灣泳灘",
+      "name_en": "Hoi Mei Wan Beach",
+      "district": "荃湾",
+      "address": "荃湾青山公路汀九段11¾咪",
+      "longitude": 114.0708538,
+      "latitude": 22.3648136,
+      "evidence": [
+        {
+          "id": "source:BEACH-1ed319319004:29",
+          "source_ref": "beach",
+          "source_row": 29,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：烧烤炉(3个)、更衣室、自助式贮物笼、淋浴设备、洗手间和泳屋；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "烧烤炉(3个)、更衣室、自助式贮物笼、淋浴设备、洗手间和泳屋；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tw.html#hoimeiwan"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-24ded78bc9b1",
+      "category": "beach",
+      "name": "中湾泳滩",
+      "name_tc": "中灣泳灘",
+      "name_en": "Middle Bay Beach",
+      "district": "南区",
+      "address": "浅水湾南湾道",
+      "longitude": 114.1982381,
+      "latitude": 22.2298355,
+      "evidence": [
+        {
+          "id": "source:BEACH-24ded78bc9b1:7",
+          "source_ref": "beach",
+          "source_row": 7,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉(9个)、自助式贮物笼、更衣室、淋浴设备和浮台",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉(9个)、自助式贮物笼、更衣室、淋浴设备和浮台",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#middlebay"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-2b98cea20088",
+      "category": "beach",
+      "name": "上长沙泳滩",
+      "name_tc": "上長沙泳灘",
+      "name_en": "Upper Cheung Sha Beach",
+      "district": "离岛",
+      "address": "大屿山屿南道",
+      "longitude": 113.9413432,
+      "latitude": 22.2306047,
+      "evidence": [
+        {
+          "id": "source:BEACH-2b98cea20088:4",
+          "source_ref": "beach",
+          "source_row": 4,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉(7个)、更衣室、淋浴设备和洗手间；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉(7个)、更衣室、淋浴设备和洗手间；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "source_row_date_utc": "2026-02-26",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#uppercheungsha"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-2da089bafcec",
+      "category": "beach",
+      "name": "圣士提反湾泳滩",
+      "name_tc": "聖士提反灣泳灘",
+      "name_en": "St. Stephen's Beach",
+      "district": "南区",
+      "address": "赤柱黄麻角径",
+      "longitude": 114.2149183,
+      "latitude": 22.2132918,
+      "evidence": [
+        {
+          "id": "source:BEACH-2da089bafcec:10",
+          "source_ref": "beach",
+          "source_row": 10,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉(14个)、更衣室、淋浴设备、洗手间、浮台; 及；无障碍设施: 畅通易达洗手间",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉(14个)、更衣室、淋浴设备、洗手间、浮台; 及；无障碍设施: 畅通易达洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#ststephen"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-2ef1db15be52",
+      "category": "beach",
+      "name": "汀九湾泳滩",
+      "name_tc": "汀九灣泳灘",
+      "name_en": "Ting Kau Beach",
+      "district": "荃湾",
+      "address": "荃湾青山公路汀九段11咪",
+      "longitude": 114.0797521,
+      "latitude": 22.369133,
+      "evidence": [
+        {
+          "id": "source:BEACH-2ef1db15be52:32",
+          "source_ref": "beach",
+          "source_row": 32,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：更衣室、自助式贮物笼、淋浴设备和洗手间；无障碍设施：触觉引路带",
+          "facility_types": "泳滩",
+          "details": "更衣室、自助式贮物笼、淋浴设备和洗手间；无障碍设施：触觉引路带",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tw.html#tingkau"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-3298d1e468c4",
+      "category": "beach",
+      "name": "芦须城泳滩",
+      "name_tc": "蘆鬚城泳灘",
+      "name_en": "Lo So Shing Beach",
+      "district": "离岛",
+      "address": "南丫岛索罟湾",
+      "longitude": 114.1227146,
+      "latitude": 22.2044615,
+      "evidence": [
+        {
+          "id": "source:BEACH-3298d1e468c4:18",
+          "source_ref": "beach",
+          "source_row": 18,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：烧烤炉(6个)",
+          "facility_types": "泳滩,烧烤场",
+          "details": "烧烤炉(6个)",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#lososhing"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-3437e954e2b5",
+      "category": "beach",
+      "name": "近水湾泳滩",
+      "name_tc": "近水灣泳灘",
+      "name_en": "Approach Beach",
+      "district": "荃湾",
+      "address": "荃湾青山公路汀九段10咪半",
+      "longitude": 114.0863614,
+      "latitude": 22.3674572,
+      "evidence": [
+        {
+          "id": "source:BEACH-3437e954e2b5:33",
+          "source_ref": "beach",
+          "source_row": 33,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：无障碍设施： 畅通易达洗手间、触觉引路带、触觉点字及触觉平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "无障碍设施： 畅通易达洗手间、触觉引路带、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tw.html#approach"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-3d18ae27b701",
+      "category": "beach",
+      "name": "大浪湾泳滩",
+      "name_tc": "大浪灣泳灘",
+      "name_en": "Big Wave Bay Beach",
+      "district": "南区",
+      "address": "石澳大浪湾道",
+      "longitude": 114.2469801,
+      "latitude": 22.2464427,
+      "evidence": [
+        {
+          "id": "source:BEACH-3d18ae27b701:16",
+          "source_ref": "beach",
+          "source_row": 16,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：快餐亭、烧烤炉(20个)、更衣室、淋浴设备、洗手间; 及；无障碍设施: 畅通易达洗手间",
+          "facility_types": "泳滩,烧烤场",
+          "details": "快餐亭、烧烤炉(20个)、更衣室、淋浴设备、洗手间; 及；无障碍设施: 畅通易达洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#bigwavebay"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-435c27bf4f6d",
+      "category": "beach",
+      "name": "三星湾泳滩",
+      "name_tc": "三星灣泳灘",
+      "name_en": "Trio Beach",
+      "district": "西贡",
+      "address": "西贡三星湾(白沙湾区)",
+      "longitude": 114.2678218,
+      "latitude": 22.3576795,
+      "evidence": [
+        {
+          "id": "source:BEACH-435c27bf4f6d:34",
+          "source_ref": "beach",
+          "source_row": 34,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉 (20个)、更衣室、淋浴设备、洗手间、浮台和儿童游乐场",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉 (20个)、更衣室、淋浴设备、洗手间、浮台和儿童游乐场",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-sk.html#trio"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-46c822511251",
+      "category": "beach",
+      "name": "石澳后滩泳滩",
+      "name_tc": "石澳後灘泳灘",
+      "name_en": "Rocky Bay Beach",
+      "district": "南区",
+      "address": "石澳石澳道",
+      "longitude": 114.251685,
+      "latitude": 22.2318362,
+      "evidence": [
+        {
+          "id": "source:BEACH-46c822511251:15",
+          "source_ref": "beach",
+          "source_row": 15,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩",
+          "facility_types": "泳滩",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#rockybay"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-5254045493f1",
+      "category": "beach",
+      "name": "黄金泳滩",
+      "name_tc": "黃金泳灘",
+      "name_en": "Golden Beach",
+      "district": "屯门",
+      "address": "屯门青山公路青山湾段18咪半",
+      "longitude": 113.9880135,
+      "latitude": 22.3723057,
+      "evidence": [
+        {
+          "id": "source:BEACH-5254045493f1:26",
+          "source_ref": "beach",
+          "source_row": 26,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：餐厅及小食亭、更衣室、淋浴设备、自助式贮物笼和洗手间；无障碍设施：畅通易达洗手间及淋浴间、触觉引路带、触觉点字及触觉平面图",
+          "facility_types": "泳滩",
+          "details": "餐厅及小食亭、更衣室、淋浴设备、自助式贮物笼和洗手间；无障碍设施：畅通易达洗手间及淋浴间、触觉引路带、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tm.html#golden"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-59c16d158764",
+      "category": "beach",
+      "name": "夏萍湾泳滩",
+      "name_tc": "夏萍灣泳灘",
+      "name_en": "Hair Pin Beach",
+      "district": "南区",
+      "address": "赤柱赤柱滩道",
+      "longitude": 114.2148485,
+      "latitude": 22.2242361,
+      "evidence": [
+        {
+          "id": "source:BEACH-59c16d158764:12",
+          "source_ref": "beach",
+          "source_row": 12,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：烧烤炉(19个)、淋浴设备、洗手间; 及；无障碍设施: 畅通易达洗手间",
+          "facility_types": "泳滩,烧烤场",
+          "details": "烧烤炉(19个)、淋浴设备、洗手间; 及；无障碍设施: 畅通易达洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#hairpin"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-5d6a9e5c7899",
+      "category": "beach",
+      "name": "贝澳泳滩",
+      "name_tc": "貝澳泳灘",
+      "name_en": "Pui O Beach",
+      "district": "离岛",
+      "address": "大屿山贝澳",
+      "longitude": 113.9759455,
+      "latitude": 22.2399915,
+      "evidence": [
+        {
+          "id": "source:BEACH-5d6a9e5c7899:22",
+          "source_ref": "beach",
+          "source_row": 22,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：快餐亭、烧烤炉(6个)、更衣室、淋浴设备、洗手间、通用洗手间和育婴间；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "快餐亭、烧烤炉(6个)、更衣室、淋浴设备、洗手间、通用洗手间和育婴间；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#puio"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-60c221081346",
+      "category": "beach",
+      "name": "马湾东湾泳滩",
+      "name_tc": "馬灣東灣泳灘",
+      "name_en": "Ma Wan Tung Wan Beach",
+      "district": "荃湾",
+      "address": "马湾珀丽路",
+      "longitude": 114.0615344,
+      "latitude": 22.3502427,
+      "evidence": [
+        {
+          "id": "source:BEACH-60c221081346:40",
+          "source_ref": "beach",
+          "source_row": 40,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：更衣室、自助式贮物笼、淋浴设备和洗手间；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "facility_types": "泳滩",
+          "details": "更衣室、自助式贮物笼、淋浴设备和洗手间；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tw.html#mawantungwan"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-620d34ccb020",
+      "category": "beach",
+      "name": "南湾泳滩",
+      "name_tc": "南灣泳灘",
+      "name_en": "South Bay Beach",
+      "district": "南区",
+      "address": "浅水湾南湾道",
+      "longitude": 114.1975177,
+      "latitude": 22.2249897,
+      "evidence": [
+        {
+          "id": "source:BEACH-620d34ccb020:8",
+          "source_ref": "beach",
+          "source_row": 8,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉(16个)、更衣室、淋浴设备、泳屋和浮台",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉(16个)、更衣室、淋浴设备、泳屋和浮台",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#southbay"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-63f468ec9fe6",
+      "category": "beach",
+      "name": "赤柱正滩泳滩",
+      "name_tc": "赤柱正灘泳灘",
+      "name_en": "Stanley Main Beach",
+      "district": "南区",
+      "address": "赤柱赤柱滩道",
+      "longitude": 114.2140194,
+      "latitude": 22.2212453,
+      "evidence": [
+        {
+          "id": "source:BEACH-63f468ec9fe6:11",
+          "source_ref": "beach",
+          "source_row": 11,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：快餐亭、烧烤炉(15个)、自助式贮物笼、更衣室、淋浴设备、洗手间、浮台; 及；无障碍设施: 畅通易达洗手间",
+          "facility_types": "泳滩,烧烤场",
+          "details": "快餐亭、烧烤炉(15个)、自助式贮物笼、更衣室、淋浴设备、洗手间、浮台; 及；无障碍设施: 畅通易达洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#stanleymain"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-642c8f289e8b",
+      "category": "beach",
+      "name": "加多利湾泳滩",
+      "name_tc": "加多利灣泳灘",
+      "name_en": "Kadoorie Beach",
+      "district": "屯门",
+      "address": "屯门青山公路青山湾段18¾咪",
+      "longitude": 113.9816324,
+      "latitude": 22.3766346,
+      "evidence": [
+        {
+          "id": "source:BEACH-642c8f289e8b:1",
+          "source_ref": "beach",
+          "source_row": 1,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：烧烤炉(6个)、更衣室、淋浴设备、自助式贮物笼和洗手间",
+          "facility_types": "泳滩,烧烤场",
+          "details": "烧烤炉(6个)、更衣室、淋浴设备、自助式贮物笼和洗手间",
+          "source_row_date_utc": "2026-08-27",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tm.html#kadoorie"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-7046132e2c91",
+      "category": "beach",
+      "name": "石澳泳滩",
+      "name_tc": "石澳泳灘",
+      "name_en": "Shek O Beach",
+      "district": "南区",
+      "address": "石澳石澳道",
+      "longitude": 114.2506901,
+      "latitude": 22.2287102,
+      "evidence": [
+        {
+          "id": "source:BEACH-7046132e2c91:14",
+          "source_ref": "beach",
+          "source_row": 14,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食餐厅、烧烤炉(39个)、更衣室、淋浴设备、洗手间、游乐场、停车场、障碍高尔夫球场; 及；无障碍设施: 畅通易达洗手间、3个畅通易达车位、视像火警警报、触觉点字及触觉平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食餐厅、烧烤炉(39个)、更衣室、淋浴设备、洗手间、游乐场、停车场、障碍高尔夫球场; 及；无障碍设施: 畅通易达洗手间、3个畅通易达车位、视像火警警报、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#sheko"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-7445904db37f",
+      "category": "beach",
+      "name": "银线湾泳滩",
+      "name_tc": "銀線灣泳灘",
+      "name_en": "Silverstrand Beach",
+      "district": "西贡",
+      "address": "西贡清水湾道",
+      "longitude": 114.2719049,
+      "latitude": 22.3228833,
+      "evidence": [
+        {
+          "id": "source:BEACH-7445904db37f:37",
+          "source_ref": "beach",
+          "source_row": 37,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：小食亭、更衣室、淋浴设备、自助式贮物笼、洗手间、浮台和长者健身园地； 无障碍设施： 畅通易达洗手间及淋浴间、触觉引路带、触觉点字及触觉平面图.",
+          "facility_types": "泳滩",
+          "details": "小食亭、更衣室、淋浴设备、自助式贮物笼、洗手间、浮台和长者健身园地； 无障碍设施： 畅通易达洗手间及淋浴间、触觉引路带、触觉点字及触觉平面图.",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-sk.html#silverstrand"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-78471a2d48ed",
+      "category": "beach",
+      "name": "旧咖啡湾泳滩",
+      "name_tc": "舊咖啡灣泳灘",
+      "name_en": "Cafeteria Old Beach",
+      "district": "屯门",
+      "address": "屯门青山公路青山湾段18¾咪",
+      "longitude": 113.9834238,
+      "latitude": 22.3758222,
+      "evidence": [
+        {
+          "id": "source:BEACH-78471a2d48ed:24",
+          "source_ref": "beach",
+          "source_row": 24,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉(23个)、更衣室、淋浴设备、自助式贮物笼、洗手间和泳屋(3间)；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字及触觉平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉(23个)、更衣室、淋浴设备、自助式贮物笼、洗手间和泳屋(3间)；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tm.html#cafeteriaold"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-839d30a8a03f",
+      "category": "beach",
+      "name": "清水湾第一湾泳滩",
+      "name_tc": "清水灣第一灣泳灘",
+      "name_en": "Clear Water Bay First Beach",
+      "district": "西贡",
+      "address": "西贡大环头清水湾道",
+      "longitude": 114.2910731,
+      "latitude": 22.291132,
+      "evidence": [
+        {
+          "id": "source:BEACH-839d30a8a03f:38",
+          "source_ref": "beach",
+          "source_row": 38,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：烧烤炉 (15个)、更衣室、淋浴设备、自助式贮物笼、洗手间和浮台； 无障碍设施： 触觉引路带、触觉点字及触觉平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "烧烤炉 (15个)、更衣室、淋浴设备、自助式贮物笼、洗手间和浮台； 无障碍设施： 触觉引路带、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-sk.html#clearwaterbayfirst"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-898ee99a5515",
+      "category": "beach",
+      "name": "清水湾第二湾泳滩",
+      "name_tc": "清水灣第二灣泳灘",
+      "name_en": "Clear Water Bay Second Beach",
+      "district": "西贡",
+      "address": "清水湾大坳门路",
+      "longitude": 114.2877999,
+      "latitude": 22.2873586,
+      "evidence": [
+        {
+          "id": "source:BEACH-898ee99a5515:41",
+          "source_ref": "beach",
+          "source_row": 41,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：无障碍设施：畅通易达洗手间及淋浴间、触觉引路带、畅通易达停车位、触觉点字及触觉平面图",
+          "facility_types": "泳滩",
+          "details": "无障碍设施：畅通易达洗手间及淋浴间、触觉引路带、畅通易达停车位、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-sk.html#clearwaterbaysecond"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-91a902f31b26",
+      "category": "beach",
+      "name": "青山湾泳滩",
+      "name_tc": "青山灣泳灘",
+      "name_en": "Castle Peak Beach",
+      "district": "屯门",
+      "address": "青山公路-青山湾段",
+      "longitude": 113.9798766,
+      "latitude": 22.3793885,
+      "evidence": [
+        {
+          "id": "source:BEACH-91a902f31b26:42",
+          "source_ref": "beach",
+          "source_row": 42,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：餐厅、烧烤炉(27个)、更衣室、淋浴设备、自助式贮物笼、洗手间和停车场",
+          "facility_types": "泳滩,烧烤场",
+          "details": "餐厅、烧烤炉(27个)、更衣室、淋浴设备、自助式贮物笼、洗手间和停车场",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tm.html#castlepeak"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-9cdeb452f481",
+      "category": "beach",
+      "name": "更生湾泳滩",
+      "name_tc": "更生灣泳灘",
+      "name_en": "Casam Beach",
+      "district": "荃湾",
+      "address": "荃湾青山公路汀九段11咪半",
+      "longitude": 114.0744326,
+      "latitude": 22.3674067,
+      "evidence": [
+        {
+          "id": "source:BEACH-9cdeb452f481:30",
+          "source_ref": "beach",
+          "source_row": 30,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：更衣室、淋浴设备和洗手间设于毗邻的丽都湾泳滩；无障碍设施：触觉点字平面图",
+          "facility_types": "泳滩",
+          "details": "更衣室、淋浴设备和洗手间设于毗邻的丽都湾泳滩；无障碍设施：触觉点字平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tw.html#casam"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-9d4ee5e9d07e",
+      "category": "beach",
+      "name": "桥咀泳滩",
+      "name_tc": "橋咀泳灘",
+      "name_en": "Kiu Tsui Beach",
+      "district": "西贡",
+      "address": "西贡桥咀洲",
+      "longitude": 114.2882364,
+      "latitude": 22.3678451,
+      "evidence": [
+        {
+          "id": "source:BEACH-9d4ee5e9d07e:35",
+          "source_ref": "beach",
+          "source_row": 35,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉 (13个)、更衣室、淋浴设备、洗手间和浮台；无障碍设施：触觉引路带、触觉点字及触觉平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉 (13个)、更衣室、淋浴设备、洗手间和浮台；无障碍设施：触觉引路带、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-sk.html#kiutsui"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-9d5326068f8b",
+      "category": "beach",
+      "name": "丽都湾泳滩",
+      "name_tc": "麗都灣泳灘",
+      "name_en": "Lido Beach",
+      "district": "荃湾",
+      "address": "荃湾青山公路汀九段11咪半",
+      "longitude": 114.0761693,
+      "latitude": 22.3678115,
+      "evidence": [
+        {
+          "id": "source:BEACH-9d5326068f8b:31",
+          "source_ref": "beach",
+          "source_row": 31,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：浮台、小食亭、更衣室、淋浴设备、洗手间、自助式贮物笼、沙滩排球场和泳屋；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "facility_types": "泳滩",
+          "details": "浮台、小食亭、更衣室、淋浴设备、洗手间、自助式贮物笼、沙滩排球场和泳屋；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tw.html#lido"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-a3d7d153db56",
+      "category": "beach",
+      "name": "塘福泳滩",
+      "name_tc": "塘福泳灘",
+      "name_en": "Tong Fuk Beach",
+      "district": "离岛",
+      "address": "大屿山屿南道",
+      "longitude": 113.9353579,
+      "latitude": 22.2280854,
+      "evidence": [
+        {
+          "id": "source:BEACH-a3d7d153db56:2",
+          "source_ref": "beach",
+          "source_row": 2,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：无障碍设施：畅通易达洗手间及淋浴间、触觉引路带、触觉点字及触觉平面图",
+          "facility_types": "泳滩",
+          "details": "无障碍设施：畅通易达洗手间及淋浴间、触觉引路带、触觉点字及触觉平面图",
+          "source_row_date_utc": "2026-02-26",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#tongfuk"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-aa5bd1e63ec2",
+      "category": "beach",
+      "name": "双仙湾泳滩",
+      "name_tc": "雙仙灣泳灘",
+      "name_en": "Gemini Beaches",
+      "district": "荃湾",
+      "address": "荃湾青山公路深井段12咪",
+      "longitude": 114.0691582,
+      "latitude": 22.3640141,
+      "evidence": [
+        {
+          "id": "source:BEACH-aa5bd1e63ec2:28",
+          "source_ref": "beach",
+          "source_row": 28,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：烧烤炉(2个)、更衣室、淋浴设备和洗手间",
+          "facility_types": "泳滩,烧烤场",
+          "details": "烧烤炉(2个)、更衣室、淋浴设备和洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tw.html#gemini"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-b1409026750b",
+      "category": "beach",
+      "name": "舂坎角泳滩",
+      "name_tc": "舂坎角泳灘",
+      "name_en": "Chung Hom Kok Beach",
+      "district": "南区",
+      "address": "舂坎角舂坎角道",
+      "longitude": 114.2021178,
+      "latitude": 22.2177961,
+      "evidence": [
+        {
+          "id": "source:BEACH-b1409026750b:9",
+          "source_ref": "beach",
+          "source_row": 9,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉(24个)、更衣室、淋浴设备、洗手间、浮台、游乐场; 及；无障碍设施: 畅通易达洗手间",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉(24个)、更衣室、淋浴设备、洗手间、浮台、游乐场; 及；无障碍设施: 畅通易达洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#chunghomkok"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-b7a6cd7eeef7",
+      "category": "beach",
+      "name": "长洲东湾泳滩",
+      "name_tc": "長洲東灣泳灘",
+      "name_en": "Cheung Chau Tung Wan Beach",
+      "district": "离岛",
+      "address": "长洲东堤路",
+      "longitude": 114.0307305,
+      "latitude": 22.2093303,
+      "evidence": [
+        {
+          "id": "source:BEACH-b7a6cd7eeef7:20",
+          "source_ref": "beach",
+          "source_row": 20,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：更衣室、自助式贮物笼、淋浴设备、洗手间和浮台；无障碍设施：畅通易达洗手间",
+          "facility_types": "泳滩",
+          "details": "更衣室、自助式贮物笼、淋浴设备、洗手间和浮台；无障碍设施：畅通易达洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#cheungchautungwan"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-bc33b4cf1a32",
+      "category": "beach",
+      "name": "龟背湾泳滩",
+      "name_tc": "龜背灣泳灘",
+      "name_en": "Turtle Cove Beach",
+      "district": "南区",
+      "address": "赤柱大潭道",
+      "longitude": 114.2231938,
+      "latitude": 22.2330344,
+      "evidence": [
+        {
+          "id": "source:BEACH-bc33b4cf1a32:13",
+          "source_ref": "beach",
+          "source_row": 13,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：烧烤炉(12个)、更衣室、淋浴设备、洗手间、浮台和游乐场",
+          "facility_types": "泳滩,烧烤场",
+          "details": "烧烤炉(12个)、更衣室、淋浴设备、洗手间、浮台和游乐场",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#turtlecove"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-bf82bbc12559",
+      "category": "beach",
+      "name": "深水湾泳滩",
+      "name_tc": "深水灣泳灘",
+      "name_en": "Deep Water Bay Beach",
+      "district": "南区",
+      "address": "深水湾香岛道",
+      "longitude": 114.1877082,
+      "latitude": 22.244487,
+      "evidence": [
+        {
+          "id": "source:BEACH-bf82bbc12559:5",
+          "source_ref": "beach",
+          "source_row": 5,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：快餐亭、烧烤炉 (35个 )、 自助式贮物笼 、 更衣室、；淋浴设备、洗手间、浮台 ; 及；无障碍设施 : 畅通易达洗手间、触觉点字及触觉平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "快餐亭、烧烤炉 (35个 )、 自助式贮物笼 、 更衣室、；淋浴设备、洗手间、浮台 ; 及；无障碍设施 : 畅通易达洗手间、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#deepwaterbay"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-c0db85f5e0cf",
+      "category": "beach",
+      "name": "观音湾泳滩",
+      "name_tc": "觀音灣泳灘",
+      "name_en": "Kwun Yam Beach",
+      "district": "离岛",
+      "address": "长洲黑排路",
+      "longitude": 114.0344811,
+      "latitude": 22.2071184,
+      "evidence": [
+        {
+          "id": "source:BEACH-c0db85f5e0cf:19",
+          "source_ref": "beach",
+          "source_row": 19,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：小食亭、更衣室、淋浴设备、洗手间和浮台",
+          "facility_types": "泳滩",
+          "details": "小食亭、更衣室、淋浴设备、洗手间和浮台",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#kwunyam"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-c77314abfe4a",
+      "category": "beach",
+      "name": "钓鱼湾泳滩",
+      "name_tc": "釣魚灣泳灘",
+      "name_en": "Anglers' Beach",
+      "district": "荃湾",
+      "address": "荃湾青山公路深井段13咪",
+      "longitude": 114.0558591,
+      "latitude": 22.3647552,
+      "evidence": [
+        {
+          "id": "source:BEACH-c77314abfe4a:27",
+          "source_ref": "beach",
+          "source_row": 27,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：无障碍设施：触觉引路带、触觉点字平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "无障碍设施：触觉引路带、触觉点字平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tw.html#anglers"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-c99b7cd6bbf4",
+      "category": "beach",
+      "name": "新咖啡湾泳滩",
+      "name_tc": "新咖啡灣泳灘",
+      "name_en": "Cafeteria New Beach",
+      "district": "屯门",
+      "address": "屯门青山公路青山湾段18咪半",
+      "longitude": 113.9868058,
+      "latitude": 22.3736381,
+      "evidence": [
+        {
+          "id": "source:BEACH-c99b7cd6bbf4:25",
+          "source_ref": "beach",
+          "source_row": 25,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：小食亭、自助式贮物笼和沙滩排球场",
+          "facility_types": "泳滩",
+          "details": "小食亭、自助式贮物笼和沙滩排球场",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tm.html#cafeterianew"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-ccf0f25fd158",
+      "category": "beach",
+      "name": "银矿湾泳滩",
+      "name_tc": "銀礦灣泳灘",
+      "name_en": "Silver Mine Bay Beach",
+      "district": "离岛",
+      "address": "大屿山梅窝东湾头路",
+      "longitude": 113.9989828,
+      "latitude": 22.2701445,
+      "evidence": [
+        {
+          "id": "source:BEACH-ccf0f25fd158:21",
+          "source_ref": "beach",
+          "source_row": 21,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：快餐亭、烧烤炉(24个)、更衣室、淋浴设备、洗手间、家庭更衣室、育婴间和沙滩排球场；无障碍设施：畅通易达洗手间",
+          "facility_types": "泳滩,烧烤场",
+          "details": "快餐亭、烧烤炉(24个)、更衣室、淋浴设备、洗手间、家庭更衣室、育婴间和沙滩排球场；无障碍设施：畅通易达洗手间",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#silverminebay"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-d4ba03e37e16",
+      "category": "beach",
+      "name": "下长沙泳滩",
+      "name_tc": "下長沙泳灘",
+      "name_en": "Lower Cheung Sha Beach",
+      "district": "离岛",
+      "address": "大屿山屿南道",
+      "longitude": 113.9552957,
+      "latitude": 22.2341137,
+      "evidence": [
+        {
+          "id": "source:BEACH-d4ba03e37e16:3",
+          "source_ref": "beach",
+          "source_row": 3,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：更衣室、淋浴设备和洗手间；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "facility_types": "泳滩",
+          "details": "更衣室、淋浴设备和洗手间；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字平面图",
+          "source_row_date_utc": "2026-02-26",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#lowercheungsha"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-e7109c3fcff1",
+      "category": "beach",
+      "name": "厦门湾泳滩",
+      "name_tc": "廈門灣泳灘",
+      "name_en": "Hap Mun Bay Beach",
+      "district": "西贡",
+      "address": "西贡桥咀洲",
+      "longitude": 114.2959469,
+      "latitude": 22.3568711,
+      "evidence": [
+        {
+          "id": "source:BEACH-e7109c3fcff1:36",
+          "source_ref": "beach",
+          "source_row": 36,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：小食亭、烧烤炉 (22个)、更衣室、淋浴设备、洗手间和浮台； 无障碍设施：触觉引路带、触觉点字及触觉平面图",
+          "facility_types": "泳滩,烧烤场",
+          "details": "小食亭、烧烤炉 (22个)、更衣室、淋浴设备、洗手间和浮台； 无障碍设施：触觉引路带、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-sk.html#hapmunbay"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-fd2e26f40828",
+      "category": "beach",
+      "name": "浅水湾泳滩",
+      "name_tc": "淺水灣泳灘",
+      "name_en": "Repulse Bay Beach",
+      "district": "南区",
+      "address": "浅水湾海滩道",
+      "longitude": 114.196143,
+      "latitude": 22.2368625,
+      "evidence": [
+        {
+          "id": "source:BEACH-fd2e26f40828:6",
+          "source_ref": "beach",
+          "source_row": 6,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：餐厅、小食亭、更衣室、淋浴设备、洗手间、浮台、游乐场、沙滩排球场; 及；无障碍设施: 畅通易达洗手间、触觉点字及触觉平面图",
+          "facility_types": "泳滩",
+          "details": "餐厅、小食亭、更衣室、淋浴设备、洗手间、浮台、游乐场、沙滩排球场; 及；无障碍设施: 畅通易达洗手间、触觉点字及触觉平面图",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-hk/beach-address-south.html#repulsebay"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-ffbe10b5df31",
+      "category": "beach",
+      "name": "洪圣爷湾泳滩",
+      "name_tc": "洪聖爺灣泳灘",
+      "name_en": "Hung Shing Yeh Beach",
+      "district": "离岛",
+      "address": "南丫岛榕树湾",
+      "longitude": 114.1196995,
+      "latitude": 22.2188238,
+      "evidence": [
+        {
+          "id": "source:BEACH-ffbe10b5df31:17",
+          "source_ref": "beach",
+          "source_row": 17,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩,烧烤场。设施说明：烧烤炉(9个)",
+          "facility_types": "泳滩,烧烤场",
+          "details": "烧烤炉(9个)",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-is.html#hungshingyeh"
+        }
+      ]
+    },
+    {
+      "id": "BEACH-ffbeb5143389",
+      "category": "beach",
+      "name": "大埔龙尾泳滩",
+      "name_tc": "大埔龍尾泳灘",
+      "name_en": "Tai Po Lung Mei Beach",
+      "district": "大埔",
+      "address": "大埔汀角路168号",
+      "longitude": 114.2277516,
+      "latitude": 22.4710449,
+      "evidence": [
+        {
+          "id": "source:BEACH-ffbeb5143389:39",
+          "source_ref": "beach",
+          "source_row": 39,
+          "scope": "venue_listing",
+          "text": "设施类别：泳滩。设施说明：小食亭、更衣室、淋浴设备、洗手间(设有畅通易达洗手间) 、育婴间、自助式贮物柜、单车停泊处和收费公众停车场(设有3个畅通易达车位)",
+          "facility_types": "泳滩",
+          "details": "小食亭、更衣室、淋浴设备、洗手间(设有畅通易达洗手间) 、育婴间、自助式贮物柜、单车停泊处和收费公众停车场(设有3个畅通易达车位)",
+          "source_row_date_utc": "2025-07-28",
+          "venue_website": "https://www.lcsd.gov.hk/tc/beach/index/beach-location-nt/beach-address-tp.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "purpose": "课程公开开发题；参考地点是这些具体问题所涉及的目标，不能用作未见测试题。训练或评测拆分按 group，答案仅供评分端。",
+  "cases": [
+    {
+      "id": "fa-yuen-study",
+      "group": "fa-yuen-building",
+      "query": "旺角花园街市政大厦内找学生自修室，普通十一月周六晚上七点按表开放吗？",
+      "reference_place_ids": [
+        "E06"
+      ],
+      "reference_evidence_ids": [
+        "hours:E06"
+      ],
+      "confusable_ids": [
+        "SPORTS-67b5a264a431",
+        "MARKET-70f1e240acef"
+      ],
+      "reference": "应关联 E06 的学生自修室时刻表；普通周六 19:00 在时段内。"
+    },
+    {
+      "id": "fa-yuen-play",
+      "group": "fa-yuen-building",
+      "query": "花园街市政大厦内能打羽毛球的是哪处？现在能订到场吗？",
+      "reference_place_ids": [
+        "SPORTS-67b5a264a431"
+      ],
+      "reference_evidence_ids": [
+        "source:SPORTS-67b5a264a431:9"
+      ],
+      "confusable_ids": [
+        "E06",
+        "MARKET-70f1e240acef"
+      ],
+      "reference": "体育馆名录列有羽毛球场，快照无法证明有可预订时段。"
+    },
+    {
+      "id": "fa-yuen-food",
+      "group": "fa-yuen-building",
+      "query": "花园街市政大厦里，晚九点吃熟食和去街市买鱼，按资料是同一开放时间吗？",
+      "reference_place_ids": [
+        "MARKET-70f1e240acef"
+      ],
+      "reference_evidence_ids": [
+        "source:MARKET-70f1e240acef"
+      ],
+      "confusable_ids": [
+        "E06",
+        "SPORTS-67b5a264a431"
+      ],
+      "reference": "快照列明街市 06:00–20:00、熟食中心 06:00–次日 02:00。21:00 只符合后者的常规时段，个别摊位实时营业未知。"
+    },
+    {
+      "id": "space-gallery",
+      "group": "salisbury-10",
+      "query": "想在尖沙咀梳士巴利道10号看月球、火星互动展品，该去太空馆还是艺术馆？",
+      "reference_place_ids": [
+        "MUSEUM-a1704b570008"
+      ],
+      "reference_evidence_ids": [
+        "exhibit:MUSEUM-a1704b570008"
+      ],
+      "confusable_ids": [
+        "MUSEUM-13fdde52355b"
+      ],
+      "reference": "太空馆的常设展官网说明月球与火星互动项目；同地址不能把该展品归给艺术馆。"
+    },
+    {
+      "id": "art-collection",
+      "group": "salisbury-10",
+      "query": "我更想了解广东书画，梳士巴利道10号哪个馆的馆藏资料支持这个需求？",
+      "reference_place_ids": [
+        "MUSEUM-13fdde52355b"
+      ],
+      "reference_evidence_ids": [
+        "exhibit:MUSEUM-13fdde52355b"
+      ],
+      "confusable_ids": [
+        "MUSEUM-a1704b570008"
+      ],
+      "reference": "艺术馆馆藏页面列有广东书画，具体作品当日是否展出需另核。"
+    },
+    {
+      "id": "science-energy",
+      "group": "kowloon-museums",
+      "query": "孩子对用滚球展示能量转换的装置感兴趣，香港哪家科学场馆有这种展品？",
+      "reference_place_ids": [
+        "MUSEUM-dc1f7bd976d0"
+      ],
+      "reference_evidence_ids": [
+        "exhibit:MUSEUM-dc1f7bd976d0"
+      ],
+      "confusable_ids": [
+        "MUSEUM-a1704b570008"
+      ],
+      "reference": "香港科学馆的能量穿梭机用圆球运动说明能量转换。"
+    },
+    {
+      "id": "park-skate",
+      "group": "park-activity",
+      "query": "荔枝角的公园能否既玩滑板又打网球？",
+      "reference_place_ids": [
+        "PARK-666f821a125f"
+      ],
+      "reference_evidence_ids": [
+        "source:PARK-666f821a125f:24"
+      ],
+      "confusable_ids": [],
+      "reference": "荔枝角公园设施类别列有滑板场与网球场；当日状态与是否需预约另查。"
+    },
+    {
+      "id": "park-closure",
+      "group": "park-closure",
+      "query": "大头岭休憩处标注全日开放，按本次快照，2026年11月去是否还要留意工程？",
+      "reference_place_ids": [
+        "PARK-49667f4bb5aa"
+      ],
+      "reference_evidence_ids": [
+        "source:PARK-49667f4bb5aa:25"
+      ],
+      "confusable_ids": [],
+      "reference": "同一条时段备注另列 2025-09-22 至 2029-12-31 工程暂停开放。该日期落入例外，须保留工程条件。"
+    },
+    {
+      "id": "pool-family",
+      "group": "tuen-mun-water",
+      "query": "带小朋友去屯门游泳池，有嬉水池、家庭更衣室和育婴间吗？",
+      "reference_place_ids": [
+        "POOL-25280a966d4e"
+      ],
+      "reference_evidence_ids": [
+        "source:POOL-25280a966d4e:1"
+      ],
+      "confusable_ids": [
+        "BEACH-642c8f289e8b"
+      ],
+      "reference": "泳池的设施说明列有这些设施；不能把附近海滩的资料代入。"
+    },
+    {
+      "id": "beach-bbq",
+      "group": "tuen-mun-water",
+      "query": "屯门加多利湾想海边烧烤并冲身，公开资料能确认什么？",
+      "reference_place_ids": [
+        "BEACH-642c8f289e8b"
+      ],
+      "reference_evidence_ids": [
+        "source:BEACH-642c8f289e8b:1"
+      ],
+      "confusable_ids": [
+        "POOL-25280a966d4e"
+      ],
+      "reference": "泳滩设施资料列明烧烤炉、淋浴及更衣室；不能确认炉位空闲。"
+    },
+    {
+      "id": "beach-access",
+      "group": "lantau-beaches",
+      "query": "塘福泳滩有没有适合视觉障碍人士辨路的设施？",
+      "reference_place_ids": [
+        "BEACH-a3d7d153db56"
+      ],
+      "reference_evidence_ids": [
+        "source:BEACH-a3d7d153db56:2"
+      ],
+      "confusable_ids": [],
+      "reference": "资料列明触觉引路带、点字及平面图等设施，不推出现场通道一定畅通。"
+    },
+    {
+      "id": "mixed-two-intents",
+      "group": "fa-yuen-building",
+      "query": "我想在花园街同一幢市政大厦先自习，再打羽毛球，应分别找什么地点？",
+      "reference_place_ids": [
+        "E06",
+        "SPORTS-67b5a264a431"
+      ],
+      "reference_evidence_ids": [
+        "hours:E06",
+        "source:SPORTS-67b5a264a431:9"
+      ],
+      "confusable_ids": [
+        "MARKET-70f1e240acef"
+      ],
+      "reference": "分别返回自修室与体育馆，不能把两种功能合成一个 POI。"
+    }
+  ]
+}

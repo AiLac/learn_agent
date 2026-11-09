@@ -1,0 +1,435 @@
+{
+  "attribution": "香港特别行政区政府康乐及文化事务署。数据来自 DATA.GOV.HK 和 CSDI Portal。原始资料知识产权归香港特别行政区政府及相关机构。",
+  "terms": [
+    "https://data.gov.hk/en/terms-and-conditions",
+    "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC"
+  ],
+  "source": {
+    "id": "museum",
+    "label": "博物馆",
+    "provider": "香港特别行政区政府康乐及文化事务署",
+    "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-museums",
+    "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1629267205214_78787/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "raw_sha256": "cf1c1eef1345af2ea42f20b2df00117d2115fa83d20b79e5fbb0e68fd60d95e2",
+    "source_rows": 18,
+    "places": 18,
+    "shard": "venues/museum.json",
+    "retrieved_on": "2026-11-09"
+  },
+  "records": [
+    {
+      "id": "MUSEUM-13fdde52355b",
+      "category": "museum",
+      "name": "香港艺术馆",
+      "name_tc": "香港藝術館",
+      "name_en": "Hong Kong Museum of Art",
+      "district": "油尖旺",
+      "address": "尖沙咀梳士巴利道10号",
+      "longitude": 114.1719737,
+      "latitude": 22.2934641,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-13fdde52355b:8",
+          "source_ref": "museum",
+          "source_row": 8,
+          "scope": "venue_listing",
+          "text": "香港艺术馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2022-05-13",
+          "venue_website": "https://hk.art.museum/zh_TW/web/ma/home.html"
+        },
+        {
+          "id": "exhibit:MUSEUM-13fdde52355b",
+          "scope": "museum_collection_or_exhibit",
+          "source_url": "https://hk.art.museum/tc/web/ma/collections/chinese-painting-and-calligraphy.html",
+          "text": "中国书画馆藏涵盖广东书画和近代中国绘画，馆藏信息不保证某件作品正在展出。"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-178bad0a8945",
+      "category": "museum",
+      "name": "罗屋民俗馆",
+      "name_tc": "羅屋民俗館",
+      "name_en": "Law Uk Folk Museum",
+      "district": "东区",
+      "address": "柴湾吉胜街14号",
+      "longitude": 114.2355239,
+      "latitude": 22.2641672,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-178bad0a8945:5",
+          "source_ref": "museum",
+          "source_row": 5,
+          "scope": "venue_listing",
+          "text": "罗屋民俗馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2022-05-13",
+          "venue_website": "https://www.lcsd.gov.hk/CE/Museum/History/zh_TW/web/mh/about-us/law-uk-folk-museum.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-1a468921f49d",
+      "category": "museum",
+      "name": "葛量洪号灭火轮展览馆",
+      "name_tc": "葛量洪號滅火輪展覽館",
+      "name_en": "Fireboat Alexander Grantham Exhibition Gallery",
+      "district": "东区",
+      "address": "鲗鱼涌公园",
+      "longitude": 114.2191445,
+      "latitude": 22.2892775,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-1a468921f49d:7",
+          "source_ref": "museum",
+          "source_row": 7,
+          "scope": "venue_listing",
+          "text": "葛量洪号灭火轮展览馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2022-05-13",
+          "venue_website": "https://www.lcsd.gov.hk/CE/Museum/History/zh_TW/web/mh/about-us/fireboat-alexander-grantham-exhibition-gallery.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-32edef2c90e2",
+      "category": "museum",
+      "name": "香港历史博物馆",
+      "name_tc": "香港歷史博物館",
+      "name_en": "Hong Kong Museum of History",
+      "district": "油尖旺",
+      "address": "尖沙咀漆咸道南100号",
+      "longitude": 114.1774081,
+      "latitude": 22.3017453,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-32edef2c90e2:18",
+          "source_ref": "museum",
+          "source_row": 18,
+          "scope": "venue_listing",
+          "text": "香港历史博物馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "http://www.lcsd.gov.hk/CE/Museum/History/zh_TW/web/mh/index.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-380d62183ce5",
+      "category": "museum",
+      "name": "三栋屋博物馆",
+      "name_tc": "三棟屋博物館",
+      "name_en": "Sam Tung Uk Museum",
+      "district": "荃湾",
+      "address": "荃湾古屋里2号",
+      "longitude": 114.1203353,
+      "latitude": 22.3719662,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-380d62183ce5:10",
+          "source_ref": "museum",
+          "source_row": 10,
+          "scope": "venue_listing",
+          "text": "三栋屋博物馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "https://www.lcsd.gov.hk/CE/Museum/ICHO/zh_TW/web/icho/sam_tung_uk_museum.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-5632a134b19a",
+      "category": "museum",
+      "name": "李郑屋汉墓博物馆",
+      "name_tc": "李鄭屋漢墓博物館",
+      "name_en": "Lei Cheng Uk Han Tomb Museum",
+      "district": "深水埗",
+      "address": "深水埗东京街41号",
+      "longitude": 114.1600517,
+      "latitude": 22.3378848,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-5632a134b19a:6",
+          "source_ref": "museum",
+          "source_row": 6,
+          "scope": "venue_listing",
+          "text": "李郑屋汉墓博物馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2022-05-13",
+          "venue_website": "https://www.lcsd.gov.hk/CE/Museum/History/zh_TW/web/mh/about-us/lei-cheng-uk-han-tomb-museum.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-7ed653400a17",
+      "category": "museum",
+      "name": "孙中山纪念馆",
+      "name_tc": "孫中山紀念館",
+      "name_en": "Dr Sun Yat-sen Museum",
+      "district": "中西区",
+      "address": "中环半山卫城道7号",
+      "longitude": 114.1507528,
+      "latitude": 22.2820835,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-7ed653400a17:1",
+          "source_ref": "museum",
+          "source_row": 1,
+          "scope": "venue_listing",
+          "text": "孙中山纪念馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2026-08-13",
+          "venue_website": "https://hk.drsunyatsen.museum/tc/web/sysm/home.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-8219f310750b",
+      "category": "museum",
+      "name": "香港抗战及海防博物馆",
+      "name_tc": "香港抗戰及海防博物館",
+      "name_en": "Hong Kong Museum of the War of Resistance and Coastal Defence",
+      "district": "东区",
+      "address": "筲箕湾东喜道175号",
+      "longitude": 114.2350173,
+      "latitude": 22.2827615,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-8219f310750b:2",
+          "source_ref": "museum",
+          "source_row": 2,
+          "scope": "venue_listing",
+          "text": "香港抗战及海防博物馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2024-08-22",
+          "venue_website": "https://hk.waranddefence.museum/tc/web/mcd/home.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-91785dc4f491",
+      "category": "museum",
+      "name": "香港电影资料馆",
+      "name_tc": "香港電影資料館",
+      "name_en": "Hong Kong Film Archive",
+      "district": "东区",
+      "address": "西湾河鲤景道50号",
+      "longitude": 114.2220446,
+      "latitude": 22.2850865,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-91785dc4f491:17",
+          "source_ref": "museum",
+          "source_row": 17,
+          "scope": "venue_listing",
+          "text": "香港电影资料馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "https://www.filmarchive.gov.hk/zh_TW/web/hkfa/home.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-9459166188ed",
+      "category": "museum",
+      "name": "上窰民俗文物馆",
+      "name_tc": "上窰民俗文物館",
+      "name_en": "Sheung Yiu Folk Museum",
+      "district": "西贡",
+      "address": "西贡北潭涌自然教育径",
+      "longitude": 114.3213356,
+      "latitude": 22.3924921,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-9459166188ed:15",
+          "source_ref": "museum",
+          "source_row": 15,
+          "scope": "venue_listing",
+          "text": "上窰民俗文物馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "http://www.heritagemuseum.gov.hk/zh_TW/web/hm/museums/sheungyiufolk.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-9622c75c773a",
+      "category": "museum",
+      "name": "香港铁路博物馆",
+      "name_tc": "香港鐵路博物館",
+      "name_en": "Hong Kong Railway Museum",
+      "district": "大埔",
+      "address": "大埔墟崇德街13号",
+      "longitude": 114.1643422,
+      "latitude": 22.4475879,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-9622c75c773a:16",
+          "source_ref": "museum",
+          "source_row": 16,
+          "scope": "venue_listing",
+          "text": "香港铁路博物馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "http://www.heritagemuseum.gov.hk/zh_TW/web/hm/museums/railway.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-9659f1844601",
+      "category": "museum",
+      "name": "香港文化博物馆",
+      "name_tc": "香港文化博物館",
+      "name_en": "Hong Kong Heritage Museum",
+      "district": "沙田",
+      "address": "沙田文林路1号",
+      "longitude": 114.1851958,
+      "latitude": 22.3774032,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-9659f1844601:12",
+          "source_ref": "museum",
+          "source_row": 12,
+          "scope": "venue_listing",
+          "text": "香港文化博物馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "https://www.heritagemuseum.gov.hk/zh_TW/web/hm/highlights.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-a1704b570008",
+      "category": "museum",
+      "name": "香港太空馆",
+      "name_tc": "香港太空館",
+      "name_en": "Hong Kong Space Museum",
+      "district": "油尖旺",
+      "address": "尖沙咀梳士巴利道10号",
+      "longitude": 114.171867,
+      "latitude": 22.2942407,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-a1704b570008:13",
+          "source_ref": "museum",
+          "source_row": 13,
+          "scope": "venue_listing",
+          "text": "香港太空馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "https://www.lcsd.gov.hk/CE/Museum/Space/zh_TW/web/spm/whatsnew.html"
+        },
+        {
+          "id": "exhibit:MUSEUM-a1704b570008",
+          "scope": "museum_collection_or_exhibit",
+          "source_url": "https://hk.space.museum/sc/web/spm/exhibitions/permanent-exhibition.html",
+          "text": "天文与航天常设展包含宇宙和太空探索两部分，可通过互动展品体验月球与火星虚拟探索。"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-b72bd4e8d6f2",
+      "category": "museum",
+      "name": "文物修复资源中心",
+      "name_tc": "文物修復資源中心",
+      "name_en": "Conservation Resource Centre",
+      "district": "油尖旺",
+      "address": "香港九龙尖沙咀东部漆咸道南一百号香港历史博物馆二楼二零二室",
+      "longitude": 114.1774081,
+      "latitude": 22.3017453,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-b72bd4e8d6f2:9",
+          "source_ref": "museum",
+          "source_row": 9,
+          "scope": "venue_listing",
+          "text": "文物修复资源中心收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "https://www.lcsd.gov.hk/CE/Museum/Conservation/zh_TW/web/co/resource_centre.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-c77838945c71",
+      "category": "museum",
+      "name": "油街实现",
+      "name_tc": "油街實現",
+      "name_en": "Oil Street Art Space",
+      "district": "东区",
+      "address": "香港北角油街12号",
+      "longitude": 114.1928598,
+      "latitude": 22.288918,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-c77838945c71:4",
+          "source_ref": "museum",
+          "source_row": 4,
+          "scope": "venue_listing",
+          "text": "油街实现收录在博物馆空间名录中。",
+          "source_row_date_utc": "2022-05-23",
+          "venue_website": "https://www.lcsd.gov.hk/CE/Museum/APO/zh_TW/web/apo/oi.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-c9e08180b07f",
+      "category": "museum",
+      "name": "香港视觉艺术中心",
+      "name_tc": "香港視覺藝術中心",
+      "name_en": "Hong Kong Visual Arts Centre",
+      "district": "中西区",
+      "address": "中区坚尼地道7号A",
+      "longitude": 114.159407,
+      "latitude": 22.2765742,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-c9e08180b07f:3",
+          "source_ref": "museum",
+          "source_row": 3,
+          "scope": "venue_listing",
+          "text": "香港视觉艺术中心收录在博物馆空间名录中。",
+          "source_row_date_utc": "2022-05-23",
+          "venue_website": "https://www.lcsd.gov.hk/CE/Museum/APO/zh_TW/web/apo/va.html"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-dc1f7bd976d0",
+      "category": "museum",
+      "name": "香港科学馆",
+      "name_tc": "香港科學館",
+      "name_en": "Hong Kong Science Museum",
+      "district": "油尖旺",
+      "address": "尖沙咀东部科学馆道2号",
+      "longitude": 114.1776604,
+      "latitude": 22.301086,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-dc1f7bd976d0:11",
+          "source_ref": "museum",
+          "source_row": 11,
+          "scope": "venue_listing",
+          "text": "香港科学馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "http://www.lcsd.gov.hk/CE/Museum/Science/index.html"
+        },
+        {
+          "id": "exhibit:MUSEUM-dc1f7bd976d0",
+          "scope": "museum_collection_or_exhibit",
+          "source_url": "https://hk.science.museum/tc/web/scm/exhibition/em.html",
+          "text": "常设展品能量穿梭机高约22米，通过圆球在塔架间运动展示能量转换。"
+        }
+      ]
+    },
+    {
+      "id": "MUSEUM-ec6f50a8c28b",
+      "category": "museum",
+      "name": "茶具文物馆",
+      "name_tc": "茶具文物館",
+      "name_en": "Flagstaff House Museum of Tea Ware",
+      "district": "中西区",
+      "address": "中区红棉路10号",
+      "longitude": 114.1624749,
+      "latitude": 22.278545,
+      "evidence": [
+        {
+          "id": "source:MUSEUM-ec6f50a8c28b:14",
+          "source_ref": "museum",
+          "source_row": 14,
+          "scope": "venue_listing",
+          "text": "茶具文物馆收录在博物馆空间名录中。",
+          "source_row_date_utc": "2021-11-19",
+          "venue_website": "http://www.lcsd.gov.hk/CE/Museum/Arts/zh_TW/web/ma/tea-ware.html"
+        }
+      ]
+    }
+  ]
+}

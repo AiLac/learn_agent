@@ -1,0 +1,86 @@
+{
+  "snapshot_date": "2026-11-09",
+  "base": {
+    "category": "study_room",
+    "label": "自修室",
+    "places": 194,
+    "path": "../../hk-study-rooms/search-v2/places.json",
+    "evidence_path": "../../hk-study-rooms/search-v2/evidence.json"
+  },
+  "crs": "EPSG:4326",
+  "total_places": 617,
+  "sources": [
+    {
+      "id": "park",
+      "label": "公园及动植物公园",
+      "provider": "香港特别行政区政府康乐及文化事务署",
+      "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-parks-zoos-gardens",
+      "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1629267205215_19292/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+      "raw_sha256": "29572e4c202849dcc2e64b110b356813c8ff9fbdb7100e8485306e2cba791cb7",
+      "source_rows": 124,
+      "places": 123,
+      "shard": "venues/park.json",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "id": "sports",
+      "label": "体育馆",
+      "provider": "香港特别行政区政府康乐及文化事务署",
+      "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-sports-centres",
+      "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1629267205215_31341/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+      "raw_sha256": "122943d59e52be11cbee4fb77076ce815ca9ca79b7a327a17aa5a838146ee515",
+      "source_rows": 106,
+      "places": 106,
+      "shard": "venues/sports.json",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "id": "pool",
+      "label": "游泳池",
+      "provider": "香港特别行政区政府康乐及文化事务署",
+      "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-swimming-pools",
+      "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1634540558875_77434/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+      "raw_sha256": "9cbe39fd6cea880414f8d08189cb0858e6ee72ffa874fe55e8fcbeee585a91f7",
+      "source_rows": 46,
+      "places": 46,
+      "shard": "venues/pool.json",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "id": "beach",
+      "label": "泳滩",
+      "provider": "香港特别行政区政府康乐及文化事务署",
+      "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-beaches",
+      "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1634536032820_39080/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+      "raw_sha256": "d79317ade1bfd689400203f35bd96dcee75c1bd540062c5b9699b578884f3278",
+      "source_rows": 42,
+      "places": 42,
+      "shard": "venues/beach.json",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "id": "museum",
+      "label": "博物馆",
+      "provider": "香港特别行政区政府康乐及文化事务署",
+      "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-museums",
+      "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1629267205214_78787/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+      "raw_sha256": "cf1c1eef1345af2ea42f20b2df00117d2115fa83d20b79e5fbb0e68fd60d95e2",
+      "source_rows": 18,
+      "places": 18,
+      "shard": "venues/museum.json",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "id": "market",
+      "label": "公众街市及熟食市场",
+      "provider": "香港特别行政区政府食物环境卫生署",
+      "catalog": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdmsms-market-information",
+      "url": "https://www.fehd.gov.hk/english/pleasant_environment/tidy_market/marketInfo.xml",
+      "raw_sha256": "1b2a49f655577e4f732556ce9a8481e3414cfe6d8516281054719ab43cdbb4f4",
+      "source_rows": 822,
+      "places": 88,
+      "shard": "venues/market.json",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

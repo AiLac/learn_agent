@@ -1,0 +1,2871 @@
+{
+  "attribution": "香港特别行政区政府食物环境卫生署。数据来自 DATA.GOV.HK。原始资料知识产权归香港特别行政区政府及相关机构。",
+  "terms": [
+    "https://data.gov.hk/en/terms-and-conditions"
+  ],
+  "source": {
+    "id": "market",
+    "label": "公众街市及熟食市场",
+    "provider": "香港特别行政区政府食物环境卫生署",
+    "catalog": "https://data.gov.hk/en-data/dataset/hk-fehd-fehdmsms-market-information",
+    "url": "https://www.fehd.gov.hk/english/pleasant_environment/tidy_market/marketInfo.xml",
+    "raw_sha256": "1b2a49f655577e4f732556ce9a8481e3414cfe6d8516281054719ab43cdbb4f4",
+    "source_rows": 822,
+    "places": 88,
+    "shard": "venues/market.json",
+    "retrieved_on": "2026-11-09"
+  },
+  "records": [
+    {
+      "id": "MARKET-0166ad6748d9",
+      "category": "market",
+      "name": "食环署东日街市",
+      "name_tc": "食環署東日街市",
+      "name_en": "FEHD SUNLIGHT MARKET",
+      "district": "离岛",
+      "address": "东涌富东街",
+      "longitude": 113.942635,
+      "latitude": 22.28948,
+      "evidence": [
+        {
+          "id": "source:MARKET-0166ad6748d9",
+          "source_ref": "market",
+          "source_key": "食環署東日街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、食物类湿货、烧味及/或卤味、鱼、食物类干货、鲜肉、非食物类干货、熟食、蔬菜。市场或熟食中心时段备注：上午7时正至晚上8时正",
+          "hours_note": "上午7时正至晚上8时正",
+          "stalls": {
+            "非食物类湿货": 1,
+            "食物类湿货": 2,
+            "烧味及/或卤味": 1,
+            "鱼": 1,
+            "食物类干货": 2,
+            "鲜肉": 4,
+            "非食物类干货": 6,
+            "熟食": 4,
+            "蔬菜": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-07c68fd86994",
+      "category": "market",
+      "name": "深井临时街市",
+      "name_tc": "深井臨時街市",
+      "name_en": "SHAM TSENG TEMPORARY MARKET",
+      "district": "荃湾",
+      "address": "新界深井GLA-TTW 594",
+      "longitude": 114.0586,
+      "latitude": 22.36809,
+      "evidence": [
+        {
+          "id": "source:MARKET-07c68fd86994",
+          "source_ref": "market",
+          "source_key": "深井臨時街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类干货、鱼、食物类干货、水果、鲜肉、食物类湿货、冷藏肉/食品、熟食。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "非食物类干货": 4,
+            "鱼": 1,
+            "食物类干货": 2,
+            "水果": 2,
+            "鲜肉": 1,
+            "食物类湿货": 2,
+            "冷藏肉/食品": 2,
+            "熟食": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-0b26d72a6383",
+      "category": "market",
+      "name": "洪祥熟食市场",
+      "name_tc": "洪祥熟食市場",
+      "name_en": "HUNG CHEUNG COOKED FOOD MARKET",
+      "district": "屯门",
+      "address": "新界屯门新力街5号",
+      "longitude": 113.969,
+      "latitude": 22.39305,
+      "evidence": [
+        {
+          "id": "source:MARKET-0b26d72a6383",
+          "source_ref": "market",
+          "source_key": "洪祥熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-0d093d06eb03",
+      "category": "market",
+      "name": "灯笼洲街市",
+      "name_tc": "燈籠洲街市",
+      "name_en": "TANG LUNG CHAU MARKET",
+      "district": "湾仔",
+      "address": "香港铜锣湾渣甸街59号",
+      "longitude": 114.185641,
+      "latitude": 22.279008,
+      "evidence": [
+        {
+          "id": "source:MARKET-0d093d06eb03",
+          "source_ref": "market",
+          "source_key": "燈籠洲街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鱼、非食物类干货、冷藏肉/食品、食物类干货、水果、家禽、湿货、鲜肉。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鱼": 6,
+            "非食物类干货": 2,
+            "冷藏肉/食品": 1,
+            "食物类干货": 2,
+            "水果": 3,
+            "家禽": 1,
+            "湿货": 7,
+            "鲜肉": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-0da128122574",
+      "category": "market",
+      "name": "宝湖道街市",
+      "name_tc": "寶湖道街市",
+      "name_en": "PLOVER COVE ROAD MARKET",
+      "district": "大埔",
+      "address": "新界大埔宝湖道3号地下",
+      "longitude": 114.168479,
+      "latitude": 22.449502,
+      "evidence": [
+        {
+          "id": "source:MARKET-0da128122574",
+          "source_ref": "market",
+          "source_key": "寶湖道街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、服务行业、水果、其他、手工艺类、食物类湿货、食物类干货、鲜肉、非食物类干货、烧味及/或卤味、冷藏肉/食品、鱼。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "非食物类湿货": 35,
+            "服务行业": 13,
+            "水果": 3,
+            "其他": 4,
+            "手工艺类": 1,
+            "食物类湿货": 22,
+            "食物类干货": 5,
+            "鲜肉": 3,
+            "非食物类干货": 81,
+            "烧味及/或卤味": 2,
+            "冷藏肉/食品": 11,
+            "鱼": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-0dfbf9ed8b2f",
+      "category": "market",
+      "name": "骆克道街市",
+      "name_tc": "駱克道街市",
+      "name_en": "LOCKHART ROAD MARKET",
+      "district": "湾仔",
+      "address": "香港湾仔轩尼诗道225号",
+      "longitude": 114.175458,
+      "latitude": 22.278166,
+      "evidence": [
+        {
+          "id": "source:MARKET-0dfbf9ed8b2f",
+          "source_ref": "market",
+          "source_key": "駱克道街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括干货、非食物类干货、蔬菜、烧味及/或卤味、家禽、冷藏肉/食品、贮物室、食物类湿货、鲜肉、鱼、熟食、湿货、食物类干货、水果。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "干货": 41,
+            "非食物类干货": 17,
+            "蔬菜": 12,
+            "烧味及/或卤味": 1,
+            "家禽": 4,
+            "冷藏肉/食品": 2,
+            "贮物室": 5,
+            "食物类湿货": 10,
+            "鲜肉": 3,
+            "鱼": 7,
+            "熟食": 15,
+            "湿货": 1,
+            "食物类干货": 3,
+            "水果": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-119d4911d210",
+      "category": "market",
+      "name": "鹅颈街市",
+      "name_tc": "鵝頸街市",
+      "name_en": "BOWRINGTON ROAD MARKET",
+      "district": "湾仔",
+      "address": "香港湾仔宝灵顿道21号",
+      "longitude": 114.18053,
+      "latitude": 22.278092,
+      "evidence": [
+        {
+          "id": "source:MARKET-119d4911d210",
+          "source_ref": "market",
+          "source_key": "鵝頸街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类湿货、熟食、鲜肉、湿货、非食物类干货、食物类干货、水果、干货 / 湿货、家禽、非食物类湿货、鱼、冷藏肉/食品、干货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "食物类湿货": 10,
+            "熟食": 8,
+            "鲜肉": 9,
+            "湿货": 86,
+            "非食物类干货": 14,
+            "食物类干货": 6,
+            "水果": 1,
+            "干货 / 湿货": 2,
+            "家禽": 2,
+            "非食物类湿货": 3,
+            "鱼": 11,
+            "冷藏肉/食品": 5,
+            "干货": 38
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-141d4411c6b8",
+      "category": "market",
+      "name": "北河街街市",
+      "name_tc": "北河街街市",
+      "name_en": "PEI HO STREET MARKET",
+      "district": "深水埗",
+      "address": "九龙深水埗基隆街333号北河街市政大厦",
+      "longitude": 114.161,
+      "latitude": 22.32952,
+      "evidence": [
+        {
+          "id": "source:MARKET-141d4411c6b8",
+          "source_ref": "market",
+          "source_key": "北河街街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鱼、食物类干货、冷藏肉/食品、非食物类干货、熟食、家禽、水果、服务行业、报纸、生雪、食物类湿货、非食物类湿货、鲜肉、蔬菜、手工艺类。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "鱼": 29,
+            "食物类干货": 25,
+            "冷藏肉/食品": 2,
+            "非食物类干货": 3,
+            "熟食": 20,
+            "家禽": 15,
+            "水果": 13,
+            "服务行业": 4,
+            "报纸": 1,
+            "生雪": 1,
+            "食物类湿货": 10,
+            "非食物类湿货": 5,
+            "鲜肉": 6,
+            "蔬菜": 58,
+            "手工艺类": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-1480ac271e31",
+      "category": "market",
+      "name": "渔湾街市",
+      "name_tc": "漁灣街市",
+      "name_en": "YUE WAN MARKET",
+      "district": "东区",
+      "address": "香港柴湾怡丰街33号",
+      "longitude": 114.24058,
+      "latitude": 22.26544,
+      "evidence": [
+        {
+          "id": "source:MARKET-1480ac271e31",
+          "source_ref": "market",
+          "source_key": "漁灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鱼、食物类干货、非食物类干货、鲜肉、服务行业、食物类湿货、非食物类湿货、干货、熟食、湿货、家禽、冷藏肉/食品、烧味及/或卤味。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "鱼": 19,
+            "食物类干货": 7,
+            "非食物类干货": 12,
+            "鲜肉": 7,
+            "服务行业": 2,
+            "食物类湿货": 18,
+            "非食物类湿货": 2,
+            "干货": 110,
+            "熟食": 18,
+            "湿货": 93,
+            "家禽": 2,
+            "冷藏肉/食品": 4,
+            "烧味及/或卤味": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-16af74507862",
+      "category": "market",
+      "name": "柴湾街市",
+      "name_tc": "柴灣街市",
+      "name_en": "CHAI WAN MARKET",
+      "district": "东区",
+      "address": "香港柴湾柴湾道338号柴湾市政大厦",
+      "longitude": 114.23996,
+      "latitude": 22.26341,
+      "evidence": [
+        {
+          "id": "source:MARKET-16af74507862",
+          "source_ref": "market",
+          "source_key": "柴灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括冷藏肉/食品、鲜肉、食物类湿货、食物类干货、鱼、蔬菜、家禽、非食物类干货、熟食、水果、非食物类湿货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "冷藏肉/食品": 4,
+            "鲜肉": 8,
+            "食物类湿货": 43,
+            "食物类干货": 16,
+            "鱼": 11,
+            "蔬菜": 11,
+            "家禽": 2,
+            "非食物类干货": 22,
+            "熟食": 6,
+            "水果": 7,
+            "非食物类湿货": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-196c5a83f75a",
+      "category": "market",
+      "name": "西贡街市",
+      "name_tc": "西貢街市",
+      "name_en": "SAI KUNG MARKET",
+      "district": "西贡",
+      "address": "新界西贡宜春街67号",
+      "longitude": 114.27216,
+      "latitude": 22.38059,
+      "evidence": [
+        {
+          "id": "source:MARKET-196c5a83f75a",
+          "source_ref": "market",
+          "source_key": "西貢街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括干货、烧味及/或卤味、报纸、非食物类干货、肉类、家禽、食物类湿货、鱼、生雪、鲜肉、其他、冷藏肉/食品、服务行业、湿货、水果、食物类干货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "干货": 40,
+            "烧味及/或卤味": 4,
+            "报纸": 1,
+            "非食物类干货": 10,
+            "肉类": 2,
+            "家禽": 2,
+            "食物类湿货": 14,
+            "鱼": 30,
+            "生雪": 1,
+            "鲜肉": 7,
+            "其他": 1,
+            "冷藏肉/食品": 4,
+            "服务行业": 2,
+            "湿货": 47,
+            "水果": 3,
+            "食物类干货": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-19a167c472e9",
+      "category": "market",
+      "name": "南朗山道熟食市场",
+      "name_tc": "南朗山道熟食市場",
+      "name_en": "NAM LONG SHAN ROAD COOKED FOOD MARKET",
+      "district": "南区",
+      "address": "香港黄竹坑南朗山道1号",
+      "longitude": 114.16646,
+      "latitude": 22.24743,
+      "evidence": [
+        {
+          "id": "source:MARKET-19a167c472e9",
+          "source_ref": "market",
+          "source_key": "南朗山道熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-227802260d9d",
+      "category": "market",
+      "name": "皇后街熟食市场",
+      "name_tc": "皇后街熟食市場",
+      "name_en": "QUEEN STREET COOKED FOOD MARKET",
+      "district": "中西区",
+      "address": "香港上环德辅道西38号1楼",
+      "longitude": 114.14743,
+      "latitude": 22.28725,
+      "evidence": [
+        {
+          "id": "source:MARKET-227802260d9d",
+          "source_ref": "market",
+          "source_key": "皇后街熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-265bcbbb36ef",
+      "category": "market",
+      "name": "蓝地街市",
+      "name_tc": "藍地街市",
+      "name_en": "LAM TEI MARKET",
+      "district": "屯门",
+      "address": "新界屯门蓝地大街62号",
+      "longitude": 113.9841,
+      "latitude": 22.4188,
+      "evidence": [
+        {
+          "id": "source:MARKET-265bcbbb36ef",
+          "source_ref": "market",
+          "source_key": "藍地街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉、鱼。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鲜肉": 2,
+            "鱼": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-273af96a5ccb",
+      "category": "market",
+      "name": "海防道临时街市",
+      "name_tc": "海防道臨時街市",
+      "name_en": "HAIPHONG ROAD TEMPORARY MARKET",
+      "district": "油尖旺",
+      "address": "九龙尖沙咀海防道28号",
+      "longitude": 114.17,
+      "latitude": 22.297718,
+      "evidence": [
+        {
+          "id": "source:MARKET-273af96a5ccb",
+          "source_ref": "market",
+          "source_key": "海防道臨時街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类湿货、家禽、干货、鲜肉、食物类干货、鱼、湿货、蔬菜、贮物室、其他、冷藏肉/食品、非食物类湿货、水果。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "食物类湿货": 22,
+            "家禽": 2,
+            "干货": 1,
+            "鲜肉": 5,
+            "食物类干货": 1,
+            "鱼": 9,
+            "湿货": 1,
+            "蔬菜": 3,
+            "贮物室": 2,
+            "其他": 2,
+            "冷藏肉/食品": 3,
+            "非食物类湿货": 7,
+            "水果": 1
+          }
+        }
+      ],
+      "source_district": "油尖"
+    },
+    {
+      "id": "MARKET-289a6f6c470e",
+      "category": "market",
+      "name": "食环署天幕街市",
+      "name_tc": "食環署天幕街市",
+      "name_en": "FEHD SKYLIGHT MARKET",
+      "district": "元朗",
+      "address": "新界元朗天水围天秀路",
+      "longitude": 114.0016,
+      "latitude": 22.4651,
+      "evidence": [
+        {
+          "id": "source:MARKET-289a6f6c470e",
+          "source_ref": "market",
+          "source_key": "食環署天幕街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括蔬菜、烧味及/或卤味、水果、鲜肉、熟食、食物类湿货、非食物类干货、冷藏肉/食品、家禽、鱼、食物类干货。市场或熟食中心时段备注：上午7时正至晚上8时正",
+          "hours_note": "上午7时正至晚上8时正",
+          "stalls": {
+            "蔬菜": 6,
+            "烧味及/或卤味": 2,
+            "水果": 4,
+            "鲜肉": 4,
+            "熟食": 4,
+            "食物类湿货": 2,
+            "非食物类干货": 2,
+            "冷藏肉/食品": 5,
+            "家禽": 1,
+            "鱼": 6,
+            "食物类干货": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-28c761062f8b",
+      "category": "market",
+      "name": "石塘咀街市",
+      "name_tc": "石塘咀街市",
+      "name_en": "SHEK TONG TSUI MARKET",
+      "district": "中西区",
+      "address": "香港石塘咀皇后大道西470号 石塘咀市政大厦",
+      "longitude": 114.136164,
+      "latitude": 22.285552,
+      "evidence": [
+        {
+          "id": "source:MARKET-28c761062f8b",
+          "source_ref": "market",
+          "source_key": "石塘咀街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食、服务行业、第二类货品、蔬菜、食物类湿货、食物类干货、水果、手工艺类、鱼、杂货、生雪、冷藏肉/食品、鲜肉、非食物类干货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "熟食": 13,
+            "服务行业": 1,
+            "第二类货品": 10,
+            "蔬菜": 43,
+            "食物类湿货": 6,
+            "食物类干货": 2,
+            "水果": 1,
+            "手工艺类": 1,
+            "鱼": 9,
+            "杂货": 1,
+            "生雪": 1,
+            "冷藏肉/食品": 2,
+            "鲜肉": 3,
+            "非食物类干货": 14
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-29d2bf2bec01",
+      "category": "market",
+      "name": "油麻地街市",
+      "name_tc": "油麻地街市",
+      "name_en": "YAU MA TEI MARKET",
+      "district": "油尖旺",
+      "address": "九龙油麻地甘肃街20号",
+      "longitude": 114.16936,
+      "latitude": 22.3085,
+      "evidence": [
+        {
+          "id": "source:MARKET-29d2bf2bec01",
+          "source_ref": "market",
+          "source_key": "油麻地街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括贮物室、非食物类干货、家禽、食物类干货、湿货、干货、蔬菜、水果、食物类湿货、生雪、冷冻室、鲜肉、冷藏肉/食品、鱼。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "贮物室": 1,
+            "非食物类干货": 1,
+            "家禽": 20,
+            "食物类干货": 3,
+            "湿货": 8,
+            "干货": 1,
+            "蔬菜": 5,
+            "水果": 2,
+            "食物类湿货": 3,
+            "生雪": 1,
+            "冷冻室": 1,
+            "鲜肉": 11,
+            "冷藏肉/食品": 2,
+            "鱼": 48
+          }
+        }
+      ],
+      "source_district": "油尖"
+    },
+    {
+      "id": "MARKET-2b7b6bbbb8db",
+      "category": "market",
+      "name": "火炭东熟食市场",
+      "name_tc": "火炭東熟食市場",
+      "name_en": "FO TAN COOKED FOOD MARKET (EAST)",
+      "district": "沙田",
+      "address": "新界火炭山尾街",
+      "longitude": 114.19428,
+      "latitude": 22.39679,
+      "evidence": [
+        {
+          "id": "source:MARKET-2b7b6bbbb8db",
+          "source_ref": "market",
+          "source_key": "火炭東熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 22
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-2cd02a1b6b89",
+      "category": "market",
+      "name": "爱秩序湾街市",
+      "name_tc": "愛秩序灣街市",
+      "name_en": "ALDRICH BAY MARKET",
+      "district": "东区",
+      "address": "香港爱秩序湾道15号",
+      "longitude": 114.22719,
+      "latitude": 22.28008,
+      "evidence": [
+        {
+          "id": "source:MARKET-2cd02a1b6b89",
+          "source_ref": "market",
+          "source_key": "愛秩序灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食、冷藏肉/食品、食物类湿货、蔬菜、食物类干货、鱼、服务行业、水果、非食物类干货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨12时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨12时正)",
+          "stalls": {
+            "熟食": 2,
+            "冷藏肉/食品": 6,
+            "食物类湿货": 10,
+            "蔬菜": 1,
+            "食物类干货": 4,
+            "鱼": 4,
+            "服务行业": 3,
+            "水果": 5,
+            "非食物类干货": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-325cefa08526",
+      "category": "market",
+      "name": "建业街熟食市场",
+      "name_tc": "建業街熟食市場",
+      "name_en": "KIN YIP STREET COOKED FOOD MARKET",
+      "district": "元朗",
+      "address": "新界元朗建业街",
+      "longitude": 114.031702,
+      "latitude": 22.44327,
+      "evidence": [
+        {
+          "id": "source:MARKET-325cefa08526",
+          "source_ref": "market",
+          "source_key": "建業街熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括水果、熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "水果": 2,
+            "熟食": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-36c5806107f8",
+      "category": "market",
+      "name": "鸭脷洲街市",
+      "name_tc": "鴨脷洲街市",
+      "name_en": "AP LEI CHAU MARKET",
+      "district": "南区",
+      "address": "香港鸭脷洲洪圣街8号 鸭脷洲市政大厦",
+      "longitude": 114.15544,
+      "latitude": 22.24452,
+      "evidence": [
+        {
+          "id": "source:MARKET-36c5806107f8",
+          "source_ref": "market",
+          "source_key": "鴨脷洲街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类干货、食物类湿货、报纸、非食物类湿货、服务行业、冷藏肉/食品、蔬菜、熟食、鲜肉、非食物类干货、水果、家禽、鱼。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "食物类干货": 6,
+            "食物类湿货": 4,
+            "报纸": 1,
+            "非食物类湿货": 1,
+            "服务行业": 4,
+            "冷藏肉/食品": 4,
+            "蔬菜": 3,
+            "熟食": 6,
+            "鲜肉": 7,
+            "非食物类干货": 7,
+            "水果": 2,
+            "家禽": 2,
+            "鱼": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-388be43649b0",
+      "category": "market",
+      "name": "黄泥涌街市",
+      "name_tc": "黃泥涌街市",
+      "name_en": "WONG NAI CHUNG MARKET",
+      "district": "湾仔",
+      "address": "香港跑马地毓秀街2号",
+      "longitude": 114.185806,
+      "latitude": 22.268856,
+      "evidence": [
+        {
+          "id": "source:MARKET-388be43649b0",
+          "source_ref": "market",
+          "source_key": "黃泥涌街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括湿货、鲜肉、鱼、服务行业、冷藏肉/食品、家禽、食物类湿货、熟食、非食物类湿货、食物类干货、干货、蔬菜、水果、非食物类干货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正) (黄泥涌街市熟食中心暂时关闭以进行改善工程。)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正) (黄泥涌街市熟食中心暂时关闭以进行改善工程。)",
+          "stalls": {
+            "湿货": 1,
+            "鲜肉": 2,
+            "鱼": 4,
+            "服务行业": 2,
+            "冷藏肉/食品": 1,
+            "家禽": 1,
+            "食物类湿货": 7,
+            "熟食": 6,
+            "非食物类湿货": 1,
+            "食物类干货": 2,
+            "干货": 3,
+            "蔬菜": 8,
+            "水果": 8,
+            "非食物类干货": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-3bcab31b7632",
+      "category": "market",
+      "name": "电气道街市",
+      "name_tc": "電氣道街市",
+      "name_en": "ELECTRIC ROAD MARKET",
+      "district": "东区",
+      "address": "香港炮台山电气道229号电气道市政大厦",
+      "longitude": 114.193552,
+      "latitude": 22.289556,
+      "evidence": [
+        {
+          "id": "source:MARKET-3bcab31b7632",
+          "source_ref": "market",
+          "source_key": "電氣道街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、熟食、服务行业、报纸、鲜肉、食物类干货、非食物类干货、杂货、水果、烧味及/或卤味、食物类湿货、鱼。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "非食物类湿货": 1,
+            "熟食": 4,
+            "服务行业": 1,
+            "报纸": 1,
+            "鲜肉": 1,
+            "食物类干货": 8,
+            "非食物类干货": 13,
+            "杂货": 6,
+            "水果": 9,
+            "烧味及/或卤味": 1,
+            "食物类湿货": 3,
+            "鱼": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-40439e246b54",
+      "category": "market",
+      "name": "青衣街市",
+      "name_tc": "青衣街市",
+      "name_en": "TSING YI MARKET",
+      "district": "葵青",
+      "address": "新界青衣青绿街38号青衣综合大楼地下",
+      "longitude": 114.10656,
+      "latitude": 22.35403,
+      "evidence": [
+        {
+          "id": "source:MARKET-40439e246b54",
+          "source_ref": "market",
+          "source_key": "青衣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括服务行业、水果、冷藏肉/食品、鱼、鲜肉、非食物类干货、家禽、烧味及/或卤味、食物类干货、食物类湿货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "服务行业": 2,
+            "水果": 4,
+            "冷藏肉/食品": 4,
+            "鱼": 7,
+            "鲜肉": 5,
+            "非食物类干货": 11,
+            "家禽": 1,
+            "烧味及/或卤味": 2,
+            "食物类干货": 12,
+            "食物类湿货": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-40a6fe214466",
+      "category": "market",
+      "name": "香车街街市",
+      "name_tc": "香車街街市",
+      "name_en": "HEUNG CHE STREET MARKET",
+      "district": "荃湾",
+      "address": "新界荃湾曹公街8号",
+      "longitude": 114.11151,
+      "latitude": 22.37352,
+      "evidence": [
+        {
+          "id": "source:MARKET-40a6fe214466",
+          "source_ref": "market",
+          "source_key": "香車街街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括烧味及/或卤味、食物类干货、服务行业、非食物类湿货、水果、食物类湿货、鱼、非食物类干货、生雪、鲜肉、冷藏肉/食品、家禽、熟食。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "烧味及/或卤味": 3,
+            "食物类干货": 18,
+            "服务行业": 2,
+            "非食物类湿货": 5,
+            "水果": 20,
+            "食物类湿货": 36,
+            "鱼": 18,
+            "非食物类干货": 24,
+            "生雪": 1,
+            "鲜肉": 10,
+            "冷藏肉/食品": 1,
+            "家禽": 1,
+            "熟食": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-46ee678b7e48",
+      "category": "market",
+      "name": "荃湾街市",
+      "name_tc": "荃灣街市",
+      "name_en": "TSUEN WAN MARKET",
+      "district": "荃湾",
+      "address": "新界荃湾众安街25号",
+      "longitude": 114.11724,
+      "latitude": 22.37139,
+      "evidence": [
+        {
+          "id": "source:MARKET-46ee678b7e48",
+          "source_ref": "market",
+          "source_key": "荃灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类干货、服务行业、家禽、鱼、食物类湿货、冷藏肉/食品、食物类干货、鲜肉、水果、其他、非食物类湿货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "非食物类干货": 45,
+            "服务行业": 1,
+            "家禽": 3,
+            "鱼": 10,
+            "食物类湿货": 135,
+            "冷藏肉/食品": 3,
+            "食物类干货": 35,
+            "鲜肉": 18,
+            "水果": 23,
+            "其他": 2,
+            "非食物类湿货": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-4d1448a314de",
+      "category": "market",
+      "name": "大埔墟街市",
+      "name_tc": "大埔墟街市",
+      "name_en": "TAI PO HUI MARKET",
+      "district": "大埔",
+      "address": "新界大埔乡事会街8号大埔综合大楼地下、一楼及二楼",
+      "longitude": 114.1664,
+      "latitude": 22.4465,
+      "evidence": [
+        {
+          "id": "source:MARKET-4d1448a314de",
+          "source_ref": "market",
+          "source_key": "大埔墟街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类湿货、贮物室、非食物类湿货、鱼、烧味及/或卤味、家禽、非食物类干货、食物类干货、鲜肉、冷藏肉/食品、熟食、报纸、服务行业、水果。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "食物类湿货": 51,
+            "贮物室": 11,
+            "非食物类湿货": 4,
+            "鱼": 62,
+            "烧味及/或卤味": 6,
+            "家禽": 5,
+            "非食物类干货": 39,
+            "食物类干货": 28,
+            "鲜肉": 28,
+            "冷藏肉/食品": 15,
+            "熟食": 40,
+            "报纸": 1,
+            "服务行业": 5,
+            "水果": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-4f96657b5b90",
+      "category": "market",
+      "name": "梅窝熟食市场",
+      "name_tc": "梅窩熟食市場",
+      "name_en": "MUI WO COOKED FOOD MARKET",
+      "district": "离岛",
+      "address": "大屿山梅窝梅窝码头路",
+      "longitude": 114.00095,
+      "latitude": 22.26588,
+      "evidence": [
+        {
+          "id": "source:MARKET-4f96657b5b90",
+          "source_ref": "market",
+          "source_key": "梅窩熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括干货、熟食。市场或熟食中心时段备注：上午6时正凌晨2时正",
+          "hours_note": "上午6时正凌晨2时正",
+          "stalls": {
+            "干货": 3,
+            "熟食": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-501831b6f9e2",
+      "category": "market",
+      "name": "北葵涌街市",
+      "name_tc": "北葵涌街市",
+      "name_en": "NORTH KWAI CHUNG MARKET",
+      "district": "葵青",
+      "address": "新界葵涌石荫路116号",
+      "longitude": 114.13885,
+      "latitude": 22.37043,
+      "evidence": [
+        {
+          "id": "source:MARKET-501831b6f9e2",
+          "source_ref": "market",
+          "source_key": "北葵涌街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉、报纸、非食物类干货、食物类干货、非食物类湿货、水果、食物类湿货、家禽、冷藏肉/食品、鱼。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鲜肉": 5,
+            "报纸": 1,
+            "非食物类干货": 27,
+            "食物类干货": 19,
+            "非食物类湿货": 6,
+            "水果": 11,
+            "食物类湿货": 37,
+            "家禽": 1,
+            "冷藏肉/食品": 3,
+            "鱼": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-518d8a43a03a",
+      "category": "market",
+      "name": "新墟街市",
+      "name_tc": "新墟街市",
+      "name_en": "SAN HUI MARKET",
+      "district": "屯门",
+      "address": "新界屯门河傍街180号",
+      "longitude": 113.97585,
+      "latitude": 22.39732,
+      "evidence": [
+        {
+          "id": "source:MARKET-518d8a43a03a",
+          "source_ref": "market",
+          "source_key": "新墟街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括水果、食物类干货、冷藏肉/食品、食物类湿货、家禽、生雪、鱼、非食物类干货、非食物类湿货、鲜肉、烧味及/或卤味。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "水果": 14,
+            "食物类干货": 41,
+            "冷藏肉/食品": 11,
+            "食物类湿货": 96,
+            "家禽": 4,
+            "生雪": 1,
+            "鱼": 30,
+            "非食物类干货": 52,
+            "非食物类湿货": 8,
+            "鲜肉": 15,
+            "烧味及/或卤味": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-52013a78371b",
+      "category": "market",
+      "name": "柴湾角熟食市场",
+      "name_tc": "柴灣角熟食市場",
+      "name_en": "CHAI WAN KOK COOKED FOOD MARKET",
+      "district": "荃湾",
+      "address": "新界荃湾柴湾角街4号A",
+      "longitude": 114.1057,
+      "latitude": 22.3741,
+      "evidence": [
+        {
+          "id": "source:MARKET-52013a78371b",
+          "source_ref": "market",
+          "source_key": "柴灣角熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-582586630d01",
+      "category": "market",
+      "name": "吉胜街熟食市场",
+      "name_tc": "吉勝街熟食市場",
+      "name_en": "KUT SHING STREET COOKED FOOD MARKET",
+      "district": "东区",
+      "address": "香港吉胜街10号(近祥利街17号后面)",
+      "longitude": 114.2355,
+      "latitude": 22.26475,
+      "evidence": [
+        {
+          "id": "source:MARKET-582586630d01",
+          "source_ref": "market",
+          "source_key": "吉勝街熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-6158ce363045",
+      "category": "market",
+      "name": "大围街市",
+      "name_tc": "大圍街市",
+      "name_en": "TAI WAI MARKET",
+      "district": "沙田",
+      "address": "新界沙田大围积辉街2-18号金禧花园",
+      "longitude": 114.1777,
+      "latitude": 22.3745,
+      "evidence": [
+        {
+          "id": "source:MARKET-6158ce363045",
+          "source_ref": "market",
+          "source_key": "大圍街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括冷藏肉/食品、草药师、手工艺类、非食物类干货、家禽、食物类干货、鱼、烧味及/或卤味、湿货、报纸、非食物类湿货、食物类湿货、鲜肉。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "冷藏肉/食品": 10,
+            "草药师": 2,
+            "手工艺类": 4,
+            "非食物类干货": 36,
+            "家禽": 2,
+            "食物类干货": 24,
+            "鱼": 20,
+            "烧味及/或卤味": 4,
+            "湿货": 44,
+            "报纸": 1,
+            "非食物类湿货": 4,
+            "食物类湿货": 12,
+            "鲜肉": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-61abc92517f9",
+      "category": "market",
+      "name": "梅窝街市",
+      "name_tc": "梅窩街市",
+      "name_en": "MUI WO MARKET",
+      "district": "离岛",
+      "address": "大屿山梅窝银石街9号",
+      "longitude": 113.9965,
+      "latitude": 22.267,
+      "evidence": [
+        {
+          "id": "source:MARKET-61abc92517f9",
+          "source_ref": "market",
+          "source_key": "梅窩街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括报纸、冷藏肉/食品、鱼、食物类湿货、非食物类干货、烧味及/或卤味、食物类干货、鲜肉、湿货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "报纸": 1,
+            "冷藏肉/食品": 2,
+            "鱼": 5,
+            "食物类湿货": 10,
+            "非食物类干货": 2,
+            "烧味及/或卤味": 2,
+            "食物类干货": 1,
+            "鲜肉": 1,
+            "湿货": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-67e6ba547cf6",
+      "category": "market",
+      "name": "火炭西熟食市场",
+      "name_tc": "火炭西熟食市場",
+      "name_en": "FO TAN COOKED FOOD MARKET (WEST)",
+      "district": "沙田",
+      "address": "新界火炭山尾街",
+      "longitude": 114.1928,
+      "latitude": 22.39804,
+      "evidence": [
+        {
+          "id": "source:MARKET-67e6ba547cf6",
+          "source_ref": "market",
+          "source_key": "火炭西熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-69a7d8509768",
+      "category": "market",
+      "name": "沙头角街市",
+      "name_tc": "沙頭角街市",
+      "name_en": "SHA TAU KOK MARKET",
+      "district": "北区",
+      "address": "新界沙头角顺隆街23号",
+      "longitude": 114.22495,
+      "latitude": 22.54464,
+      "evidence": [
+        {
+          "id": "source:MARKET-69a7d8509768",
+          "source_ref": "market",
+          "source_key": "沙頭角街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鱼、水果、熟食、食物类湿货、冷藏肉/食品、报纸、生雪、食物类干货、非食物类干货、烧味及/或卤味。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至晚上11时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至晚上11时正)",
+          "stalls": {
+            "鱼": 25,
+            "水果": 3,
+            "熟食": 8,
+            "食物类湿货": 2,
+            "冷藏肉/食品": 3,
+            "报纸": 1,
+            "生雪": 1,
+            "食物类干货": 9,
+            "非食物类干货": 6,
+            "烧味及/或卤味": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-69b969cd02bd",
+      "category": "market",
+      "name": "骏业熟食市场",
+      "name_tc": "駿業熟食市場",
+      "name_en": "TSUN YIP COOKED FOOD MARKET",
+      "district": "观塘",
+      "address": "九龙观塘骏业街67号",
+      "longitude": 114.22284,
+      "latitude": 22.31181,
+      "evidence": [
+        {
+          "id": "source:MARKET-69b969cd02bd",
+          "source_ref": "market",
+          "source_key": "駿業熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨12时正",
+          "hours_note": "上午6时正至凌晨12时正",
+          "stalls": {
+            "熟食": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-6a89206c3668",
+      "category": "market",
+      "name": "沙田街市",
+      "name_tc": "沙田街市",
+      "name_en": "SHA TIN MARKET",
+      "district": "沙田",
+      "address": "新界沙田沙田正街20号",
+      "longitude": 114.189915,
+      "latitude": 22.38403,
+      "evidence": [
+        {
+          "id": "source:MARKET-6a89206c3668",
+          "source_ref": "market",
+          "source_key": "沙田街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、生雪、湿货、食物类湿货、鱼、干货、鲜肉、食物类干货、报纸、冷藏肉/食品、家禽、非食物类干货、烧味及/或卤味。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "非食物类湿货": 2,
+            "生雪": 1,
+            "湿货": 36,
+            "食物类湿货": 14,
+            "鱼": 16,
+            "干货": 2,
+            "鲜肉": 9,
+            "食物类干货": 12,
+            "报纸": 1,
+            "冷藏肉/食品": 7,
+            "家禽": 2,
+            "非食物类干货": 35,
+            "烧味及/或卤味": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-6fed36cfbd99",
+      "category": "market",
+      "name": "九龙城街市",
+      "name_tc": "九龍城街市",
+      "name_en": "KOWLOON CITY MARKET",
+      "district": "九龙城",
+      "address": "九龙九龙城衙前围道100号 九龙城市政大厦",
+      "longitude": 114.18904,
+      "latitude": 22.32957,
+      "evidence": [
+        {
+          "id": "source:MARKET-6fed36cfbd99",
+          "source_ref": "market",
+          "source_key": "九龍城街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括家禽、非食物类干货、服务行业、食物类干货、烧味及/或卤味、鲜肉、冷藏肉/食品、食物类湿货、非食物类湿货、蔬菜、水果、鱼、熟食、生雪。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "家禽": 5,
+            "非食物类干货": 103,
+            "服务行业": 8,
+            "食物类干货": 40,
+            "烧味及/或卤味": 2,
+            "鲜肉": 15,
+            "冷藏肉/食品": 12,
+            "食物类湿货": 126,
+            "非食物类湿货": 2,
+            "蔬菜": 4,
+            "水果": 26,
+            "鱼": 20,
+            "熟食": 10,
+            "生雪": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-70f1e240acef",
+      "category": "market",
+      "name": "花园街街市",
+      "name_tc": "花園街街市",
+      "name_en": "FA YUEN STREET MARKET",
+      "district": "油尖旺",
+      "address": "九龙旺角花园街123号A 花园街市政大厦",
+      "longitude": 114.17058,
+      "latitude": 22.32077,
+      "evidence": [
+        {
+          "id": "source:MARKET-70f1e240acef",
+          "source_ref": "market",
+          "source_key": "花園街街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括烧味及/或卤味、湿货、食物类湿货、食物类干货、非食物类干货、非食物类湿货、水果、冷藏肉/食品、报纸、家禽、熟食、鲜肉、鱼。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "烧味及/或卤味": 1,
+            "湿货": 21,
+            "食物类湿货": 33,
+            "食物类干货": 28,
+            "非食物类干货": 2,
+            "非食物类湿货": 1,
+            "水果": 5,
+            "冷藏肉/食品": 6,
+            "报纸": 1,
+            "家禽": 1,
+            "熟食": 11,
+            "鲜肉": 6,
+            "鱼": 13
+          }
+        }
+      ],
+      "source_district": "旺角"
+    },
+    {
+      "id": "MARKET-763ae776067f",
+      "category": "market",
+      "name": "同益街市",
+      "name_tc": "同益街市",
+      "name_en": "TUNG YICK MARKET",
+      "district": "元朗",
+      "address": "新界元朗合财街1号地下及1楼",
+      "longitude": 114.03024,
+      "latitude": 22.44365,
+      "evidence": [
+        {
+          "id": "source:MARKET-763ae776067f",
+          "source_ref": "market",
+          "source_key": "同益街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括家禽、生雪、冷藏肉/食品、食物类湿货、水果、烧味及/或卤味、鲜肉、食物类干货、非食物类干货、鱼、非食物类湿货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "家禽": 3,
+            "生雪": 1,
+            "冷藏肉/食品": 5,
+            "食物类湿货": 24,
+            "水果": 6,
+            "烧味及/或卤味": 1,
+            "鲜肉": 22,
+            "食物类干货": 10,
+            "非食物类干货": 13,
+            "鱼": 52,
+            "非食物类湿货": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-77c2df7054c0",
+      "category": "market",
+      "name": "荣芳街街市",
+      "name_tc": "榮芳街街市",
+      "name_en": "WING FONG STREET MARKET",
+      "district": "葵青",
+      "address": "新界葵涌荣芳路15号",
+      "longitude": 114.12748,
+      "latitude": 22.36091,
+      "evidence": [
+        {
+          "id": "source:MARKET-77c2df7054c0",
+          "source_ref": "market",
+          "source_key": "榮芳街街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括冷藏肉/食品、非食物类湿货、水果、鲜肉、食物类湿货、家禽、非食物类干货、贮物室、鱼、食物类干货、生雪。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "冷藏肉/食品": 3,
+            "非食物类湿货": 1,
+            "水果": 4,
+            "鲜肉": 3,
+            "食物类湿货": 11,
+            "家禽": 1,
+            "非食物类干货": 25,
+            "贮物室": 1,
+            "鱼": 7,
+            "食物类干货": 20,
+            "生雪": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-782080f6f325",
+      "category": "market",
+      "name": "大桥街市",
+      "name_tc": "大橋街市",
+      "name_en": "TAI KIU MARKET",
+      "district": "元朗",
+      "address": "新界元朗桥乐坊2号地下",
+      "longitude": 114.02721,
+      "latitude": 22.44538,
+      "evidence": [
+        {
+          "id": "source:MARKET-782080f6f325",
+          "source_ref": "market",
+          "source_key": "大橋街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鱼、水果、非食物类干货、家禽、非食物类湿货、食物类干货、冷藏肉/食品、服务行业、食物类湿货、烧味及/或卤味、鲜肉。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鱼": 40,
+            "水果": 14,
+            "非食物类干货": 88,
+            "家禽": 4,
+            "非食物类湿货": 2,
+            "食物类干货": 36,
+            "冷藏肉/食品": 12,
+            "服务行业": 2,
+            "食物类湿货": 67,
+            "烧味及/或卤味": 3,
+            "鲜肉": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-7ad094098f8e",
+      "category": "market",
+      "name": "安静道生花市场",
+      "name_tc": "安靜道生花市場",
+      "name_en": "ON CHING ROAD FLOWER MARKET",
+      "district": "九龙城",
+      "address": "九龙红磡安静道 世界殡仪馆后面",
+      "longitude": 114.18256,
+      "latitude": 22.30574,
+      "evidence": [
+        {
+          "id": "source:MARKET-7ad094098f8e",
+          "source_ref": "market",
+          "source_key": "安靜道生花市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货。市场或熟食中心时段备注：上午9时正至晚上10时正",
+          "hours_note": "上午9时正至晚上10时正",
+          "stalls": {
+            "非食物类湿货": 13
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-7fe2f5a5ef94",
+      "category": "market",
+      "name": "鲗鱼涌街市",
+      "name_tc": "鰂魚涌街市",
+      "name_en": "QUARRY BAY MARKET",
+      "district": "东区",
+      "address": "香港鲗鱼涌街38号 鲗鱼涌市政大厦",
+      "longitude": 114.21182,
+      "latitude": 22.28372,
+      "evidence": [
+        {
+          "id": "source:MARKET-7fe2f5a5ef94",
+          "source_ref": "market",
+          "source_key": "鰂魚涌街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类湿货、水果、非食物类干货、食物类干货、报纸、熟食、鱼、鲜肉、蔬菜、干货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "食物类湿货": 4,
+            "水果": 6,
+            "非食物类干货": 4,
+            "食物类干货": 1,
+            "报纸": 1,
+            "熟食": 4,
+            "鱼": 4,
+            "鲜肉": 2,
+            "蔬菜": 3,
+            "干货": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-818033130259",
+      "category": "market",
+      "name": "保安道街市",
+      "name_tc": "保安道街市",
+      "name_en": "PO ON ROAD MARKET",
+      "district": "深水埗",
+      "address": "九龙长沙湾保安道325-329号",
+      "longitude": 114.15807,
+      "latitude": 22.33841,
+      "evidence": [
+        {
+          "id": "source:MARKET-818033130259",
+          "source_ref": "market",
+          "source_key": "保安道街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类湿货、家禽、报纸、烧味及/或卤味、服务行业、熟食、鱼、非食物类湿货、干货、冷藏肉/食品、食物类干货、蔬菜、水果、鲜肉、非食物类干货、杂货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "食物类湿货": 50,
+            "家禽": 5,
+            "报纸": 1,
+            "烧味及/或卤味": 1,
+            "服务行业": 11,
+            "熟食": 17,
+            "鱼": 23,
+            "非食物类湿货": 9,
+            "干货": 1,
+            "冷藏肉/食品": 5,
+            "食物类干货": 81,
+            "蔬菜": 59,
+            "水果": 67,
+            "鲜肉": 6,
+            "非食物类干货": 13,
+            "杂货": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-8897319c3ca4",
+      "category": "market",
+      "name": "四山街熟食市场",
+      "name_tc": "四山街熟食市場",
+      "name_en": "SZE SHAN STREET COOKED FOOD MARKET",
+      "district": "观塘",
+      "address": "九龙油塘四山街7号",
+      "longitude": 114.236061,
+      "latitude": 22.294582,
+      "evidence": [
+        {
+          "id": "source:MARKET-8897319c3ca4",
+          "source_ref": "market",
+          "source_key": "四山街熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨12时正",
+          "hours_note": "上午6时正至凌晨12时正",
+          "stalls": {
+            "熟食": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-8e11e4e7f6eb",
+      "category": "market",
+      "name": "荔湾街市",
+      "name_tc": "荔灣街市",
+      "name_en": "LAI WAN MARKET",
+      "district": "深水埗",
+      "address": "九龙美孚荔湾道8号",
+      "longitude": 114.1380455,
+      "latitude": 22.33741147,
+      "evidence": [
+        {
+          "id": "source:MARKET-8e11e4e7f6eb",
+          "source_ref": "market",
+          "source_key": "荔灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括家禽、冷藏肉/食品、鱼、水果、鲜肉、非食物类干货、食物类干货、非食物类湿货、食物类湿货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "家禽": 3,
+            "冷藏肉/食品": 1,
+            "鱼": 5,
+            "水果": 1,
+            "鲜肉": 2,
+            "非食物类干货": 4,
+            "食物类干货": 5,
+            "非食物类湿货": 2,
+            "食物类湿货": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-8f39837d9158",
+      "category": "market",
+      "name": "锦田街市",
+      "name_tc": "錦田街市",
+      "name_en": "KAM TIN MARKET",
+      "district": "元朗",
+      "address": "新界锦田锦田大马路",
+      "longitude": 114.065203,
+      "latitude": 22.440268,
+      "evidence": [
+        {
+          "id": "source:MARKET-8f39837d9158",
+          "source_ref": "market",
+          "source_key": "錦田街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类湿货、烧味及/或卤味、食物类干货、冷藏肉/食品、熟食、鲜肉、鱼。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "食物类湿货": 4,
+            "烧味及/或卤味": 1,
+            "食物类干货": 4,
+            "冷藏肉/食品": 3,
+            "熟食": 5,
+            "鲜肉": 8,
+            "鱼": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-955020f7d9f9",
+      "category": "market",
+      "name": "鲤鱼门街市",
+      "name_tc": "鯉魚門街市",
+      "name_en": "LEI YUE MUN MARKET",
+      "district": "观塘",
+      "address": "九龙油塘鲤鱼门径6号鲤鱼门市政大厦地下",
+      "longitude": 114.23866,
+      "latitude": 22.29211,
+      "evidence": [
+        {
+          "id": "source:MARKET-955020f7d9f9",
+          "source_ref": "market",
+          "source_key": "鯉魚門街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鱼、鲜肉、干货、服务行业、其他、报纸、食物类干货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鱼": 3,
+            "鲜肉": 2,
+            "干货": 1,
+            "服务行业": 3,
+            "其他": 2,
+            "报纸": 1,
+            "食物类干货": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-9a17032b0573",
+      "category": "market",
+      "name": "流浮山街市",
+      "name_tc": "流浮山街市",
+      "name_en": "LAU FAU SHAN MARKET",
+      "district": "元朗",
+      "address": "新界流浮山正街",
+      "longitude": 113.9825968,
+      "latitude": 22.46850331,
+      "evidence": [
+        {
+          "id": "source:MARKET-9a17032b0573",
+          "source_ref": "market",
+          "source_key": "流浮山街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉、鱼。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鲜肉": 1,
+            "鱼": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-9dac8c33488e",
+      "category": "market",
+      "name": "官涌街市",
+      "name_tc": "官涌街市",
+      "name_en": "KWUN CHUNG MARKET",
+      "district": "油尖旺",
+      "address": "九龙油麻地宝灵街17号官涌市政大厦",
+      "longitude": 114.1683,
+      "latitude": 22.30454,
+      "evidence": [
+        {
+          "id": "source:MARKET-9dac8c33488e",
+          "source_ref": "market",
+          "source_key": "官涌街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鱼、冷藏肉/食品、鲜肉、生雪、贮物室、家禽、蔬菜、食物类干货、食物类湿货、熟食。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "鱼": 13,
+            "冷藏肉/食品": 12,
+            "鲜肉": 8,
+            "生雪": 1,
+            "贮物室": 4,
+            "家禽": 3,
+            "蔬菜": 27,
+            "食物类干货": 50,
+            "食物类湿货": 1,
+            "熟食": 14
+          }
+        }
+      ],
+      "source_district": "油尖"
+    },
+    {
+      "id": "MARKET-9fa72b8db2f5",
+      "category": "market",
+      "name": "建荣熟食市场",
+      "name_tc": "建榮熟食市場",
+      "name_en": "KIN WING COOKED FOOD MARKET",
+      "district": "屯门",
+      "address": "新界屯门建荣街32号",
+      "longitude": 113.9694,
+      "latitude": 22.3969,
+      "evidence": [
+        {
+          "id": "source:MARKET-9fa72b8db2f5",
+          "source_ref": "market",
+          "source_key": "建榮熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-a2627228686d",
+      "category": "market",
+      "name": "渣华道街市",
+      "name_tc": "渣華道街市",
+      "name_en": "JAVA ROAD MARKET",
+      "district": "东区",
+      "address": "香港北角渣华道99号 渣华道市政大厦",
+      "longitude": 114.199405,
+      "latitude": 22.292323,
+      "evidence": [
+        {
+          "id": "source:MARKET-a2627228686d",
+          "source_ref": "market",
+          "source_key": "渣華道街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括杂货、蔬菜、食物类湿货、家禽、食物类干货、报纸、服务行业、非食物类干货、非食物类湿货、冷藏肉/食品、鲜肉、鱼、熟食、水果。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "杂货": 4,
+            "蔬菜": 8,
+            "食物类湿货": 30,
+            "家禽": 2,
+            "食物类干货": 15,
+            "报纸": 1,
+            "服务行业": 2,
+            "非食物类干货": 2,
+            "非食物类湿货": 6,
+            "冷藏肉/食品": 1,
+            "鲜肉": 3,
+            "鱼": 5,
+            "熟食": 7,
+            "水果": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-a41f4a37c04b",
+      "category": "market",
+      "name": "东源街熟食市场",
+      "name_tc": "東源街熟食市場",
+      "name_en": "TUNG YUEN STREET COOKED FOOD MARKET",
+      "district": "观塘",
+      "address": "九龙油塘东源街与崇和径交界",
+      "longitude": 114.2346,
+      "latitude": 22.29298,
+      "evidence": [
+        {
+          "id": "source:MARKET-a41f4a37c04b",
+          "source_ref": "market",
+          "source_key": "東源街熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨12时正",
+          "hours_note": "上午6时正至凌晨12时正",
+          "stalls": {
+            "熟食": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-a85605543a12",
+      "category": "market",
+      "name": "大角咀街市",
+      "name_tc": "大角咀街市",
+      "name_en": "TAI KOK TSUI MARKET",
+      "district": "油尖旺",
+      "address": "九龙大角咀福全街63号大角咀市政大厦",
+      "longitude": 114.16288,
+      "latitude": 22.32221,
+      "evidence": [
+        {
+          "id": "source:MARKET-a85605543a12",
+          "source_ref": "market",
+          "source_key": "大角咀街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、食物类干货、报纸、家禽、鲜肉、服务行业、鱼、水果、食物类湿货、非食物类干货、烧味及/或卤味、熟食、冷藏肉/食品。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "非食物类湿货": 4,
+            "食物类干货": 16,
+            "报纸": 1,
+            "家禽": 2,
+            "鲜肉": 8,
+            "服务行业": 2,
+            "鱼": 6,
+            "水果": 10,
+            "食物类湿货": 27,
+            "非食物类干货": 14,
+            "烧味及/或卤味": 2,
+            "熟食": 12,
+            "冷藏肉/食品": 4
+          }
+        }
+      ],
+      "source_district": "旺角"
+    },
+    {
+      "id": "MARKET-aa8ccb56f0d0",
+      "category": "market",
+      "name": "葵顺街熟食市场",
+      "name_tc": "葵順街熟食市場",
+      "name_en": "KWAI SHUN STREET COOKED FOOD MARKET",
+      "district": "葵青",
+      "address": "新界葵涌葵顺街2号",
+      "longitude": 114.12415,
+      "latitude": 22.35418,
+      "evidence": [
+        {
+          "id": "source:MARKET-aa8ccb56f0d0",
+          "source_ref": "market",
+          "source_key": "葵順街熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-aff593b60719",
+      "category": "market",
+      "name": "嘉定熟食市场",
+      "name_tc": "嘉定熟食市場",
+      "name_en": "KA TING COOKED FOOD MARKET",
+      "district": "葵青",
+      "address": "新界葵涌嘉定路2号",
+      "longitude": 114.13204,
+      "latitude": 22.35925,
+      "evidence": [
+        {
+          "id": "source:MARKET-aff593b60719",
+          "source_ref": "market",
+          "source_key": "嘉定熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-b05f6281d2e0",
+      "category": "market",
+      "name": "长达路熟食市场",
+      "name_tc": "長達路熟食市場",
+      "name_en": "CHEUNG TAT ROAD COOKED FOOD MARKET",
+      "district": "葵青",
+      "address": "新界青衣长达路32号",
+      "longitude": 114.1097,
+      "latitude": 22.35,
+      "evidence": [
+        {
+          "id": "source:MARKET-b05f6281d2e0",
+          "source_ref": "market",
+          "source_key": "長達路熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-b136ebd5eaea",
+      "category": "market",
+      "name": "坪洲街市",
+      "name_tc": "坪洲街市",
+      "name_en": "PENG CHAU MARKET",
+      "district": "离岛",
+      "address": "坪洲宝坪街2号",
+      "longitude": 114.03819,
+      "latitude": 22.28465,
+      "evidence": [
+        {
+          "id": "source:MARKET-b136ebd5eaea",
+          "source_ref": "market",
+          "source_key": "坪洲街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括干货、冷藏肉/食品、鱼。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "干货": 1,
+            "冷藏肉/食品": 1,
+            "鱼": 13
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-b992cbc23079",
+      "category": "market",
+      "name": "红磡街市",
+      "name_tc": "紅磡街市",
+      "name_en": "HUNG HOM MARKET",
+      "district": "九龙城",
+      "address": "九龙红磡马头围道11号红磡市政大厦",
+      "longitude": 114.18741,
+      "latitude": 22.30733,
+      "evidence": [
+        {
+          "id": "source:MARKET-b992cbc23079",
+          "source_ref": "market",
+          "source_key": "紅磡街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、食物类湿货、熟食、报纸、水果、生雪、干货、蔬菜、鲜肉、家禽、鱼、食物类干货、冷藏肉/食品、非食物类干货、杂货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "非食物类湿货": 5,
+            "食物类湿货": 44,
+            "熟食": 18,
+            "报纸": 1,
+            "水果": 15,
+            "生雪": 1,
+            "干货": 17,
+            "蔬菜": 2,
+            "鲜肉": 19,
+            "家禽": 3,
+            "鱼": 30,
+            "食物类干货": 13,
+            "冷藏肉/食品": 4,
+            "非食物类干货": 16,
+            "杂货": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-b9c9cd0988ea",
+      "category": "market",
+      "name": "仁爱街市",
+      "name_tc": "仁愛街市",
+      "name_en": "YAN OI MARKET",
+      "district": "屯门",
+      "address": "新界屯门青汇街1号",
+      "longitude": 113.98026,
+      "latitude": 22.38812,
+      "evidence": [
+        {
+          "id": "source:MARKET-b9c9cd0988ea",
+          "source_ref": "market",
+          "source_key": "仁愛街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类干货、烧味及/或卤味、水果、非食物类干货、鲜肉、冷藏肉/食品、家禽、鱼、食物类湿货、非食物类湿货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "食物类干货": 15,
+            "烧味及/或卤味": 1,
+            "水果": 1,
+            "非食物类干货": 8,
+            "鲜肉": 5,
+            "冷藏肉/食品": 3,
+            "家禽": 2,
+            "鱼": 15,
+            "食物类湿货": 35,
+            "非食物类湿货": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-bb19f810be45",
+      "category": "market",
+      "name": "大棠道熟食市场",
+      "name_tc": "大棠道熟食市場",
+      "name_en": "TAI TONG ROAD COOKED FOOD MARKET",
+      "district": "元朗",
+      "address": "新界元朗大棠路",
+      "longitude": 114.0286,
+      "latitude": 22.4437,
+      "evidence": [
+        {
+          "id": "source:MARKET-bb19f810be45",
+          "source_ref": "market",
+          "source_key": "大棠道熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括水果、熟食。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "水果": 2,
+            "熟食": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-bcf0aa50cee1",
+      "category": "market",
+      "name": "湾仔街市",
+      "name_tc": "灣仔街市",
+      "name_en": "WAN CHAI MARKET",
+      "district": "湾仔",
+      "address": "香港皇后大道东258号",
+      "longitude": 114.173779,
+      "latitude": 22.275006,
+      "evidence": [
+        {
+          "id": "source:MARKET-bcf0aa50cee1",
+          "source_ref": "market",
+          "source_key": "灣仔街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类湿货、湿货、鱼、水果、鲜肉、冷藏肉/食品、蔬菜。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "食物类湿货": 7,
+            "湿货": 1,
+            "鱼": 9,
+            "水果": 9,
+            "鲜肉": 2,
+            "冷藏肉/食品": 1,
+            "蔬菜": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-be3faf97777f",
+      "category": "market",
+      "name": "西湾河街市",
+      "name_tc": "西灣河街市",
+      "name_en": "SAI WAN HO MARKET",
+      "district": "东区",
+      "address": "香港筲箕湾太安街12号西湾河市政大厦",
+      "longitude": 114.22252,
+      "latitude": 22.28225,
+      "evidence": [
+        {
+          "id": "source:MARKET-be3faf97777f",
+          "source_ref": "market",
+          "source_key": "西灣河街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括食物类干货、报纸、服务行业、鱼、食物类湿货、手工艺类、干货、鲜肉、冷藏肉/食品、生雪、非食物类干货、家禽、水果、湿货、熟食、非食物类湿货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "食物类干货": 5,
+            "报纸": 1,
+            "服务行业": 7,
+            "鱼": 15,
+            "食物类湿货": 5,
+            "手工艺类": 1,
+            "干货": 56,
+            "鲜肉": 9,
+            "冷藏肉/食品": 7,
+            "生雪": 1,
+            "非食物类干货": 5,
+            "家禽": 1,
+            "水果": 3,
+            "湿货": 75,
+            "熟食": 8,
+            "非食物类湿货": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-bf716fc812da",
+      "category": "market",
+      "name": "击壤路熟食市场",
+      "name_tc": "擊壤路熟食市場",
+      "name_en": "KIK YEUNG ROAD COOKED FOOD MARKET",
+      "district": "元朗",
+      "address": "新界元朗击壤路",
+      "longitude": 114.02458,
+      "latitude": 22.44543,
+      "evidence": [
+        {
+          "id": "source:MARKET-bf716fc812da",
+          "source_ref": "market",
+          "source_key": "擊壤路熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食、水果。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 12,
+            "水果": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-c0e431e58e3c",
+      "category": "market",
+      "name": "石湖墟街市",
+      "name_tc": "石湖墟街市",
+      "name_en": "SHEK WU HUI MARKET",
+      "district": "北区",
+      "address": "新界上水智昌路13号",
+      "longitude": 114.13062,
+      "latitude": 22.50199,
+      "evidence": [
+        {
+          "id": "source:MARKET-c0e431e58e3c",
+          "source_ref": "market",
+          "source_key": "石湖墟街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括水果、手工艺类、烧味及/或卤味、非食物类湿货、食物类湿货、非食物类干货、鱼、食物类干货、鲜肉、杂货、家禽、熟食、蔬菜、服务行业、冷藏肉/食品。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "水果": 33,
+            "手工艺类": 3,
+            "烧味及/或卤味": 7,
+            "非食物类湿货": 4,
+            "食物类湿货": 19,
+            "非食物类干货": 66,
+            "鱼": 25,
+            "食物类干货": 52,
+            "鲜肉": 34,
+            "杂货": 1,
+            "家禽": 8,
+            "熟食": 25,
+            "蔬菜": 70,
+            "服务行业": 2,
+            "冷藏肉/食品": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-c343d33e70f2",
+      "category": "market",
+      "name": "士美非路街市",
+      "name_tc": "士美非路街市",
+      "name_en": "SMITHFIELD MARKET",
+      "district": "中西区",
+      "address": "香港坚尼地城士美菲路12号K 士美非路市政大厦",
+      "longitude": 114.128688,
+      "latitude": 22.281758,
+      "evidence": [
+        {
+          "id": "source:MARKET-c343d33e70f2",
+          "source_ref": "market",
+          "source_key": "士美非路街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括家禽、非食物类湿货、非食物类干货、报纸、熟食、冷藏肉/食品、鲜肉、鱼、食物类湿货、食物类干货、水果、杂货、蔬菜。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "家禽": 5,
+            "非食物类湿货": 3,
+            "非食物类干货": 32,
+            "报纸": 1,
+            "熟食": 12,
+            "冷藏肉/食品": 6,
+            "鲜肉": 9,
+            "鱼": 14,
+            "食物类湿货": 9,
+            "食物类干货": 8,
+            "水果": 31,
+            "杂货": 12,
+            "蔬菜": 55
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-c554c3e276c7",
+      "category": "market",
+      "name": "田湾街市",
+      "name_tc": "田灣街市",
+      "name_en": "TIN WAN MARKET",
+      "district": "南区",
+      "address": "香港香港仔兴和街11号",
+      "longitude": 114.14815,
+      "latitude": 22.25022,
+      "evidence": [
+        {
+          "id": "source:MARKET-c554c3e276c7",
+          "source_ref": "market",
+          "source_key": "田灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉、非食物类干货、服务行业、水果、湿货、食物类干货、非食物类湿货、熟食、家禽、生雪、干货、鱼、食物类湿货、蔬菜、手工艺类、冷藏肉/食品。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "鲜肉": 2,
+            "非食物类干货": 11,
+            "服务行业": 9,
+            "水果": 1,
+            "湿货": 46,
+            "食物类干货": 6,
+            "非食物类湿货": 1,
+            "熟食": 9,
+            "家禽": 1,
+            "生雪": 1,
+            "干货": 52,
+            "鱼": 11,
+            "食物类湿货": 3,
+            "蔬菜": 1,
+            "手工艺类": 1,
+            "冷藏肉/食品": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-c6b1f4cd05c4",
+      "category": "market",
+      "name": "北角街市",
+      "name_tc": "北角街市",
+      "name_en": "NORTH POINT MARKET",
+      "district": "东区",
+      "address": "香港北角七姐妹道160号",
+      "longitude": 114.20548,
+      "latitude": 22.29123,
+      "evidence": [
+        {
+          "id": "source:MARKET-c6b1f4cd05c4",
+          "source_ref": "market",
+          "source_key": "北角街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、湿货、非食物类干货、食物、食物类湿货、干货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "非食物类湿货": 1,
+            "湿货": 5,
+            "非食物类干货": 3,
+            "食物": 3,
+            "食物类湿货": 1,
+            "干货": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-c8c63f0fca5b",
+      "category": "market",
+      "name": "双凤街街市",
+      "name_tc": "雙鳳街街市",
+      "name_en": "SHEUNG FUNG STREET MARKET",
+      "district": "黄大仙",
+      "address": "九龙钻石山双凤街与飞凤街交界 双凤街联用大厦",
+      "longitude": 114.19727,
+      "latitude": 22.34407,
+      "evidence": [
+        {
+          "id": "source:MARKET-c8c63f0fca5b",
+          "source_ref": "market",
+          "source_key": "雙鳳街街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鱼、报纸、非食物类湿货、鲜肉、生雪、蔬菜、食物类干货、贮物室、冷藏肉/食品、水果、家禽、干货、非食物类干货、烧味及/或卤味、食物类湿货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鱼": 4,
+            "报纸": 1,
+            "非食物类湿货": 1,
+            "鲜肉": 5,
+            "生雪": 1,
+            "蔬菜": 9,
+            "食物类干货": 3,
+            "贮物室": 8,
+            "冷藏肉/食品": 2,
+            "水果": 4,
+            "家禽": 1,
+            "干货": 9,
+            "非食物类干货": 6,
+            "烧味及/或卤味": 2,
+            "食物类湿货": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-c9255d49edbf",
+      "category": "market",
+      "name": "大成街街市",
+      "name_tc": "大成街街市",
+      "name_en": "TAI SHING STREET MARKET",
+      "district": "黄大仙",
+      "address": "九龙黄大仙彩虹道121号",
+      "longitude": 114.19415,
+      "latitude": 22.33776,
+      "evidence": [
+        {
+          "id": "source:MARKET-c9255d49edbf",
+          "source_ref": "market",
+          "source_key": "大成街街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括生雪、冷藏肉/食品、食物类干货、水果、鲜肉、鱼、非食物类湿货、非食物类干货、烧味及/或卤味、熟食、干货 / 湿货、食物类湿货、家禽、湿货、蔬菜。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "生雪": 1,
+            "冷藏肉/食品": 11,
+            "食物类干货": 72,
+            "水果": 35,
+            "鲜肉": 22,
+            "鱼": 42,
+            "非食物类湿货": 1,
+            "非食物类干货": 79,
+            "烧味及/或卤味": 6,
+            "熟食": 10,
+            "干货 / 湿货": 6,
+            "食物类湿货": 8,
+            "家禽": 6,
+            "湿货": 1,
+            "蔬菜": 76
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-cc0d731088ff",
+      "category": "market",
+      "name": "上环街市",
+      "name_tc": "上環街市",
+      "name_en": "SHEUNG WAN MARKET",
+      "district": "中西区",
+      "address": "香港上环皇后大道中345号 上环市政大厦",
+      "longitude": 114.149762,
+      "latitude": 22.286195,
+      "evidence": [
+        {
+          "id": "source:MARKET-cc0d731088ff",
+          "source_ref": "market",
+          "source_key": "上環街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括烧味及/或卤味、熟食、鱼、食物类干货、生雪、非食物类干货、家禽、湿货、蔬菜、水果、干货、冷藏肉/食品、食物类湿货、非食物类湿货、鲜肉、报纸。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "烧味及/或卤味": 2,
+            "熟食": 19,
+            "鱼": 41,
+            "食物类干货": 4,
+            "生雪": 1,
+            "非食物类干货": 2,
+            "家禽": 15,
+            "湿货": 8,
+            "蔬菜": 22,
+            "水果": 1,
+            "干货": 10,
+            "冷藏肉/食品": 4,
+            "食物类湿货": 21,
+            "非食物类湿货": 1,
+            "鲜肉": 30,
+            "报纸": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-ce8ce4e5145f",
+      "category": "market",
+      "name": "牛池湾街市",
+      "name_tc": "牛池灣街市",
+      "name_en": "NGAU CHI WAN MARKET",
+      "district": "黄大仙",
+      "address": "九龙牛池湾清水湾道11号",
+      "longitude": 114.20901,
+      "latitude": 22.33454,
+      "evidence": [
+        {
+          "id": "source:MARKET-ce8ce4e5145f",
+          "source_ref": "market",
+          "source_key": "牛池灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、熟食、鱼、鲜肉、食物类干货、报纸、服务行业、家禽、烧味及/或卤味、湿货、非食物类干货、食物类湿货、生雪、干货、冷藏肉/食品。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "非食物类湿货": 9,
+            "熟食": 14,
+            "鱼": 28,
+            "鲜肉": 29,
+            "食物类干货": 8,
+            "报纸": 1,
+            "服务行业": 1,
+            "家禽": 2,
+            "烧味及/或卤味": 4,
+            "湿货": 95,
+            "非食物类干货": 23,
+            "食物类湿货": 19,
+            "生雪": 1,
+            "干货": 81,
+            "冷藏肉/食品": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-cf7a8d1e1775",
+      "category": "market",
+      "name": "瑞和街街市",
+      "name_tc": "瑞和街街市",
+      "name_en": "SHUI WO STREET MARKET",
+      "district": "观塘",
+      "address": "九龙观塘瑞和街9号",
+      "longitude": 114.22428,
+      "latitude": 22.3157,
+      "evidence": [
+        {
+          "id": "source:MARKET-cf7a8d1e1775",
+          "source_ref": "market",
+          "source_key": "瑞和街街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括蔬菜、食物类干货、报纸、非食物类干货、鱼、家禽、非食物类湿货、食物类湿货、第二类货品、水果、生雪、干货、鲜肉、熟食。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "蔬菜": 11,
+            "食物类干货": 12,
+            "报纸": 1,
+            "非食物类干货": 34,
+            "鱼": 9,
+            "家禽": 2,
+            "非食物类湿货": 1,
+            "食物类湿货": 95,
+            "第二类货品": 13,
+            "水果": 6,
+            "生雪": 1,
+            "干货": 17,
+            "鲜肉": 3,
+            "熟食": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-d3b792a139f7",
+      "category": "market",
+      "name": "西营盘街市",
+      "name_tc": "西營盤街市",
+      "name_en": "SAI YING PUN MARKET",
+      "district": "中西区",
+      "address": "香港西营盘正街45号",
+      "longitude": 114.142395,
+      "latitude": 22.28599,
+      "evidence": [
+        {
+          "id": "source:MARKET-d3b792a139f7",
+          "source_ref": "market",
+          "source_key": "西營盤街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类干货、鲜肉、冷藏肉/食品、食物类湿货、水果、非食物类湿货、蔬菜、鱼、食物类干货、服务行业。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "非食物类干货": 12,
+            "鲜肉": 6,
+            "冷藏肉/食品": 1,
+            "食物类湿货": 4,
+            "水果": 2,
+            "非食物类湿货": 2,
+            "蔬菜": 34,
+            "鱼": 28,
+            "食物类干货": 2,
+            "服务行业": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-d58a7d9a7d47",
+      "category": "market",
+      "name": "香港仔街市",
+      "name_tc": "香港仔街市",
+      "name_en": "ABERDEEN MARKET",
+      "district": "南区",
+      "address": "香港香港仔香港仔大道203号 香港仔市政大厦",
+      "longitude": 114.15448,
+      "latitude": 22.24937,
+      "evidence": [
+        {
+          "id": "source:MARKET-d58a7d9a7d47",
+          "source_ref": "market",
+          "source_key": "香港仔街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉(牛及/或羊)、蔬菜、鲜肉(猪)、淡水鱼、食物类湿货、咸水鱼、冷冻(冰鲜)家禽、烧味及/或卤味、贮物室、熟食、冷藏肉及/或冷冻(冰鲜)肉、手工艺类、水果、鲜肉(各种类)、非食物类干货、即食食物、非食物类湿货、回收便利点、食物类干货、活家禽、鱼。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "鲜肉(牛及/或羊)": 1,
+            "蔬菜": 13,
+            "鲜肉(猪)": 3,
+            "淡水鱼": 2,
+            "食物类湿货": 13,
+            "咸水鱼": 7,
+            "冷冻(冰鲜)家禽": 2,
+            "烧味及/或卤味": 2,
+            "贮物室": 5,
+            "熟食": 8,
+            "冷藏肉及/或冷冻(冰鲜)肉": 3,
+            "手工艺类": 1,
+            "水果": 3,
+            "鲜肉(各种类)": 3,
+            "非食物类干货": 24,
+            "即食食物": 4,
+            "非食物类湿货": 2,
+            "回收便利点": 2,
+            "食物类干货": 16,
+            "活家禽": 1,
+            "鱼": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-e2dbbc9a4b58",
+      "category": "market",
+      "name": "洪水桥临时街市",
+      "name_tc": "洪水橋臨時街市",
+      "name_en": "HUNG SHUI KIU TEMPORARY MARKET",
+      "district": "元朗",
+      "address": "新界洪水桥洪水桥大街",
+      "longitude": 113.99547,
+      "latitude": 22.43287,
+      "evidence": [
+        {
+          "id": "source:MARKET-e2dbbc9a4b58",
+          "source_ref": "market",
+          "source_key": "洪水橋臨時街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括非食物类湿货、烧味及/或卤味、水果、食物类干货、鱼、非食物类干货、食物类湿货、鲜肉。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "非食物类湿货": 1,
+            "烧味及/或卤味": 1,
+            "水果": 4,
+            "食物类干货": 3,
+            "鱼": 6,
+            "非食物类干货": 9,
+            "食物类湿货": 28,
+            "鲜肉": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-e5d649567919",
+      "category": "market",
+      "name": "铜锣湾街市",
+      "name_tc": "銅鑼灣街市",
+      "name_en": "CAUSEWAY BAY MARKET",
+      "district": "湾仔",
+      "address": "香港电气道142号",
+      "longitude": 114.19179,
+      "latitude": 22.286083,
+      "evidence": [
+        {
+          "id": "source:MARKET-e5d649567919",
+          "source_ref": "market",
+          "source_key": "銅鑼灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉、家禽、水果、食物类湿货、非食物类湿货、非食物类干货、鱼、食物类干货。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鲜肉": 3,
+            "家禽": 2,
+            "水果": 5,
+            "食物类湿货": 15,
+            "非食物类湿货": 1,
+            "非食物类干货": 9,
+            "鱼": 5,
+            "食物类干货": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-e856c544d262",
+      "category": "market",
+      "name": "大澳街市",
+      "name_tc": "大澳街市",
+      "name_en": "TAI O MARKET",
+      "district": "离岛",
+      "address": "大屿山大澳石仔埗街",
+      "longitude": 113.86176,
+      "latitude": 22.25464,
+      "evidence": [
+        {
+          "id": "source:MARKET-e856c544d262",
+          "source_ref": "market",
+          "source_key": "大澳街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉、食物类干货、食物类湿货、鱼。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "鲜肉": 4,
+            "食物类干货": 3,
+            "食物类湿货": 3,
+            "鱼": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-ea17af926590",
+      "category": "market",
+      "name": "杨屋道街市",
+      "name_tc": "楊屋道街市",
+      "name_en": "YEUNG UK ROAD MARKET",
+      "district": "荃湾",
+      "address": "新界荃湾杨屋道45号",
+      "longitude": 114.1145,
+      "latitude": 22.369,
+      "evidence": [
+        {
+          "id": "source:MARKET-ea17af926590",
+          "source_ref": "market",
+          "source_key": "楊屋道街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括冷藏肉/食品、生雪、食物类干货、烧味及/或卤味、非食物类干货、杂货、鱼、干货、家禽、水果、食物类湿货、非食物类湿货、鲜肉。市场或熟食中心时段备注：上午6时正至晚上8时正",
+          "hours_note": "上午6时正至晚上8时正",
+          "stalls": {
+            "冷藏肉/食品": 14,
+            "生雪": 1,
+            "食物类干货": 11,
+            "烧味及/或卤味": 3,
+            "非食物类干货": 6,
+            "杂货": 1,
+            "鱼": 66,
+            "干货": 23,
+            "家禽": 8,
+            "水果": 27,
+            "食物类湿货": 70,
+            "非食物类湿货": 3,
+            "鲜肉": 14
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-eceb7eacda60",
+      "category": "market",
+      "name": "牛头角街市",
+      "name_tc": "牛頭角街市",
+      "name_en": "NGAU TAU KOK MARKET",
+      "district": "观塘",
+      "address": "九龙观塘牛头角道183号",
+      "longitude": 114.21611,
+      "latitude": 22.32133,
+      "evidence": [
+        {
+          "id": "source:MARKET-eceb7eacda60",
+          "source_ref": "market",
+          "source_key": "牛頭角街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括水果、冷冻肉、食物类湿货、烧味及/或卤味、家禽、鱼、贮物室、干货 / 湿货、干货、湿货、肉类、生雪、非食物类湿货、鲜肉、食物类干货、非食物类干货、熟食。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "水果": 1,
+            "冷冻肉": 1,
+            "食物类湿货": 2,
+            "烧味及/或卤味": 1,
+            "家禽": 4,
+            "鱼": 18,
+            "贮物室": 10,
+            "干货 / 湿货": 58,
+            "干货": 100,
+            "湿货": 54,
+            "肉类": 1,
+            "生雪": 1,
+            "非食物类湿货": 1,
+            "鲜肉": 11,
+            "食物类干货": 12,
+            "非食物类干货": 5,
+            "熟食": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-f350f4782bf1",
+      "category": "market",
+      "name": "渔光道街市",
+      "name_tc": "漁光道街市",
+      "name_en": "YUE KWONG ROAD MARKET",
+      "district": "南区",
+      "address": "香港香港仔香港仔水塘道18号",
+      "longitude": 114.1567,
+      "latitude": 22.25037,
+      "evidence": [
+        {
+          "id": "source:MARKET-f350f4782bf1",
+          "source_ref": "market",
+          "source_key": "漁光道街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉、服务行业、冷藏肉/食品、水果、非食物类湿货、食物类干货、干货、非食物类干货、湿货、食物类湿货、熟食、家禽、鱼。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "鲜肉": 1,
+            "服务行业": 7,
+            "冷藏肉/食品": 5,
+            "水果": 4,
+            "非食物类湿货": 3,
+            "食物类干货": 1,
+            "干货": 29,
+            "非食物类干货": 7,
+            "湿货": 16,
+            "食物类湿货": 7,
+            "熟食": 16,
+            "家禽": 1,
+            "鱼": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-f539a71e9868",
+      "category": "market",
+      "name": "古洞街市购物中心",
+      "name_tc": "古洞街市購物中心",
+      "name_en": "KWU TUNG MARKET SHOPPING CENTRE",
+      "district": "北区",
+      "address": "新界上水古洞路42号",
+      "longitude": 114.0982,
+      "latitude": 22.5027,
+      "evidence": [
+        {
+          "id": "source:MARKET-f539a71e9868",
+          "source_ref": "market",
+          "source_key": "古洞街市購物中心",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括家禽、报纸、非食物类湿货、非食物类干货、食物类干货、烧味及/或卤味、蔬菜、鱼、熟食、水果、鲜肉、服务行业、手工艺类、冷藏肉/食品、食物。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至晚上8时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至晚上8时正)",
+          "stalls": {
+            "家禽": 1,
+            "报纸": 1,
+            "非食物类湿货": 1,
+            "非食物类干货": 37,
+            "食物类干货": 11,
+            "烧味及/或卤味": 1,
+            "蔬菜": 5,
+            "鱼": 3,
+            "熟食": 12,
+            "水果": 1,
+            "鲜肉": 1,
+            "服务行业": 5,
+            "手工艺类": 2,
+            "冷藏肉/食品": 9,
+            "食物": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-f72be152fd41",
+      "category": "market",
+      "name": "长洲熟食市场",
+      "name_tc": "長洲熟食市場",
+      "name_en": "CHEUNG CHAU COOKED FOOD MARKET",
+      "district": "离岛",
+      "address": "长洲大兴堤路",
+      "longitude": 114.028457,
+      "latitude": 22.207523,
+      "evidence": [
+        {
+          "id": "source:MARKET-f72be152fd41",
+          "source_ref": "market",
+          "source_key": "長洲熟食市場",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食、报纸。市场或熟食中心时段备注：上午6时正至凌晨2时正",
+          "hours_note": "上午6时正至凌晨2时正",
+          "stalls": {
+            "熟食": 16,
+            "报纸": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-f87ac7b22636",
+      "category": "market",
+      "name": "联和墟街市",
+      "name_tc": "聯和墟街市",
+      "name_en": "LUEN WO HUI MARKET",
+      "district": "北区",
+      "address": "新界粉岭联和墟和满街9号",
+      "longitude": 114.14462,
+      "latitude": 22.50018,
+      "evidence": [
+        {
+          "id": "source:MARKET-f87ac7b22636",
+          "source_ref": "market",
+          "source_key": "聯和墟街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括熟食、食物类湿货、鱼、冷藏肉/食品、服务行业、鲜肉、草药师、非食物类湿货、家禽、非食物类干货、贮物室、回收便利点、水果、食物类干货、烧味及/或卤味、报纸。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至凌晨2时正)",
+          "stalls": {
+            "熟食": 18,
+            "食物类湿货": 34,
+            "鱼": 42,
+            "冷藏肉/食品": 15,
+            "服务行业": 20,
+            "鲜肉": 23,
+            "草药师": 1,
+            "非食物类湿货": 4,
+            "家禽": 2,
+            "非食物类干货": 74,
+            "贮物室": 11,
+            "回收便利点": 1,
+            "水果": 23,
+            "食物类干货": 47,
+            "烧味及/或卤味": 7,
+            "报纸": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "MARKET-fd11bdbce725",
+      "category": "market",
+      "name": "土瓜湾街市",
+      "name_tc": "土瓜灣街市",
+      "name_en": "TO KWA WAN MARKET",
+      "district": "九龙城",
+      "address": "九龙土瓜湾马头围道165号",
+      "longitude": 114.18803,
+      "latitude": 22.31748,
+      "evidence": [
+        {
+          "id": "source:MARKET-fd11bdbce725",
+          "source_ref": "market",
+          "source_key": "土瓜灣街市",
+          "scope": "market_listing",
+          "text": "市场所列摊位经营类别包括鲜肉、家禽、生雪、报纸、熟食、干货、冷藏肉/食品、湿货、食物类湿货、鱼、非食物类湿货、非食物类干货、食物类干货。市场或熟食中心时段备注：街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至晚上8时正)",
+          "hours_note": "街市 (上午6时正至晚上8时正) 熟食中心 (上午6时正至晚上8时正)",
+          "stalls": {
+            "鲜肉": 7,
+            "家禽": 4,
+            "生雪": 1,
+            "报纸": 1,
+            "熟食": 5,
+            "干货": 42,
+            "冷藏肉/食品": 2,
+            "湿货": 44,
+            "食物类湿货": 60,
+            "鱼": 29,
+            "非食物类湿货": 5,
+            "非食物类干货": 13,
+            "食物类干货": 6
+          }
+        }
+      ]
+    }
+  ]
+}

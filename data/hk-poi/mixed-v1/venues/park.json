@@ -1,0 +1,2955 @@
+{
+  "attribution": "香港特别行政区政府康乐及文化事务署。数据来自 DATA.GOV.HK 和 CSDI Portal。原始资料知识产权归香港特别行政区政府及相关机构。",
+  "terms": [
+    "https://data.gov.hk/en/terms-and-conditions",
+    "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC"
+  ],
+  "source": {
+    "id": "park",
+    "label": "公园及动植物公园",
+    "provider": "香港特别行政区政府康乐及文化事务署",
+    "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-parks-zoos-gardens",
+    "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1629267205215_19292/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "raw_sha256": "29572e4c202849dcc2e64b110b356813c8ff9fbdb7100e8485306e2cba791cb7",
+    "source_rows": 124,
+    "places": 123,
+    "shard": "venues/park.json",
+    "retrieved_on": "2026-11-09"
+  },
+  "records": [
+    {
+      "id": "PARK-0290633e5c22",
+      "category": "park",
+      "name": "粉锦公路以东的公园",
+      "name_tc": "粉錦公路以東的公園",
+      "name_en": "The park located east of Fan Kam Road",
+      "district": "北区",
+      "address": "上水粉锦公路650号",
+      "longitude": 114.1220989,
+      "latitude": 22.4950258,
+      "evidence": [
+        {
+          "id": "source:PARK-0290633e5c22:43",
+          "source_ref": "park",
+          "source_row": 43,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园,步行径,5人硬地足球场。设施说明：宠物共享公园、步行径、2个五人硬地足球场。来源时段或服务备注：宠物共享公园开放时间为早上9时至下午6时，步行径开放时间为早上9时至晚上9时。两个五人足球场开放时间为早上9时至下午6时",
+          "facility_types": "宠物共享公园,步行径,5人硬地足球场",
+          "details": "宠物共享公园、步行径、2个五人硬地足球场",
+          "hours_note": "宠物共享公园开放时间为早上9时至下午6时，步行径开放时间为早上9时至晚上9时。两个五人足球场开放时间为早上9时至下午6时",
+          "source_row_date_utc": "2025-01-15",
+          "venue_website": "https://www.lcsd.gov.hk/tc/parks/fkrp/index.html"
+        }
+      ]
+    },
+    {
+      "id": "PARK-048fac6d3523",
+      "category": "park",
+      "name": "永利街休憩花园",
+      "name_tc": "永利街休憩花園",
+      "name_en": "Wing Lee Street Rest Garden",
+      "district": "中西区",
+      "address": "上环永利街",
+      "longitude": 114.1501539,
+      "latitude": 22.283252,
+      "evidence": [
+        {
+          "id": "source:PARK-048fac6d3523:87",
+          "source_ref": "park",
+          "source_row": 87,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-05120c1f7ae7",
+      "category": "park",
+      "name": "海辉道公园",
+      "name_tc": "海輝道公園",
+      "name_en": "Hoi Fai Road Park",
+      "district": "油尖旺",
+      "address": "九龙大角咀海辉道",
+      "longitude": 114.1558225,
+      "latitude": 22.3170544,
+      "evidence": [
+        {
+          "id": "source:PARK-05120c1f7ae7:49",
+          "source_ref": "park",
+          "source_row": 49,
+          "scope": "venue_listing",
+          "text": "设施类别：缓跑径/健身径,公园径,避雨亭,太极园,健身园地,观景平台,多元共融儿童游乐设施。设施说明：缓跑径、避雨亭、公园径、观景平台、太极园、健身园地、多元共融儿童游乐设施、洗手间、通用洗手间、育婴室、畅通易达洗手间、触觉点字及触觉平面图。来源时段或服务备注：0700-2300",
+          "facility_types": "缓跑径/健身径,公园径,避雨亭,太极园,健身园地,观景平台,多元共融儿童游乐设施",
+          "details": "缓跑径、避雨亭、公园径、观景平台、太极园、健身园地、多元共融儿童游乐设施、洗手间、通用洗手间、育婴室、畅通易达洗手间、触觉点字及触觉平面图",
+          "hours_note": "0700-2300",
+          "source_row_date_utc": "2024-04-12",
+          "venue_website": "https://www.lcsd.gov.hk/tc/facilities/facilitieslist.html"
+        }
+      ]
+    },
+    {
+      "id": "PARK-06e23598c5f8",
+      "category": "park",
+      "name": "禾径山路花园",
+      "name_tc": "禾徑山路花園",
+      "name_en": "Wo Keng Shan Road Garden",
+      "district": "北区",
+      "address": "新界粉岭沙头角路禾径山路",
+      "longitude": 114.1795494,
+      "latitude": 22.5223439,
+      "evidence": [
+        {
+          "id": "source:PARK-06e23598c5f8:58",
+          "source_ref": "park",
+          "source_row": 58,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：凉亭、阴棚、公园座椅、狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "凉亭、阴棚、公园座椅、狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-04-19"
+        }
+      ]
+    },
+    {
+      "id": "PARK-07abe6feb240",
+      "category": "park",
+      "name": "中葵涌公园",
+      "name_tc": "中葵涌公園",
+      "name_en": "Central Kwai Chung Park",
+      "district": "葵青",
+      "address": "葵涌新葵街",
+      "longitude": 114.1329236,
+      "latitude": 22.3571961,
+      "evidence": [
+        {
+          "id": "source:PARK-07abe6feb240:16",
+          "source_ref": "park",
+          "source_row": 16,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,硬地球场,缓跑径/健身径,公园,滚轴溜冰场,排球场。设施说明：5人足球场",
+          "facility_types": "篮球场,硬地球场,缓跑径/健身径,公园,滚轴溜冰场,排球场",
+          "details": "5人足球场",
+          "source_row_date_utc": "2026-07-14",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-0dd688c7688a",
+      "category": "park",
+      "name": "屯门公园",
+      "name_tc": "屯門公園",
+      "name_en": "Tuen Mun Park",
+      "district": "屯门",
+      "address": "屯门屯门乡事会路",
+      "longitude": 113.9734439,
+      "latitude": 22.3919329,
+      "evidence": [
+        {
+          "id": "source:PARK-0dd688c7688a:26",
+          "source_ref": "park",
+          "source_row": 26,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,羽毛球场,模型船池,公园,排球场,单车径。设施说明：饮水设施、洗手间(设有畅通易达洗手间)。来源时段或服务备注：每日24小时开放",
+          "facility_types": "露天剧场,羽毛球场,模型船池,公园,排球场,单车径",
+          "details": "饮水设施、洗手间(设有畅通易达洗手间)",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2026-04-17",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-0e97e8c0f4da",
+      "category": "park",
+      "name": "中西区海滨长廊-上环段",
+      "name_tc": "中西區海濱長廊-上環段",
+      "name_en": "Central & Western District Promenade-Sheung Wan Section",
+      "district": "中西区",
+      "address": "上环中港道",
+      "longitude": 114.1497471,
+      "latitude": 22.2892482,
+      "evidence": [
+        {
+          "id": "source:PARK-0e97e8c0f4da:88",
+          "source_ref": "park",
+          "source_row": 88,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-0f5191556242",
+      "category": "park",
+      "name": "启德大道公园",
+      "name_tc": "啟德大道公園",
+      "name_en": "Kai Tak Avenue Park",
+      "district": "九龙城",
+      "address": "九龙城沐安街16号",
+      "longitude": 114.2013546,
+      "latitude": 22.3297979,
+      "evidence": [
+        {
+          "id": "source:PARK-0f5191556242:90",
+          "source_ref": "park",
+          "source_row": 90,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,儿童游乐场,健体园灺。设施说明：篮球场, 公园内设有洗手间, 其他设施包括1个儿童游乐场和6个健身园地, ；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字及触觉平面图。",
+          "facility_types": "篮球场,儿童游乐场,健体园灺",
+          "details": "篮球场, 公园内设有洗手间, 其他设施包括1个儿童游乐场和6个健身园地, ；无障碍设施：畅通易达洗手间、触觉引路带、触觉点字及触觉平面图。",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-0fe448960fd7",
+      "category": "park",
+      "name": "海辉道海滨花园",
+      "name_tc": "海輝道海濱花園",
+      "name_en": "Hoi Fai Road Promenade",
+      "district": "油尖旺",
+      "address": "大角咀海辉道24号",
+      "longitude": 114.1582848,
+      "latitude": 22.3169716,
+      "evidence": [
+        {
+          "id": "source:PARK-0fe448960fd7:1",
+          "source_ref": "park",
+          "source_row": 1,
+          "scope": "venue_listing",
+          "text": "设施类别：海滨花园,智能健身站",
+          "facility_types": "海滨花园,智能健身站",
+          "source_row_date_utc": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "PARK-1043d03f9eb8",
+      "category": "park",
+      "name": "永康街休憩花园",
+      "name_tc": "永康街休憩花園",
+      "name_en": "Wing Hong Street Rest Garden",
+      "district": "深水埗",
+      "address": "永康街",
+      "longitude": 114.1513429,
+      "latitude": 22.3402208,
+      "evidence": [
+        {
+          "id": "source:PARK-1043d03f9eb8:82",
+          "source_ref": "park",
+          "source_row": 82,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-138f2980d4bd",
+      "category": "park",
+      "name": "城门河第二海滨花园",
+      "name_tc": "城門河第二海濱花園",
+      "name_en": "Shing Mun River Promenade Garden No.2",
+      "district": "沙田",
+      "address": "沙田大涌桥路",
+      "longitude": 114.2023439,
+      "latitude": 22.3894969,
+      "evidence": [
+        {
+          "id": "source:PARK-138f2980d4bd:32",
+          "source_ref": "park",
+          "source_row": 32,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2026-02-23"
+        }
+      ]
+    },
+    {
+      "id": "PARK-16b8eecb8c38",
+      "category": "park",
+      "name": "元朗公园",
+      "name_tc": "元朗公園",
+      "name_en": "Yuen Long Park",
+      "district": "元朗",
+      "address": "元朗元朗公园北路",
+      "longitude": 114.0189263,
+      "latitude": 22.4424992,
+      "evidence": [
+        {
+          "id": "source:PARK-16b8eecb8c38:17",
+          "source_ref": "park",
+          "source_row": 17,
+          "scope": "venue_listing",
+          "text": "设施类别：百鸟塔,门球场,手球场,硬地球场,公园,健身径(优质健行径)。设施说明：七人足球场, 五人足球场,",
+          "facility_types": "百鸟塔,门球场,手球场,硬地球场,公园,健身径(优质健行径)",
+          "details": "七人足球场, 五人足球场,",
+          "source_row_date_utc": "2026-07-08",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-1780f1ab2a8f",
+      "category": "park",
+      "name": "天平路花园",
+      "name_tc": "天平路花園",
+      "name_en": "Tin Ping Road Garden",
+      "district": "北区",
+      "address": "上水天平路",
+      "longitude": 114.1267905,
+      "latitude": 22.5093134,
+      "evidence": [
+        {
+          "id": "source:PARK-1780f1ab2a8f:89",
+          "source_ref": "park",
+          "source_row": 89,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：凉亭、阴棚、公园座椅、狗粪收集箱、洗手设施。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "凉亭、阴棚、公园座椅、狗粪收集箱、洗手设施",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-17bc5f812d6b",
+      "category": "park",
+      "name": "太平村游乐场",
+      "name_tc": "太平村遊樂場",
+      "name_en": "Tai Ping Village Playground",
+      "district": "西贡",
+      "address": "西贡菠萝𪨶路",
+      "longitude": 114.2621591,
+      "latitude": 22.3806039,
+      "evidence": [
+        {
+          "id": "source:PARK-17bc5f812d6b:110",
+          "source_ref": "park",
+          "source_row": 110,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场。设施说明：1个篮球场。来源时段或服务备注：上午7时至晚上6时",
+          "facility_types": "篮球场",
+          "details": "1个篮球场",
+          "hours_note": "上午7时至晚上6时",
+          "source_row_date_utc": "2015-05-12"
+        }
+      ]
+    },
+    {
+      "id": "PARK-193c50b7bf0d",
+      "category": "park",
+      "name": "东涌小炮台公园(2区)",
+      "name_tc": "東涌小炮台公園(2區)",
+      "name_en": "Tung Chung Battery Park (Zone 2)",
+      "district": "离岛",
+      "address": "东涌道北26 号",
+      "longitude": 113.9366405,
+      "latitude": 22.2870536,
+      "evidence": [
+        {
+          "id": "source:PARK-193c50b7bf0d:12",
+          "source_ref": "park",
+          "source_row": 12,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。来源时段或服务备注：每日上午7时至晚上11时",
+          "facility_types": "公园",
+          "hours_note": "每日上午7时至晚上11时",
+          "source_row_date_utc": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "id": "PARK-1f1f75ecb063",
+      "category": "park",
+      "name": "海帆道公园",
+      "name_tc": "海帆道公園",
+      "name_en": "Hoi Fan Road Park",
+      "district": "油尖旺",
+      "address": "九龙大角咀海帆道18号",
+      "longitude": 114.1562741,
+      "latitude": 22.321754,
+      "evidence": [
+        {
+          "id": "source:PARK-1f1f75ecb063:6",
+          "source_ref": "park",
+          "source_row": 6,
+          "scope": "venue_listing",
+          "text": "设施类别：健身站。设施说明：七人足球场(人造草球场)、篮球场暨排球场、社区苗圃、缓跑径、健身站、健身园地、宠物共享公园、宠物公园、共融游乐设施。来源时段或服务备注：0700 - 2300",
+          "facility_types": "健身站",
+          "details": "七人足球场(人造草球场)、篮球场暨排球场、社区苗圃、缓跑径、健身站、健身园地、宠物共享公园、宠物公园、共融游乐设施",
+          "hours_note": "0700 - 2300",
+          "source_row_date_utc": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": "PARK-212d4fcfd4c5",
+      "category": "park",
+      "name": "麒麟岗公众公园",
+      "name_tc": "麒麟崗公眾公園",
+      "name_en": "Ki Lun Kong Public Park",
+      "district": "屯门",
+      "address": "屯门青山公路三圣邨对面",
+      "longitude": 113.9786547,
+      "latitude": 22.3824186,
+      "evidence": [
+        {
+          "id": "source:PARK-212d4fcfd4c5:95",
+          "source_ref": "park",
+          "source_row": 95,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "狗公园/宠物公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2021-02-09"
+        }
+      ]
+    },
+    {
+      "id": "PARK-28a8d28f2305",
+      "category": "park",
+      "name": "新八间休憩处",
+      "name_tc": "新八間休憩處",
+      "name_en": "Sun Pat Kan Sitting-out Area",
+      "district": "南区",
+      "address": "赤柱黄麻角道",
+      "longitude": 114.2133974,
+      "latitude": 22.2167924,
+      "evidence": [
+        {
+          "id": "source:PARK-28a8d28f2305:48",
+          "source_ref": "park",
+          "source_row": 48,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2024-05-24"
+        }
+      ]
+    },
+    {
+      "id": "PARK-28c151b218af",
+      "category": "park",
+      "name": "沙田公园",
+      "name_tc": "沙田公園",
+      "name_en": "Sha Tin Park",
+      "district": "沙田",
+      "address": "沙田源禾路2号",
+      "longitude": 114.1898724,
+      "latitude": 22.3794916,
+      "evidence": [
+        {
+          "id": "source:PARK-28c151b218af:41",
+          "source_ref": "park",
+          "source_row": 41,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,公园",
+          "facility_types": "露天剧场,公园",
+          "source_row_date_utc": "2025-10-06",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-30f290ef22fe",
+      "category": "park",
+      "name": "安秀道公园",
+      "name_tc": "安秀道公園",
+      "name_en": "On Sau Road Park",
+      "district": "观塘",
+      "address": "观塘安秀道",
+      "longitude": 114.2320348,
+      "latitude": 22.3229849,
+      "evidence": [
+        {
+          "id": "source:PARK-30f290ef22fe:13",
+          "source_ref": "park",
+          "source_row": 13,
+          "scope": "venue_listing",
+          "text": "设施类别：人造草地球场。设施说明：七人人造草球足球场。来源时段或服务备注：上午8时至晚上11时 (以1小时30分为1节计算)",
+          "facility_types": "人造草地球场",
+          "details": "七人人造草球足球场",
+          "hours_note": "上午8时至晚上11时 (以1小时30分为1节计算)",
+          "source_row_date_utc": "2026-07-23"
+        }
+      ]
+    },
+    {
+      "id": "PARK-34a328b61154",
+      "category": "park",
+      "name": "洪圣街休憩花园",
+      "name_tc": "洪聖街休憩花園",
+      "name_en": "Hung Shing Street Rest Garden",
+      "district": "南区",
+      "address": "鸭脷洲惠风街",
+      "longitude": 114.1562698,
+      "latitude": 22.2447669,
+      "evidence": [
+        {
+          "id": "source:PARK-34a328b61154:81",
+          "source_ref": "park",
+          "source_row": 81,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-367947f3c39d",
+      "category": "park",
+      "name": "美田路休憩处",
+      "name_tc": "美田路休憩處",
+      "name_en": "Mei Tin Road Sitting-out Area",
+      "district": "沙田",
+      "address": "大围美田路",
+      "longitude": 114.1743818,
+      "latitude": 22.3771875,
+      "evidence": [
+        {
+          "id": "source:PARK-367947f3c39d:74",
+          "source_ref": "park",
+          "source_row": 74,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-36cc04bc7caa",
+      "category": "park",
+      "name": "凤翔路花园",
+      "name_tc": "鳳翔路花園",
+      "name_en": "Fung Cheung Road Garden",
+      "district": "元朗",
+      "address": "元朗凤翔路",
+      "longitude": 114.0326713,
+      "latitude": 22.4443995,
+      "evidence": [
+        {
+          "id": "source:PARK-36cc04bc7caa:51",
+          "source_ref": "park",
+          "source_row": 51,
+          "scope": "venue_listing",
+          "text": "设施类别：儿童游乐场,长者健体园地。设施说明：儿童游乐场、长者健身园地和棋桌。来源时段或服务备注：24小时",
+          "facility_types": "儿童游乐场,长者健体园地",
+          "details": "儿童游乐场、长者健身园地和棋桌",
+          "hours_note": "24小时",
+          "source_row_date_utc": "2023-04-25"
+        }
+      ]
+    },
+    {
+      "id": "PARK-3796f686618d",
+      "category": "park",
+      "name": "宝云道花园",
+      "name_tc": "寶雲道花園",
+      "name_en": "Bowen Road Garden",
+      "district": "湾仔",
+      "address": "湾仔宝云道",
+      "longitude": 114.1658511,
+      "latitude": 22.2726717,
+      "evidence": [
+        {
+          "id": "source:PARK-3796f686618d:76",
+          "source_ref": "park",
+          "source_row": 76,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园,花园,宠物共享公园。设施说明：公园座椅, 狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "狗公园/宠物公园,花园,宠物共享公园",
+          "details": "公园座椅, 狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-398a8882a49a",
+      "category": "park",
+      "name": "北区公园",
+      "name_tc": "北區公園",
+      "name_en": "North District Park",
+      "district": "北区",
+      "address": "上水马会道",
+      "longitude": 114.1341113,
+      "latitude": 22.4989216,
+      "evidence": [
+        {
+          "id": "source:PARK-398a8882a49a:5",
+          "source_ref": "park",
+          "source_row": 5,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,人工湖,篮球场,儿童游乐场,社区园圃,自然保育园地,有盖长廊,手球场,硬地球场,缓跑径/健身径,公园,卵石路步行径,人工瀑布,排球场。设施说明：多用途球场 (可作1个五人足球场/ 1个手球场/1个七人足球场使用)",
+          "facility_types": "露天剧场,人工湖,篮球场,儿童游乐场,社区园圃,自然保育园地,有盖长廊,手球场,硬地球场,缓跑径/健身径,公园,卵石路步行径,人工瀑布,排球场",
+          "details": "多用途球场 (可作1个五人足球场/ 1个手球场/1个七人足球场使用)",
+          "source_row_date_utc": "2026-09-15",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-3c29512c1943",
+      "category": "park",
+      "name": "新安休憩处",
+      "name_tc": "新安休憩處",
+      "name_en": "San On Sitting-out Area",
+      "district": "屯门",
+      "address": "屯门新安街",
+      "longitude": 113.9704543,
+      "latitude": 22.3929993,
+      "evidence": [
+        {
+          "id": "source:PARK-3c29512c1943:78",
+          "source_ref": "park",
+          "source_row": 78,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-3c3720881f9a",
+      "category": "park",
+      "name": "葵喜街休憩处",
+      "name_tc": "葵喜街休憩處",
+      "name_en": "Kwai Hei Street Sitting-out Area",
+      "district": "葵青",
+      "address": "葵涌葵福路",
+      "longitude": 114.1239721,
+      "latitude": 22.3577949,
+      "evidence": [
+        {
+          "id": "source:PARK-3c3720881f9a:68",
+          "source_ref": "park",
+          "source_row": 68,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-3c3b05cb1e10",
+      "category": "park",
+      "name": "鲗鱼涌公园",
+      "name_tc": "鰂魚涌公園",
+      "name_en": "Quarry Bay Park",
+      "district": "东区",
+      "address": "鲗鱼涌近海堤街",
+      "longitude": 114.215123,
+      "latitude": 22.2886906,
+      "evidence": [
+        {
+          "id": "source:PARK-3c3b05cb1e10:38",
+          "source_ref": "park",
+          "source_row": 38,
+          "scope": "venue_listing",
+          "text": "设施类别：公园, 草地球场, 网球场, 篮球场, 单车径/场, 缓跑径/健身径。设施说明：7人人造草足球场",
+          "facility_types": "公园, 草地球场, 网球场, 篮球场, 单车径/场, 缓跑径/健身径",
+          "details": "7人人造草足球场",
+          "source_row_date_utc": "2025-11-28",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-3d0e2283114f",
+      "category": "park",
+      "name": "湾仔峡公园",
+      "name_tc": "灣仔峽公園",
+      "name_en": "Wan Chai Gap Park",
+      "district": "湾仔",
+      "address": "湾仔司徒拔道",
+      "longitude": 114.1693637,
+      "latitude": 22.2671,
+      "evidence": [
+        {
+          "id": "source:PARK-3d0e2283114f:91",
+          "source_ref": "park",
+          "source_row": 91,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园,宠物共享公园,公园。设施说明：公园座椅, 狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "狗公园/宠物公园,宠物共享公园,公园",
+          "details": "公园座椅, 狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-28",
+          "source_address": "湾仔司徒拔道"
+        },
+        {
+          "id": "source:PARK-3d0e2283114f:98",
+          "source_ref": "park",
+          "source_row": 98,
+          "scope": "venue_listing",
+          "text": "设施类别：共融游乐设施,健体园灺,小食亭。设施说明：儿童游乐设施, 长者健体园地, 小食亭, 洗手间。来源时段或服务备注：全日24 小时",
+          "facility_types": "共融游乐设施,健体园灺,小食亭",
+          "details": "儿童游乐设施, 长者健体园地, 小食亭, 洗手间",
+          "hours_note": "全日24 小时",
+          "source_row_date_utc": "2019-12-04",
+          "source_address": "香港湾仔半山区甘道"
+        }
+      ]
+    },
+    {
+      "id": "PARK-40f342c6a1fb",
+      "category": "park",
+      "name": "狮子山公园",
+      "name_tc": "獅子山公園",
+      "name_en": "Lion Rock Park",
+      "district": "黄大仙",
+      "address": "九龙黄大仙竹园道",
+      "longitude": 114.1838474,
+      "latitude": 22.3448445,
+      "evidence": [
+        {
+          "id": "source:PARK-40f342c6a1fb:115",
+          "source_ref": "park",
+          "source_row": 115,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2010-12-02"
+        }
+      ]
+    },
+    {
+      "id": "PARK-455bb391d4c9",
+      "category": "park",
+      "name": "西营盘海滨公园",
+      "name_tc": "西營盤海濱公園",
+      "name_en": "Sai Ying Pun Harbourfront Park",
+      "district": "中西区",
+      "address": "香港西营盘东边街北",
+      "longitude": 114.140403,
+      "latitude": 22.2904159,
+      "evidence": [
+        {
+          "id": "source:PARK-455bb391d4c9:35",
+          "source_ref": "park",
+          "source_row": 35,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。设施说明：海滨长廊, 观景平台, 游乐设施, 洗手间及育婴间, 无障碍设施( 畅通易达洗手间), 触觉引路带, 触觉平面图。来源时段或服务备注：24小时开放 (片片云海除外)",
+          "facility_types": "公园",
+          "details": "海滨长廊, 观景平台, 游乐设施, 洗手间及育婴间, 无障碍设施( 畅通易达洗手间), 触觉引路带, 触觉平面图",
+          "hours_note": "24小时开放 (片片云海除外)",
+          "source_row_date_utc": "2026-01-29"
+        }
+      ]
+    },
+    {
+      "id": "PARK-47c5e5c051a6",
+      "category": "park",
+      "name": "宝琳休憩处",
+      "name_tc": "寶琳休憩處",
+      "name_en": "Po Lam Sitting-Out Area",
+      "district": "西贡",
+      "address": "西贡将军澳宝琳北路",
+      "longitude": 114.2540071,
+      "latitude": 22.3272383,
+      "evidence": [
+        {
+          "id": "source:PARK-47c5e5c051a6:106",
+          "source_ref": "park",
+          "source_row": 106,
+          "scope": "venue_listing",
+          "text": "设施类别：休憩处,狗公园/宠物公园。设施说明：休憩处/宠物公园。来源时段或服务备注：全日开放",
+          "facility_types": "休憩处,狗公园/宠物公园",
+          "details": "休憩处/宠物公园",
+          "hours_note": "全日开放",
+          "source_row_date_utc": "2016-05-04"
+        }
+      ]
+    },
+    {
+      "id": "PARK-49667f4bb5aa",
+      "category": "park",
+      "name": "大头岭休憩处",
+      "name_tc": "大頭嶺休憩處",
+      "name_en": "Tai Tau Leng Sitting-out Area",
+      "district": "北区",
+      "address": "新界上水宝石湖路大头岭村",
+      "longitude": 114.1232574,
+      "latitude": 22.5022216,
+      "evidence": [
+        {
+          "id": "source:PARK-49667f4bb5aa:25",
+          "source_ref": "park",
+          "source_row": 25,
+          "scope": "venue_listing",
+          "text": "设施类别：羽毛球场,儿童游乐场。来源时段或服务备注：全日开放；(大头岭休憩处于2025年9月22日至2029年12月31日暂停开放, 以便土木工程拓展署进行道路改善工程)",
+          "facility_types": "羽毛球场,儿童游乐场",
+          "hours_note": "全日开放；(大头岭休憩处于2025年9月22日至2029年12月31日暂停开放, 以便土木工程拓展署进行道路改善工程)",
+          "source_row_date_utc": "2026-05-11"
+        }
+      ]
+    },
+    {
+      "id": "PARK-534faae8ed9f",
+      "category": "park",
+      "name": "葵涌公园",
+      "name_tc": "葵涌公園",
+      "name_en": "Kwai Chung Park",
+      "district": "葵青",
+      "address": "新界葵涌葵裕街18号",
+      "longitude": 114.117337,
+      "latitude": 22.3537695,
+      "evidence": [
+        {
+          "id": "source:PARK-534faae8ed9f:33",
+          "source_ref": "park",
+          "source_row": 33,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。设施说明：多用途草坪, 缓跑径, 优质步行径, 宠物公园, 表演广场, 观景台, 秋千长椅, 滑梯, 货柜展亭, 阶梯草坡。来源时段或服务备注：每日早上7时至晚上11时",
+          "facility_types": "公园",
+          "details": "多用途草坪, 缓跑径, 优质步行径, 宠物公园, 表演广场, 观景台, 秋千长椅, 滑梯, 货柜展亭, 阶梯草坡",
+          "hours_note": "每日早上7时至晚上11时",
+          "source_row_date_utc": "2026-02-23"
+        }
+      ]
+    },
+    {
+      "id": "PARK-57bc59d1c997",
+      "category": "park",
+      "name": "大埔海滨公园",
+      "name_tc": "大埔海濱公園",
+      "name_en": "Tai Po Waterfront Park",
+      "district": "大埔",
+      "address": "大埔大发街",
+      "longitude": 114.1790049,
+      "latitude": 22.4518273,
+      "evidence": [
+        {
+          "id": "source:PARK-57bc59d1c997:9",
+          "source_ref": "park",
+          "source_row": 9,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,草地滚球场,门球场,宠物共享公园,缓跑径/健身径,模型船池,公园。设施说明：狗粪收集箱。来源时段或服务备注：草地滚球场： ；星期一(公众假期除外) 关闭, ；星期二至五 上午8时至下午1时及下午6时至晚上10时,；星期六、日及公众假期 上午8时至晚上10时；门球场： 上午7时至下午6时；公园其他设施：全日24小时",
+          "facility_types": "露天剧场,草地滚球场,门球场,宠物共享公园,缓跑径/健身径,模型船池,公园",
+          "details": "狗粪收集箱",
+          "hours_note": "草地滚球场： ；星期一(公众假期除外) 关闭, ；星期二至五 上午8时至下午1时及下午6时至晚上10时,；星期六、日及公众假期 上午8时至晚上10时；门球场： 上午7时至下午6时；公园其他设施：全日24小时",
+          "source_row_date_utc": "2026-09-10",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-5ba63ad1d5da",
+      "category": "park",
+      "name": "元洲仔公园",
+      "name_tc": "元洲仔公園",
+      "name_en": "Yuen Chau Tsai Park",
+      "district": "大埔",
+      "address": "大埔元洲仔里",
+      "longitude": 114.1772853,
+      "latitude": 22.4482819,
+      "evidence": [
+        {
+          "id": "source:PARK-5ba63ad1d5da:63",
+          "source_ref": "park",
+          "source_row": 63,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱、洗手间(设有畅通易达洗手间)。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱、洗手间(设有畅通易达洗手间)",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-5d839c879e3a",
+      "category": "park",
+      "name": "湖景路花园",
+      "name_tc": "湖景路花園",
+      "name_en": "Wu King Road Garden",
+      "district": "屯门",
+      "address": "屯门湖景路",
+      "longitude": 113.9664273,
+      "latitude": 22.3754596,
+      "evidence": [
+        {
+          "id": "source:PARK-5d839c879e3a:47",
+          "source_ref": "park",
+          "source_row": 47,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2024-09-10"
+        }
+      ]
+    },
+    {
+      "id": "PARK-60a76fdf1353",
+      "category": "park",
+      "name": "旧咖啡湾休憩处",
+      "name_tc": "舊咖啡灣休憩處",
+      "name_en": "Cafeteria Old Beach Sitting-out Area",
+      "district": "屯门",
+      "address": "屯门旧咖啡湾",
+      "longitude": 113.9851693,
+      "latitude": 22.3753474,
+      "evidence": [
+        {
+          "id": "source:PARK-60a76fdf1353:59",
+          "source_ref": "park",
+          "source_row": 59,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-02-09"
+        }
+      ]
+    },
+    {
+      "id": "PARK-6146181120e9",
+      "category": "park",
+      "name": "东岸公园 (第一期)",
+      "name_tc": "東岸公園 (第一期)",
+      "name_en": "East Coast Park (Phase 1)",
+      "district": "湾仔",
+      "address": "东岸公园 (第一期)",
+      "longitude": 114.1891836,
+      "latitude": 22.2879288,
+      "evidence": [
+        {
+          "id": "source:PARK-6146181120e9:93",
+          "source_ref": "park",
+          "source_row": 93,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。设施说明：狗粪收集箱, 凉亭, 坐椅。来源时段或服务备注：每日24小时开放",
+          "facility_types": "公园",
+          "details": "狗粪收集箱, 凉亭, 坐椅",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2021-10-05"
+        }
+      ]
+    },
+    {
+      "id": "PARK-653a5462ce07",
+      "category": "park",
+      "name": "鸭脷洲风之塔公园",
+      "name_tc": "鴨脷洲風之塔公園",
+      "name_en": "Ap Lei Chau Wind Tower Park",
+      "district": "南区",
+      "address": "香港鸭脷洲利枝道",
+      "longitude": 114.152957,
+      "latitude": 22.2446111,
+      "evidence": [
+        {
+          "id": "source:PARK-653a5462ce07:101",
+          "source_ref": "park",
+          "source_row": 101,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,公园。来源时段或服务备注：展览馆: 每日早上9时至晚上9时；其他公园范围: 每日24小时",
+          "facility_types": "露天剧场,公园",
+          "hours_note": "展览馆: 每日早上9时至晚上9时；其他公园范围: 每日24小时",
+          "source_row_date_utc": "2019-10-18"
+        }
+      ]
+    },
+    {
+      "id": "PARK-66297940af96",
+      "category": "park",
+      "name": "城门谷公园",
+      "name_tc": "城門谷公園",
+      "name_en": "Shing Mun Valley Park",
+      "district": "荃湾",
+      "address": "荃湾城门道",
+      "longitude": 114.1250726,
+      "latitude": 22.3747492,
+      "evidence": [
+        {
+          "id": "source:PARK-66297940af96:31",
+          "source_ref": "park",
+          "source_row": 31,
+          "scope": "venue_listing",
+          "text": "设施类别：射箭场,篮球场,手球场,硬地球场,公园,网球场,排球场。设施说明：7人足球场兼手球场, 篮球场兼排球场, 5人足球场兼射箭练习场",
+          "facility_types": "射箭场,篮球场,手球场,硬地球场,公园,网球场,排球场",
+          "details": "7人足球场兼手球场, 篮球场兼排球场, 5人足球场兼射箭练习场",
+          "source_row_date_utc": "2026-02-23",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-666f821a125f",
+      "category": "park",
+      "name": "荔枝角公园",
+      "name_tc": "荔枝角公園",
+      "name_en": "Lai Chi Kok Park",
+      "district": "深水埗",
+      "address": "荔枝角荔湾道1号",
+      "longitude": 114.1369849,
+      "latitude": 22.3394747,
+      "evidence": [
+        {
+          "id": "source:PARK-666f821a125f:24",
+          "source_ref": "park",
+          "source_row": 24,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,篮球场,门球场,手球场,硬地球场,缓跑径/健身径,公园,滑板场,网球场,排球场。设施说明：7人足球场 / 5人足球场 / 手球场",
+          "facility_types": "露天剧场,篮球场,门球场,手球场,硬地球场,缓跑径/健身径,公园,滑板场,网球场,排球场",
+          "details": "7人足球场 / 5人足球场 / 手球场",
+          "source_row_date_utc": "2026-06-17",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-66abdaf0b5d2",
+      "category": "park",
+      "name": "长辉路海滨花园",
+      "name_tc": "長輝路海濱花園",
+      "name_en": "Cheung Fai Road Promenade",
+      "district": "葵青",
+      "address": "青衣长辉路",
+      "longitude": 114.1113342,
+      "latitude": 22.3498786,
+      "evidence": [
+        {
+          "id": "source:PARK-66abdaf0b5d2:54",
+          "source_ref": "park",
+          "source_row": 54,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-04-19"
+        }
+      ]
+    },
+    {
+      "id": "PARK-67d9bab965ea",
+      "category": "park",
+      "name": "九龙寨城公园",
+      "name_tc": "九龍寨城公園",
+      "name_en": "Kowloon Walled City Park",
+      "district": "九龙城",
+      "address": "九龙城东正道",
+      "longitude": 114.1898271,
+      "latitude": 22.331655,
+      "evidence": [
+        {
+          "id": "source:PARK-67d9bab965ea:120",
+          "source_ref": "park",
+          "source_row": 120,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2009-09-18",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-68fc8ca01126",
+      "category": "park",
+      "name": "新运路休憩处",
+      "name_tc": "新運路休憩處",
+      "name_en": "San Wan Road Sitting-out Area",
+      "district": "北区",
+      "address": "新界粉岭新运路",
+      "longitude": 114.1364059,
+      "latitude": 22.4951845,
+      "evidence": [
+        {
+          "id": "source:PARK-68fc8ca01126:97",
+          "source_ref": "park",
+          "source_row": 97,
+          "scope": "venue_listing",
+          "text": "设施类别：健体园灺,休憩处。设施说明：长者健身园地。来源时段或服务备注：全日24小时开放",
+          "facility_types": "健体园灺,休憩处",
+          "details": "长者健身园地",
+          "hours_note": "全日24小时开放",
+          "source_row_date_utc": "2020-03-13"
+        }
+      ]
+    },
+    {
+      "id": "PARK-692d034a81ed",
+      "category": "park",
+      "name": "大埔滘公园",
+      "name_tc": "大埔滘公園",
+      "name_en": "Tai Po Kau Park",
+      "district": "大埔",
+      "address": "大埔滘大埔公路大埔滘段",
+      "longitude": 114.1890488,
+      "latitude": 22.4329017,
+      "evidence": [
+        {
+          "id": "source:PARK-692d034a81ed:61",
+          "source_ref": "park",
+          "source_row": 61,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：洗手间、狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "洗手间、狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-6e50f68fd09b",
+      "category": "park",
+      "name": "荃湾公园",
+      "name_tc": "荃灣公園",
+      "name_en": "Tsuen Wan Park",
+      "district": "荃湾",
+      "address": "荃湾永顺街59号",
+      "longitude": 114.1128223,
+      "latitude": 22.367114,
+      "evidence": [
+        {
+          "id": "source:PARK-6e50f68fd09b:42",
+          "source_ref": "park",
+          "source_row": 42,
+          "scope": "venue_listing",
+          "text": "设施类别：单车径/场,狗公园/宠物公园,门球场,缓跑径/健身径,公园,网球场",
+          "facility_types": "单车径/场,狗公园/宠物公园,门球场,缓跑径/健身径,公园,网球场",
+          "source_row_date_utc": "2025-05-19",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-7057e819d318",
+      "category": "park",
+      "name": "新厦街游乐场",
+      "name_tc": "新廈街遊樂場",
+      "name_en": "San Ha Street Playground",
+      "district": "东区",
+      "address": "新厦街",
+      "longitude": 114.2447633,
+      "latitude": 22.2643379,
+      "evidence": [
+        {
+          "id": "source:PARK-7057e819d318:107",
+          "source_ref": "park",
+          "source_row": 107,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2015-06-03"
+        }
+      ]
+    },
+    {
+      "id": "PARK-76b10daf5dd5",
+      "category": "park",
+      "name": "金凤街休憩处",
+      "name_tc": "金鳳街休憩處",
+      "name_en": "Kam Fung Street Sitting-out Area",
+      "district": "黄大仙",
+      "address": "黄大仙，金凤街",
+      "longitude": 114.1979994,
+      "latitude": 22.3448758,
+      "evidence": [
+        {
+          "id": "source:PARK-76b10daf5dd5:71",
+          "source_ref": "park",
+          "source_row": 71,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：阴棚、公园座椅、狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "阴棚、公园座椅、狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-76e696aea262",
+      "category": "park",
+      "name": "广福休憩处",
+      "name_tc": "廣福休憩處",
+      "name_en": "Kwong Fuk Sitting-out Area",
+      "district": "大埔",
+      "address": "大埔广宏街",
+      "longitude": 114.1736879,
+      "latitude": 22.4470014,
+      "evidence": [
+        {
+          "id": "source:PARK-76e696aea262:102",
+          "source_ref": "park",
+          "source_row": 102,
+          "scope": "venue_listing",
+          "text": "设施类别：休憩处",
+          "facility_types": "休憩处",
+          "source_row_date_utc": "2019-01-29"
+        }
+      ]
+    },
+    {
+      "id": "PARK-7791c7e199b0",
+      "category": "park",
+      "name": "香港单车馆公园",
+      "name_tc": "香港單車館公園",
+      "name_en": "Hong Kong Velodrome Park",
+      "district": "西贡",
+      "address": "将军澳宝康路105-107号",
+      "longitude": 114.2609928,
+      "latitude": 22.3141414,
+      "evidence": [
+        {
+          "id": "source:PARK-7791c7e199b0:39",
+          "source_ref": "park",
+          "source_row": 39,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,人工湖,中央草坪,儿童游乐场,长者健体园地,健身站,模型船池,极限运动场,运动攀登墙,缓跑径。来源时段或服务备注：人工湖 上午6时30分至晚上11时；极限运动场、运动攀登墙、露天剧场、缓跑径、模型船池 上午8时至晚上10时；儿童游乐场、长者健体园地、中央草坪、草地平台 全日24小时",
+          "facility_types": "露天剧场,人工湖,中央草坪,儿童游乐场,长者健体园地,健身站,模型船池,极限运动场,运动攀登墙,缓跑径",
+          "hours_note": "人工湖 上午6时30分至晚上11时；极限运动场、运动攀登墙、露天剧场、缓跑径、模型船池 上午8时至晚上10时；儿童游乐场、长者健体园地、中央草坪、草地平台 全日24小时",
+          "source_row_date_utc": "2025-10-06",
+          "venue_website": "https://www.lcsd.gov.hk/tc/parks/vdp/facilities/outdoor.html"
+        }
+      ]
+    },
+    {
+      "id": "PARK-7cb7714d4725",
+      "category": "park",
+      "name": "石硖尾公园",
+      "name_tc": "石硤尾公園",
+      "name_en": "Shek Kip Mei Park",
+      "district": "深水埗",
+      "address": "深水埗南昌街270号",
+      "longitude": 114.1694912,
+      "latitude": 22.3355141,
+      "evidence": [
+        {
+          "id": "source:PARK-7cb7714d4725:20",
+          "source_ref": "park",
+          "source_row": 20,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,硬地球场,缓跑径/健身径,公园,网球场,人造草足球场/榄球场。设施说明：11人 人造草足球场/榄球场, 5人/7人硬地足球场",
+          "facility_types": "篮球场,硬地球场,缓跑径/健身径,公园,网球场,人造草足球场/榄球场",
+          "details": "11人 人造草足球场/榄球场, 5人/7人硬地足球场",
+          "source_row_date_utc": "2026-07-03",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-7db73df60b1b",
+      "category": "park",
+      "name": "龙翔道眺望处",
+      "name_tc": "龍翔道眺望處",
+      "name_en": "Lung Cheung Road Lookout",
+      "district": "深水埗",
+      "address": "龙翔道",
+      "longitude": 114.1714236,
+      "latitude": 22.3428488,
+      "evidence": [
+        {
+          "id": "source:PARK-7db73df60b1b:83",
+          "source_ref": "park",
+          "source_row": 83,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-7e3dea7dc68a",
+      "category": "park",
+      "name": "中西区海滨长廊 – 西区副食品批发市场段",
+      "name_tc": "中西區海濱長廊 – 西區副食品批發市場段",
+      "name_en": "Central and Western Distrcit Promenade - Western Wholesale Food Market Setcion",
+      "district": "中西区",
+      "address": "西环丰物道 8 号",
+      "longitude": 114.1360258,
+      "latitude": 22.2895425,
+      "evidence": [
+        {
+          "id": "source:PARK-7e3dea7dc68a:60",
+          "source_ref": "park",
+          "source_row": 60,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：洗手间(设有畅通易达洗手间)、狗粪收集箱。来源时段或服务备注：每日24小时开放； (五号码头临海地段每日早上7时至晚上11时)",
+          "facility_types": "宠物共享公园",
+          "details": "洗手间(设有畅通易达洗手间)、狗粪收集箱",
+          "hours_note": "每日24小时开放； (五号码头临海地段每日早上7时至晚上11时)",
+          "source_row_date_utc": "2022-02-09"
+        }
+      ]
+    },
+    {
+      "id": "PARK-84d78f353818",
+      "category": "park",
+      "name": "屋兰士街休憩处",
+      "name_tc": "屋蘭士街休憩處",
+      "name_en": "Oaklands Avenue Sitting-out Area",
+      "district": "中西区",
+      "address": "半山屋兰士街",
+      "longitude": 114.143577,
+      "latitude": 22.2829311,
+      "evidence": [
+        {
+          "id": "source:PARK-84d78f353818:104",
+          "source_ref": "park",
+          "source_row": 104,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园",
+          "facility_types": "狗公园/宠物公园",
+          "source_row_date_utc": "2016-07-14",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/facilities.php?ftid=47&did=1"
+        }
+      ]
+    },
+    {
+      "id": "PARK-851299c1d113",
+      "category": "park",
+      "name": "南昌公园",
+      "name_tc": "南昌公園",
+      "name_en": "Nam Cheong Park",
+      "district": "深水埗",
+      "address": "九龙深旺道20号",
+      "longitude": 114.1574113,
+      "latitude": 22.3240903,
+      "evidence": [
+        {
+          "id": "source:PARK-851299c1d113:30",
+          "source_ref": "park",
+          "source_row": 30,
+          "scope": "venue_listing",
+          "text": "设施类别：缓跑径,共融游乐设施",
+          "facility_types": "缓跑径,共融游乐设施",
+          "source_row_date_utc": "2026-02-26"
+        }
+      ]
+    },
+    {
+      "id": "PARK-85df6aa5dbd5",
+      "category": "park",
+      "name": "石贝街花园",
+      "name_tc": "石貝街花園",
+      "name_en": "Shek Pui Street Garden",
+      "district": "葵青",
+      "address": "葵涌石贝街",
+      "longitude": 114.1366467,
+      "latitude": 22.3646229,
+      "evidence": [
+        {
+          "id": "source:PARK-85df6aa5dbd5:69",
+          "source_ref": "park",
+          "source_row": 69,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-8664928df5af",
+      "category": "park",
+      "name": "天慈花园",
+      "name_tc": "天慈花園",
+      "name_en": "Tin Tsz Garden",
+      "district": "元朗",
+      "address": "元朗天水围天慈路",
+      "longitude": 114.008529,
+      "latitude": 22.4520447,
+      "evidence": [
+        {
+          "id": "source:PARK-8664928df5af:45",
+          "source_ref": "park",
+          "source_row": 45,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2024-10-14"
+        }
+      ]
+    },
+    {
+      "id": "PARK-8835d34cb05b",
+      "category": "park",
+      "name": "马鞍山西沙路花园",
+      "name_tc": "馬鞍山西沙路花園",
+      "name_en": "Ma On Shan Sai Sha Road Garden",
+      "district": "沙田",
+      "address": "马鞍山西沙路",
+      "longitude": 114.2273425,
+      "latitude": 22.4244589,
+      "evidence": [
+        {
+          "id": "source:PARK-8835d34cb05b:73",
+          "source_ref": "park",
+          "source_row": 73,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-8a5011c8869b",
+      "category": "park",
+      "name": "马鞍山海滨长廊",
+      "name_tc": "馬鞍山海濱長廊",
+      "name_en": "Ma On Shan Promenade",
+      "district": "沙田",
+      "address": "马鞍山宁泰路",
+      "longitude": 114.2204092,
+      "latitude": 22.4088327,
+      "evidence": [
+        {
+          "id": "source:PARK-8a5011c8869b:15",
+          "source_ref": "park",
+          "source_row": 15,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。设施说明：男、女洗手间, 残疾人士洗手间, 健体站, 缓跑径 / 健身径。来源时段或服务备注：全日开放",
+          "facility_types": "公园",
+          "details": "男、女洗手间, 残疾人士洗手间, 健体站, 缓跑径 / 健身径",
+          "hours_note": "全日开放",
+          "source_row_date_utc": "2026-07-17"
+        }
+      ]
+    },
+    {
+      "id": "PARK-8d789bb5c8a4",
+      "category": "park",
+      "name": "北角海滨花园",
+      "name_tc": "北角海濱花園",
+      "name_en": "North Point Promenade",
+      "district": "东区",
+      "address": "香港北角渡轮码头",
+      "longitude": 114.20149,
+      "latitude": 22.2934831,
+      "evidence": [
+        {
+          "id": "source:PARK-8d789bb5c8a4:117",
+          "source_ref": "park",
+          "source_row": 117,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。设施说明：宠物角、长者健身设施、公园椅、园景。来源时段或服务备注：24小时",
+          "facility_types": "公园",
+          "details": "宠物角、长者健身设施、公园椅、园景",
+          "hours_note": "24小时",
+          "source_row_date_utc": "2010-10-06"
+        }
+      ]
+    },
+    {
+      "id": "PARK-8f1cded21bdd",
+      "category": "park",
+      "name": "将军澳海滨公园",
+      "name_tc": "將軍澳海濱公園",
+      "name_en": "Tseung Kwan O Waterfront Park",
+      "district": "西贡",
+      "address": "西贡将军澳唐贤街",
+      "longitude": 114.2591018,
+      "latitude": 22.3018716,
+      "evidence": [
+        {
+          "id": "source:PARK-8f1cded21bdd:44",
+          "source_ref": "park",
+          "source_row": 44,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园。设施说明：狗粪收集箱、宠物厕所、洗手设备和草坪(宠物活动区)，荫棚连坐椅。来源时段或服务备注：每日24小时开放",
+          "facility_types": "狗公园/宠物公园",
+          "details": "狗粪收集箱、宠物厕所、洗手设备和草坪(宠物活动区)，荫棚连坐椅",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2024-11-06"
+        }
+      ]
+    },
+    {
+      "id": "PARK-906046aaeb5d",
+      "category": "park",
+      "name": "凤德公园",
+      "name_tc": "鳳德公園",
+      "name_en": "Fung Tak Park",
+      "district": "黄大仙",
+      "address": "九龙黄大仙凤德道42号",
+      "longitude": 114.1980553,
+      "latitude": 22.3423851,
+      "evidence": [
+        {
+          "id": "source:PARK-906046aaeb5d:114",
+          "source_ref": "park",
+          "source_row": 114,
+          "scope": "venue_listing",
+          "text": "设施类别：公园, 共融游乐设施",
+          "facility_types": "公园, 共融游乐设施",
+          "source_row_date_utc": "2010-12-06"
+        }
+      ]
+    },
+    {
+      "id": "PARK-917f667cd266",
+      "category": "park",
+      "name": "鸭脷洲公园",
+      "name_tc": "鴨脷洲公園",
+      "name_en": "Ap Lei Chau Park",
+      "district": "南区",
+      "address": "香港鸭脷洲鸭脷洲大街",
+      "longitude": 114.1578752,
+      "latitude": 22.245122,
+      "evidence": [
+        {
+          "id": "source:PARK-917f667cd266:57",
+          "source_ref": "park",
+          "source_row": 57,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园,共融游乐设施。设施说明：洗手间(设有畅通易达洗手间)、狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园,共融游乐设施",
+          "details": "洗手间(设有畅通易达洗手间)、狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-04-19"
+        }
+      ]
+    },
+    {
+      "id": "PARK-9284b1244562",
+      "category": "park",
+      "name": "柴湾公园",
+      "name_tc": "柴灣公園",
+      "name_en": "Chai Wan Park",
+      "district": "东区",
+      "address": "柴湾翠湾街柴湾公园",
+      "longitude": 114.2384869,
+      "latitude": 22.2662775,
+      "evidence": [
+        {
+          "id": "source:PARK-9284b1244562:21",
+          "source_ref": "park",
+          "source_row": 21,
+          "scope": "venue_listing",
+          "text": "设施类别：公园, 硬地球场, 篮球场, 网球场, 缓跑径/健身径, 模型船池。设施说明：多用途球场 (1个五人足球场或1个七人足球场或1个手球场)",
+          "facility_types": "公园, 硬地球场, 篮球场, 网球场, 缓跑径/健身径, 模型船池",
+          "details": "多用途球场 (1个五人足球场或1个七人足球场或1个手球场)",
+          "source_row_date_utc": "2026-07-03",
+          "venue_website": "https://www.lcsd.gov.hk/tc/parks/cwp/index.html"
+        }
+      ]
+    },
+    {
+      "id": "PARK-96450c826b19",
+      "category": "park",
+      "name": "龙津石桥公园",
+      "name_tc": "龍津石橋公園",
+      "name_en": "Lung Tsun Stone Bridge Park",
+      "district": "九龙城",
+      "address": "九龙世运道18号",
+      "longitude": 114.1950742,
+      "latitude": 22.3285976,
+      "evidence": [
+        {
+          "id": "source:PARK-96450c826b19:2",
+          "source_ref": "park",
+          "source_row": 2,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。来源时段或服务备注：1) 地面层 ︰全日24小时开放；2) 地下一层及地下二层︰容后公布",
+          "facility_types": "公园",
+          "hours_note": "1) 地面层 ︰全日24小时开放；2) 地下一层及地下二层︰容后公布",
+          "source_row_date_utc": "2026-10-12",
+          "venue_website": "https://www.lcsd.gov.hk/tc/parks/ltsbp/"
+        }
+      ]
+    },
+    {
+      "id": "PARK-980bb9e7d694",
+      "category": "park",
+      "name": "东涌北公园",
+      "name_tc": "東涌北公園",
+      "name_en": "Tung Chung North Park",
+      "district": "离岛",
+      "address": "东涌文东路29号",
+      "longitude": 113.950883,
+      "latitude": 22.2915911,
+      "evidence": [
+        {
+          "id": "source:PARK-980bb9e7d694:22",
+          "source_ref": "park",
+          "source_row": 22,
+          "scope": "venue_listing",
+          "text": "设施类别：共融游乐设施。设施说明：共融游乐设施；；1套适合2-5岁儿童使用的组件 (包括：滑梯、2只摇摇马及5块游戏板)；1套适合5-12 岁儿童使用的组件 (包括：摇摇马、攀石板、攀爬绳、攀爬架及游戏组合)。来源时段或服务备注：每日24小时开放",
+          "facility_types": "共融游乐设施",
+          "details": "共融游乐设施；；1套适合2-5岁儿童使用的组件 (包括：滑梯、2只摇摇马及5块游戏板)；1套适合5-12 岁儿童使用的组件 (包括：摇摇马、攀石板、攀爬绳、攀爬架及游戏组合)",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "PARK-98216fed29b0",
+      "category": "park",
+      "name": "伟乐街临时足球场",
+      "name_tc": "偉樂街臨時足球場",
+      "name_en": "Wai Lok Street Temporary Soccer Pitch",
+      "district": "观塘",
+      "address": "九龙观塘伟业街与伟乐街交界(近丽港公园)",
+      "longitude": 114.2260355,
+      "latitude": 22.3039711,
+      "evidence": [
+        {
+          "id": "source:PARK-98216fed29b0:109",
+          "source_ref": "park",
+          "source_row": 109,
+          "scope": "venue_listing",
+          "text": "设施类别：草地球场。设施说明：7人足球场, 更衣室（不设淋浴设施）, 流动厕所。来源时段或服务备注：每日上午8时至下午6时（星期一除外）",
+          "facility_types": "草地球场",
+          "details": "7人足球场, 更衣室（不设淋浴设施）, 流动厕所",
+          "hours_note": "每日上午8时至下午6时（星期一除外）",
+          "source_row_date_utc": "2015-05-13"
+        }
+      ]
+    },
+    {
+      "id": "PARK-99d4075f1575",
+      "category": "park",
+      "name": "达运道休憩处",
+      "name_tc": "達運道休憩處",
+      "name_en": "Tat Wan Road Sitting out Area",
+      "district": "大埔",
+      "address": "大埔达运道",
+      "longitude": 114.1645693,
+      "latitude": 22.4388112,
+      "evidence": [
+        {
+          "id": "source:PARK-99d4075f1575:64",
+          "source_ref": "park",
+          "source_row": 64,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-9aec8379b7b0",
+      "category": "park",
+      "name": "告士打道花园",
+      "name_tc": "告士打道花園",
+      "name_en": "Gloucester Road Garden",
+      "district": "湾仔",
+      "address": "湾仔告士打道",
+      "longitude": 114.1724079,
+      "latitude": 22.27978,
+      "evidence": [
+        {
+          "id": "source:PARK-9aec8379b7b0:100",
+          "source_ref": "park",
+          "source_row": 100,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2019-10-18"
+        }
+      ]
+    },
+    {
+      "id": "PARK-9cace2b08868",
+      "category": "park",
+      "name": "鸭脷洲海滨长廊",
+      "name_tc": "鴨脷洲海濱長廊",
+      "name_en": "Ap Lei Chau Waterfront Promenade",
+      "district": "南区",
+      "address": "香港鸭脷洲鸭脷洲大街",
+      "longitude": 114.1554384,
+      "latitude": 22.2448237,
+      "evidence": [
+        {
+          "id": "source:PARK-9cace2b08868:56",
+          "source_ref": "park",
+          "source_row": 56,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园,宠物共享公园,休憩处。设施说明：洗手间(设有畅通易达洗手间)、狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "狗公园/宠物公园,宠物共享公园,休憩处",
+          "details": "洗手间(设有畅通易达洗手间)、狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-04-19"
+        }
+      ]
+    },
+    {
+      "id": "PARK-9da1d39faeaf",
+      "category": "park",
+      "name": "吐露港花园",
+      "name_tc": "吐露港花園",
+      "name_en": "Tolo Harbour Garden",
+      "district": "大埔",
+      "address": "大埔吐露港公路",
+      "longitude": 114.1853648,
+      "latitude": 22.4406049,
+      "evidence": [
+        {
+          "id": "source:PARK-9da1d39faeaf:62",
+          "source_ref": "park",
+          "source_row": 62,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-9dec072d411b",
+      "category": "park",
+      "name": "香港动植物公园",
+      "name_tc": "香港動植物公園",
+      "name_en": "Hong Kong Zoological & Botanical Gardens",
+      "district": "中西区",
+      "address": "中西区雅宾利道",
+      "longitude": 114.1559254,
+      "latitude": 22.2776863,
+      "evidence": [
+        {
+          "id": "source:PARK-9dec072d411b:118",
+          "source_ref": "park",
+          "source_row": 118,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2010-03-09",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-9eb6a4c5dc54",
+      "category": "park",
+      "name": "景福街休憩处",
+      "name_tc": "景福街休憩處",
+      "name_en": "King Fuk Street Sitting-out Area",
+      "district": "黄大仙",
+      "address": "黄大仙，景福街",
+      "longitude": 114.196231,
+      "latitude": 22.3338641,
+      "evidence": [
+        {
+          "id": "source:PARK-9eb6a4c5dc54:67",
+          "source_ref": "park",
+          "source_row": 67,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：公园座椅、狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "公园座椅、狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-9fe154e465da",
+      "category": "park",
+      "name": "瀑布湾公园",
+      "name_tc": "瀑布灣公園",
+      "name_en": "Waterfall Bay Park",
+      "district": "南区",
+      "address": "华富邨瀑布湾道",
+      "longitude": 114.1350874,
+      "latitude": 22.2502436,
+      "evidence": [
+        {
+          "id": "source:PARK-9fe154e465da:55",
+          "source_ref": "park",
+          "source_row": 55,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：洗手间(设有畅通易达洗手间)、狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "洗手间(设有畅通易达洗手间)、狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-04-19"
+        }
+      ]
+    },
+    {
+      "id": "PARK-a28e147ec00e",
+      "category": "park",
+      "name": "青碧休憩处",
+      "name_tc": "青碧休憩處",
+      "name_en": "Tsing Bik Sitting-out Area",
+      "district": "屯门",
+      "address": "屯门青碧街",
+      "longitude": 113.980368,
+      "latitude": 22.377276,
+      "evidence": [
+        {
+          "id": "source:PARK-a28e147ec00e:77",
+          "source_ref": "park",
+          "source_row": 77,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-a3019902cc79",
+      "category": "park",
+      "name": "坑口花园",
+      "name_tc": "坑口花園",
+      "name_en": "Hang Hau Garden",
+      "district": "西贡",
+      "address": "新界将军澳坑口田洲路",
+      "longitude": 114.2688935,
+      "latitude": 22.3146302,
+      "evidence": [
+        {
+          "id": "source:PARK-a3019902cc79:80",
+          "source_ref": "park",
+          "source_row": 80,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-a429cd449110",
+      "category": "park",
+      "name": "天水围公园",
+      "name_tc": "天水圍公園",
+      "name_en": "Tin Shui Wai Park",
+      "district": "元朗",
+      "address": "天水围天瑞路6号",
+      "longitude": 114.0034542,
+      "latitude": 22.4556588,
+      "evidence": [
+        {
+          "id": "source:PARK-a429cd449110:28",
+          "source_ref": "park",
+          "source_row": 28,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,长者健身园地,健身站,宠物共享公园,模型车场,公园,卵石路步行径,网球场,人工湖,门球场,硬地球场,缓跑径/健身径,模型船池,滑板场。设施说明：五人足球场",
+          "facility_types": "篮球场,长者健身园地,健身站,宠物共享公园,模型车场,公园,卵石路步行径,网球场,人工湖,门球场,硬地球场,缓跑径/健身径,模型船池,滑板场",
+          "details": "五人足球场",
+          "source_row_date_utc": "2026-04-02",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-a664132b81a9",
+      "category": "park",
+      "name": "天业路公园",
+      "name_tc": "天業路公園",
+      "name_en": "Tin Yip Road Park",
+      "district": "元朗",
+      "address": "新界天水围天业路",
+      "longitude": 114.0074487,
+      "latitude": 22.4632341,
+      "evidence": [
+        {
+          "id": "source:PARK-a664132b81a9:11",
+          "source_ref": "park",
+          "source_row": 11,
+          "scope": "venue_listing",
+          "text": "设施类别：长者健身园地,草地球场,缓跑径/健身径,公园。设施说明：十一人足球场/榄球场,洗手间；更衣室, 畅通易达洗手间, 育婴间。来源时段或服务备注：公园：24小时；缓跑径/健身径：24小时；长者健身园地：24小时；足球场/榄球场：上午8时至晚上11时",
+          "facility_types": "长者健身园地,草地球场,缓跑径/健身径,公园",
+          "details": "十一人足球场/榄球场,洗手间；更衣室, 畅通易达洗手间, 育婴间",
+          "hours_note": "公园：24小时；缓跑径/健身径：24小时；长者健身园地：24小时；足球场/榄球场：上午8时至晚上11时",
+          "source_row_date_utc": "2026-09-01",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist.html"
+        }
+      ]
+    },
+    {
+      "id": "PARK-a862595868a5",
+      "category": "park",
+      "name": "西贡海滨公园",
+      "name_tc": "西貢海濱公園",
+      "name_en": "Sai Kung Waterfront Park",
+      "district": "西贡",
+      "address": "西贡惠民路",
+      "longitude": 114.2746439,
+      "latitude": 22.3825574,
+      "evidence": [
+        {
+          "id": "source:PARK-a862595868a5:92",
+          "source_ref": "park",
+          "source_row": 92,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园,共融游乐设施。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园,共融游乐设施",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-21"
+        }
+      ]
+    },
+    {
+      "id": "PARK-a86fd9ee4af6",
+      "category": "park",
+      "name": "佐敦谷公园",
+      "name_tc": "佐敦谷公園",
+      "name_en": "Jordan Valley Park",
+      "district": "观塘",
+      "address": "观塘新清水湾道71号",
+      "longitude": 114.2218066,
+      "latitude": 22.3298422,
+      "evidence": [
+        {
+          "id": "source:PARK-a86fd9ee4af6:10",
+          "source_ref": "park",
+          "source_row": 10,
+          "scope": "venue_listing",
+          "text": "设施类别：公园,模型车场,缓跑径/健身径。设施说明：4条全长1,115米设有健身站的缓跑径；(佐敦谷公园的三号缓跑径及侧步行径(第3阶段)将于2026年8月14日至2026年9月15日暂停开放)",
+          "facility_types": "公园,模型车场,缓跑径/健身径",
+          "details": "4条全长1,115米设有健身站的缓跑径；(佐敦谷公园的三号缓跑径及侧步行径(第3阶段)将于2026年8月14日至2026年9月15日暂停开放)",
+          "source_row_date_utc": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "id": "PARK-aa2820537e44",
+      "category": "park",
+      "name": "上村公园",
+      "name_tc": "上村公園",
+      "name_en": "Sheung Tsuen Park",
+      "district": "元朗",
+      "address": "元朗锦上路",
+      "longitude": 114.102636,
+      "latitude": 22.4318439,
+      "evidence": [
+        {
+          "id": "source:PARK-aa2820537e44:79",
+          "source_ref": "park",
+          "source_row": 79,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-ab041a537719",
+      "category": "park",
+      "name": "赛马会葵盛围休憩处",
+      "name_tc": "賽馬會葵盛圍休憩處",
+      "name_en": "Jockey Club Kwai Shing Circuit Sitting-out Area",
+      "district": "葵青",
+      "address": "葵涌葵盛围",
+      "longitude": 114.1240915,
+      "latitude": 22.3603009,
+      "evidence": [
+        {
+          "id": "source:PARK-ab041a537719:70",
+          "source_ref": "park",
+          "source_row": 70,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-ac8eeb35d57e",
+      "category": "park",
+      "name": "牛头角公园",
+      "name_tc": "牛頭角公園",
+      "name_en": "Ngau Tau Kok Park",
+      "district": "观塘",
+      "address": "九龙观塘道199号",
+      "longitude": 114.2150149,
+      "latitude": 22.3229844,
+      "evidence": [
+        {
+          "id": "source:PARK-ac8eeb35d57e:3",
+          "source_ref": "park",
+          "source_row": 3,
+          "scope": "venue_listing",
+          "text": "设施类别：缓跑径/健身径,硬地球场。设施说明：七人足球场 (户外免费球场)；缓跑径 / 健身径。来源时段或服务备注：上午7时至晚上11时 (Soccer)；每日24小时开放 (Jogging Tracks)",
+          "facility_types": "缓跑径/健身径,硬地球场",
+          "details": "七人足球场 (户外免费球场)；缓跑径 / 健身径",
+          "hours_note": "上午7时至晚上11时 (Soccer)；每日24小时开放 (Jogging Tracks)",
+          "source_row_date_utc": "2026-09-28",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Facility/Details.do?ftid=3&fcid=8&did=6"
+        }
+      ]
+    },
+    {
+      "id": "PARK-accb4cdffe35",
+      "category": "park",
+      "name": "青衣东北公园",
+      "name_tc": "青衣東北公園",
+      "name_en": "Tsing Yi Northeast Park",
+      "district": "葵青",
+      "address": "青衣担杆山路10号",
+      "longitude": 114.0988125,
+      "latitude": 22.3623605,
+      "evidence": [
+        {
+          "id": "source:PARK-accb4cdffe35:7",
+          "source_ref": "park",
+          "source_row": 7,
+          "scope": "venue_listing",
+          "text": "设施类别：人造草地球场,篮球兼排球场,单车租用亭,停车场,儿童游乐场,儿童单车径及单车径,长者健体园地,门球场,设有健体站的缓跑径,园景区,露天广场,滑板场,足健径,海滨长廊。设施说明：十一人人造草地足球场。来源时段或服务备注：每日上午5时30分至晚上11时30分 ；• 十一人人造草地足球场：每日上午8时至晚上11时 ；• 篮球场暨排球场：每日上午7时至晚上11时 ；• 滑板场：每日上午7时至晚上11时 ；• 门球场：每日上午7时至晚上11时 (定期保养日︰逢星期四上午9时至晚上11时暂停开放)； (青衣东北公园门球场将于2026年8月3日至2026年11月上旬暂停开放，以便进行维修工程。)",
+          "facility_types": "人造草地球场,篮球兼排球场,单车租用亭,停车场,儿童游乐场,儿童单车径及单车径,长者健体园地,门球场,设有健体站的缓跑径,园景区,露天广场,滑板场,足健径,海滨长廊",
+          "details": "十一人人造草地足球场",
+          "hours_note": "每日上午5时30分至晚上11时30分 ；• 十一人人造草地足球场：每日上午8时至晚上11时 ；• 篮球场暨排球场：每日上午7时至晚上11时 ；• 滑板场：每日上午7时至晚上11时 ；• 门球场：每日上午7时至晚上11时 (定期保养日︰逢星期四上午9时至晚上11时暂停开放)； (青衣东北公园门球场将于2026年8月3日至2026年11月上旬暂停开放，以便进行维修工程。)",
+          "source_row_date_utc": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "id": "PARK-aeb5cf16f938",
+      "category": "park",
+      "name": "棠荫街山边休憩处",
+      "name_tc": "棠蔭街山邊休憩處",
+      "name_en": "Tong Yam Street Hillside Sitting-out Area",
+      "district": "深水埗",
+      "address": "石硖尾棠荫街",
+      "longitude": 114.1698565,
+      "latitude": 22.3284034,
+      "evidence": [
+        {
+          "id": "source:PARK-aeb5cf16f938:96",
+          "source_ref": "park",
+          "source_row": 96,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园,休憩处。设施说明：洗手盆, 两个狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "狗公园/宠物公园,休憩处",
+          "details": "洗手盆, 两个狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2020-11-20"
+        }
+      ]
+    },
+    {
+      "id": "PARK-b27646910d79",
+      "category": "park",
+      "name": "大菜园花园",
+      "name_tc": "大菜園花園",
+      "name_en": "Tai Tsoi Yuen Garden",
+      "district": "离岛",
+      "address": "长洲大菜园路",
+      "longitude": 114.0291871,
+      "latitude": 22.2050312,
+      "evidence": [
+        {
+          "id": "source:PARK-b27646910d79:4",
+          "source_ref": "park",
+          "source_row": 4,
+          "scope": "venue_listing",
+          "text": "设施类别：门球场。来源时段或服务备注：3月至8月；星期一至日下午2时至6时；逢星期四草地保养；；9月至翌年2月；星期一、五上午9时至11时；星期一至日下午2时至6时；逢星期四草地保养",
+          "facility_types": "门球场",
+          "hours_note": "3月至8月；星期一至日下午2时至6时；逢星期四草地保养；；9月至翌年2月；星期一、五上午9时至11时；星期一至日下午2时至6时；逢星期四草地保养",
+          "source_row_date_utc": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "PARK-b29d3d6a0ec9",
+      "category": "park",
+      "name": "香港公园",
+      "name_tc": "香港公園",
+      "name_en": "Hong Kong Park",
+      "district": "中西区",
+      "address": "中环红棉路19号",
+      "longitude": 114.1613883,
+      "latitude": 22.2773077,
+      "evidence": [
+        {
+          "id": "source:PARK-b29d3d6a0ec9:122",
+          "source_ref": "park",
+          "source_row": 122,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2009-08-27",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-b2b00e858939",
+      "category": "park",
+      "name": "观塘上配水库花园",
+      "name_tc": "觀塘上配水庫花園",
+      "name_en": "Kwun Tong High Level Service Reservoir Garden",
+      "district": "观塘",
+      "address": "九龙观塘佐敦谷",
+      "longitude": 114.22332,
+      "latitude": 22.324232,
+      "evidence": [
+        {
+          "id": "source:PARK-b2b00e858939:36",
+          "source_ref": "park",
+          "source_row": 36,
+          "scope": "venue_listing",
+          "text": "设施类别：长者健体园地,公园。设施说明：A) 长者健体园地 / 长者健身站: ； i) 太极推手器（2 套）； ii) 上背伸展器（1 套）； iii) 扭腰器及踏步机（1 套）；B) 缓跑径: 300 米。来源时段或服务备注：24小时",
+          "facility_types": "长者健体园地,公园",
+          "details": "A) 长者健体园地 / 长者健身站: ； i) 太极推手器（2 套）； ii) 上背伸展器（1 套）； iii) 扭腰器及踏步机（1 套）；B) 缓跑径: 300 米",
+          "hours_note": "24小时",
+          "source_row_date_utc": "2026-01-22",
+          "venue_website": "https://www.lcsd.gov.hk/tc/facilities/facilitieslist.html"
+        }
+      ]
+    },
+    {
+      "id": "PARK-b5987a0f81cf",
+      "category": "park",
+      "name": "南莲园池",
+      "name_tc": "南蓮園池",
+      "name_en": "Nan Lian Garden",
+      "district": "黄大仙",
+      "address": "黄大仙钻石山凤德道60号",
+      "longitude": 114.2045257,
+      "latitude": 22.3391296,
+      "evidence": [
+        {
+          "id": "source:PARK-b5987a0f81cf:121",
+          "source_ref": "park",
+          "source_row": 121,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2009-08-27",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-b5d11e52cd17",
+      "category": "park",
+      "name": "崇龄街游乐场",
+      "name_tc": "崇齡街遊樂場",
+      "name_en": "Shung Ling Street Playground",
+      "district": "黄大仙",
+      "address": "黄大仙新蒲岗崇龄街",
+      "longitude": 114.1963439,
+      "latitude": 22.3355998,
+      "evidence": [
+        {
+          "id": "source:PARK-b5d11e52cd17:50",
+          "source_ref": "park",
+          "source_row": 50,
+          "scope": "venue_listing",
+          "text": "设施类别：儿童游乐场,长者健体园地。设施说明：儿童游乐设施、长者健体设施、卵石路步行径、无障碍设施：触觉引路带、触觉点字及平面图。来源时段或服务备注：24 小时",
+          "facility_types": "儿童游乐场,长者健体园地",
+          "details": "儿童游乐设施、长者健体设施、卵石路步行径、无障碍设施：触觉引路带、触觉点字及平面图",
+          "hours_note": "24 小时",
+          "source_row_date_utc": "2023-04-25"
+        }
+      ]
+    },
+    {
+      "id": "PARK-b97abfa7a607",
+      "category": "park",
+      "name": "园圃街雀鸟花园",
+      "name_tc": "園圃街雀鳥花園",
+      "name_en": "Yuen Po Street Bird Garden",
+      "district": "油尖旺",
+      "address": "旺角园圃街",
+      "longitude": 114.1738023,
+      "latitude": 22.3257748,
+      "evidence": [
+        {
+          "id": "source:PARK-b97abfa7a607:123",
+          "source_ref": "park",
+          "source_row": 123,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2009-08-27",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-b9ae20080ac0",
+      "category": "park",
+      "name": "孔岭儿童游乐场",
+      "name_tc": "孔嶺兒童遊樂場",
+      "name_en": "Hung Leng Children's Playground",
+      "district": "北区",
+      "address": "新界粉岭孔岭村",
+      "longitude": 114.1672841,
+      "latitude": 22.5147997,
+      "evidence": [
+        {
+          "id": "source:PARK-b9ae20080ac0:53",
+          "source_ref": "park",
+          "source_row": 53,
+          "scope": "venue_listing",
+          "text": "设施类别：儿童游乐场,健体园灺。设施说明：儿童游乐设施，健身设施。来源时段或服务备注：全日开放",
+          "facility_types": "儿童游乐场,健体园灺",
+          "details": "儿童游乐设施，健身设施",
+          "hours_note": "全日开放",
+          "source_row_date_utc": "2023-04-25"
+        }
+      ],
+      "source_district": "粉岭"
+    },
+    {
+      "id": "PARK-bbb7c83fb48c",
+      "category": "park",
+      "name": "一鸣路公园",
+      "name_tc": "一鳴路公園",
+      "name_en": "Yat Ming Road Park",
+      "district": "北区",
+      "address": "粉岭一鸣路与百和路交界",
+      "longitude": 114.1448727,
+      "latitude": 22.485569,
+      "evidence": [
+        {
+          "id": "source:PARK-bbb7c83fb48c:27",
+          "source_ref": "park",
+          "source_row": 27,
+          "scope": "venue_listing",
+          "text": "设施类别：儿童游乐场,狗公园/宠物公园,健身园地,缓跑径/健身径,共融游乐设施。设施说明：场内设有饮水机,荫棚及坐椅,儿童游乐设施,狗公园/宠物公园 ,长者健身设施,健身设施,缓跑径,洗手间,畅通易达洗手间,大草地,太极场。来源时段或服务备注：每日早上六时至晚上十一时",
+          "facility_types": "儿童游乐场,狗公园/宠物公园,健身园地,缓跑径/健身径,共融游乐设施",
+          "details": "场内设有饮水机,荫棚及坐椅,儿童游乐设施,狗公园/宠物公园 ,长者健身设施,健身设施,缓跑径,洗手间,畅通易达洗手间,大草地,太极场",
+          "hours_note": "每日早上六时至晚上十一时",
+          "source_row_date_utc": "2026-04-16"
+        }
+      ],
+      "source_district": "粉岭"
+    },
+    {
+      "id": "PARK-c1fad34d064a",
+      "category": "park",
+      "name": "添马公园",
+      "name_tc": "添馬公園",
+      "name_en": "Tamar Park",
+      "district": "中西区",
+      "address": "金钟夏悫道",
+      "longitude": 114.1655787,
+      "latitude": 22.2813582,
+      "evidence": [
+        {
+          "id": "source:PARK-c1fad34d064a:40",
+          "source_ref": "park",
+          "source_row": 40,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,茶座,观景台,园景花园,公园,特色水景。来源时段或服务备注：每日24 小时开放",
+          "facility_types": "露天剧场,茶座,观景台,园景花园,公园,特色水景",
+          "hours_note": "每日24 小时开放",
+          "source_row_date_utc": "2025-10-06"
+        }
+      ]
+    },
+    {
+      "id": "PARK-c3fc9873320b",
+      "category": "park",
+      "name": "宝云道公园",
+      "name_tc": "寶雲道公園",
+      "name_en": "Bowen Road Park",
+      "district": "湾仔",
+      "address": "湾仔宝云道",
+      "longitude": 114.1715661,
+      "latitude": 22.2700278,
+      "evidence": [
+        {
+          "id": "source:PARK-c3fc9873320b:75",
+          "source_ref": "park",
+          "source_row": 75,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园,宠物共享公园,公园。设施说明：公园座椅, 狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "狗公园/宠物公园,宠物共享公园,公园",
+          "details": "公园座椅, 狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-c4742a1f0c76",
+      "category": "park",
+      "name": "九龙公园",
+      "name_tc": "九龍公園",
+      "name_en": "Kowloon Park",
+      "district": "油尖旺",
+      "address": "尖沙咀柯士甸道22号",
+      "longitude": 114.1702102,
+      "latitude": 22.3001178,
+      "evidence": [
+        {
+          "id": "source:PARK-c4742a1f0c76:14",
+          "source_ref": "park",
+          "source_row": 14,
+          "scope": "venue_listing",
+          "text": "设施类别：露天剧场,手球场,硬地球场,缓跑径/健身径,公园。设施说明：5人足球场, 7人足球场暨手球场",
+          "facility_types": "露天剧场,手球场,硬地球场,缓跑径/健身径,公园",
+          "details": "5人足球场, 7人足球场暨手球场",
+          "source_row_date_utc": "2026-07-22",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-c63589e60c35",
+      "category": "park",
+      "name": "中间道儿童游乐场",
+      "name_tc": "中間道兒童遊樂場",
+      "name_en": "Middle Road Children's Playground",
+      "district": "油尖旺",
+      "address": "九龙尖沙咀中间道",
+      "longitude": 114.1740941,
+      "latitude": 22.2954139,
+      "evidence": [
+        {
+          "id": "source:PARK-c63589e60c35:113",
+          "source_ref": "park",
+          "source_row": 113,
+          "scope": "venue_listing",
+          "text": "设施类别：共融游乐设施",
+          "facility_types": "共融游乐设施",
+          "source_row_date_utc": "2010-12-06"
+        }
+      ]
+    },
+    {
+      "id": "PARK-c6ce6d814f90",
+      "category": "park",
+      "name": "黄泥涌道新月花园",
+      "name_tc": "黃泥涌道新月花園",
+      "name_en": "Wong Nai Chung Road Crescent Garden",
+      "district": "湾仔",
+      "address": "香港跑马地黄泥涌道",
+      "longitude": 114.1842852,
+      "latitude": 22.2702092,
+      "evidence": [
+        {
+          "id": "source:PARK-c6ce6d814f90:103",
+          "source_ref": "park",
+          "source_row": 103,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。设施说明：- 1套适合2-5岁儿童使用的组件（包括：攀爬架、秋千、游戏板)；- 1套适合5-12岁儿童使用的组件（包括：攀爬架、滑梯、游戏板、摇摇船、攀爬墙）",
+          "facility_types": "公园",
+          "details": "- 1套适合2-5岁儿童使用的组件（包括：攀爬架、秋千、游戏板)；- 1套适合5-12岁儿童使用的组件（包括：攀爬架、滑梯、游戏板、摇摇船、攀爬墙）",
+          "source_row_date_utc": "2018-12-03"
+        }
+      ]
+    },
+    {
+      "id": "PARK-c850a47f52bd",
+      "category": "park",
+      "name": "西九龙海滨长廊",
+      "name_tc": "西九龍海濱長廊",
+      "name_en": "West Kowloon Waterfront Promenade",
+      "district": "油尖旺",
+      "address": "西九龙填海区 (九龙柯士甸道西/雅翔道交界)",
+      "longitude": 114.1545682,
+      "latitude": 22.3006962,
+      "evidence": [
+        {
+          "id": "source:PARK-c850a47f52bd:119",
+          "source_ref": "park",
+          "source_row": 119,
+          "scope": "venue_listing",
+          "text": "设施类别：公园, 单车径/场",
+          "facility_types": "公园, 单车径/场",
+          "source_row_date_utc": "2009-10-29",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-cb58871fee30",
+      "category": "park",
+      "name": "牛池湾公园",
+      "name_tc": "牛池灣公園",
+      "name_en": "Ngau Chi Wan Park",
+      "district": "黄大仙",
+      "address": "黄大仙牛池湾丰盛街71号",
+      "longitude": 114.2138012,
+      "latitude": 22.3361512,
+      "evidence": [
+        {
+          "id": "source:PARK-cb58871fee30:23",
+          "source_ref": "park",
+          "source_row": 23,
+          "scope": "venue_listing",
+          "text": "设施类别：射箭场,篮球场,狗公园/宠物公园,缓跑径/健身径,公园",
+          "facility_types": "射箭场,篮球场,狗公园/宠物公园,缓跑径/健身径,公园",
+          "source_row_date_utc": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "id": "PARK-cb7b0b77db02",
+      "category": "park",
+      "name": "杯渡路(南)休憩花园",
+      "name_tc": "杯渡路(南)休憩花園",
+      "name_en": "Pui To Road (South) Rest Garden",
+      "district": "屯门",
+      "address": "屯门天后路",
+      "longitude": 113.9717505,
+      "latitude": 22.3924681,
+      "evidence": [
+        {
+          "id": "source:PARK-cb7b0b77db02:46",
+          "source_ref": "park",
+          "source_row": 46,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：饮水设施、洗手间(设有畅通易达洗手间)、狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "饮水设施、洗手间(设有畅通易达洗手间)、狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2024-09-10"
+        }
+      ]
+    },
+    {
+      "id": "PARK-cda2a440ac10",
+      "category": "park",
+      "name": "启德邮轮码头公园",
+      "name_tc": "啓德郵輪碼頭公園",
+      "name_en": "Kai Tak Cruise Terminal Park",
+      "district": "九龙城",
+      "address": "九龙启德承丰道33号启德邮轮码头顶层平台",
+      "longitude": 114.2133479,
+      "latitude": 22.3061309,
+      "evidence": [
+        {
+          "id": "source:PARK-cda2a440ac10:29",
+          "source_ref": "park",
+          "source_row": 29,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日上午七时至晚上十一时",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日上午七时至晚上十一时",
+          "source_row_date_utc": "2026-03-02",
+          "venue_website": "http://www.lcsd.gov.hk/tc/parks/ktctp/index.html"
+        }
+      ]
+    },
+    {
+      "id": "PARK-ce4d43cd4207",
+      "category": "park",
+      "name": "三号码头花园",
+      "name_tc": "三號碼頭花園",
+      "name_en": "Pier 3 Garden",
+      "district": "中西区",
+      "address": "中环民光街3号码头天台",
+      "longitude": 114.1574784,
+      "latitude": 22.2879878,
+      "evidence": [
+        {
+          "id": "source:PARK-ce4d43cd4207:84",
+          "source_ref": "park",
+          "source_row": 84,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-ce9b8bc14649",
+      "category": "park",
+      "name": "歌和老街公园",
+      "name_tc": "歌和老街公園",
+      "name_en": "Cornwall Street Park",
+      "district": "深水埗",
+      "address": "九龙塘歌和老街17号",
+      "longitude": 114.1739903,
+      "latitude": 22.338879,
+      "evidence": [
+        {
+          "id": "source:PARK-ce9b8bc14649:112",
+          "source_ref": "park",
+          "source_row": 112,
+          "scope": "venue_listing",
+          "text": "设施类别：公园, 缓跑径/健身径",
+          "facility_types": "公园, 缓跑径/健身径",
+          "source_row_date_utc": "2012-08-24"
+        }
+      ]
+    },
+    {
+      "id": "PARK-d64997a5a057",
+      "category": "park",
+      "name": "湖山河畔公园",
+      "name_tc": "湖山河畔公園",
+      "name_en": "Wu Shan Riverside Park",
+      "district": "屯门",
+      "address": "新界，屯门，屯门河畔，毗邻为新屯门中心、富健花园及龙门居",
+      "longitude": 113.9681358,
+      "latitude": 22.3855218,
+      "evidence": [
+        {
+          "id": "source:PARK-d64997a5a057:34",
+          "source_ref": "park",
+          "source_row": 34,
+          "scope": "venue_listing",
+          "text": "设施类别：户外健身设施。设施说明：1条缓跑径(长600米)。来源时段或服务备注：每日24小时",
+          "facility_types": "户外健身设施",
+          "details": "1条缓跑径(长600米)",
+          "hours_note": "每日24小时",
+          "source_row_date_utc": "2026-01-29"
+        }
+      ]
+    },
+    {
+      "id": "PARK-d7911fb55761",
+      "category": "park",
+      "name": "思高路花园",
+      "name_tc": "思高路花園",
+      "name_en": "Don Bosco Road Garden",
+      "district": "离岛",
+      "address": "长洲思高路",
+      "longitude": 114.0358584,
+      "latitude": 22.2031172,
+      "evidence": [
+        {
+          "id": "source:PARK-d7911fb55761:66",
+          "source_ref": "park",
+          "source_row": 66,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-d9529bd2cb4b",
+      "category": "park",
+      "name": "马鞍山公园",
+      "name_tc": "馬鞍山公園",
+      "name_en": "Ma On Shan Park",
+      "district": "沙田",
+      "address": "马鞍山鞍骏街12号",
+      "longitude": 114.2311852,
+      "latitude": 22.4272932,
+      "evidence": [
+        {
+          "id": "source:PARK-d9529bd2cb4b:116",
+          "source_ref": "park",
+          "source_row": 116,
+          "scope": "venue_listing",
+          "text": "设施类别：公园, 缓跑径/健身径",
+          "facility_types": "公园, 缓跑径/健身径",
+          "source_row_date_utc": "2010-10-13",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-db1438e56b8c",
+      "category": "park",
+      "name": "城门河第一海滨花园",
+      "name_tc": "城門河第一海濱花園",
+      "name_en": "Shing Mun River Promenade Garden No.1",
+      "district": "沙田",
+      "address": "沙田大涌桥路",
+      "longitude": 114.1898847,
+      "latitude": 22.376983,
+      "evidence": [
+        {
+          "id": "source:PARK-db1438e56b8c:37",
+          "source_ref": "park",
+          "source_row": 37,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2026-01-08"
+        }
+      ]
+    },
+    {
+      "id": "PARK-e21b430511b7",
+      "category": "park",
+      "name": "青衣公园",
+      "name_tc": "青衣公園",
+      "name_en": "Tsing Yi Park",
+      "district": "葵青",
+      "address": "青衣青绿街",
+      "longitude": 114.1058712,
+      "latitude": 22.3561643,
+      "evidence": [
+        {
+          "id": "source:PARK-e21b430511b7:8",
+          "source_ref": "park",
+          "source_row": 8,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,手球场,硬地球场,公园,网球场,露天剧场。设施说明：7人足球场。来源时段或服务备注：1. 青衣公园 - 开放时间 - 上午5时30分至晚上11时30分；2. 网球场 - 开放时间 - 上午7时至晚上11时；[ 青衣公园网球场 (6号及7号) 于2026 年 8月 5日至2027 年 2月上旬期间暂停开放以便进行翻新工程。不便之处，敬请原谅。如有任何查询，请致电2435 0533与场地主管联络。]；3. 七人足球场兼手球场及篮球场 - 开放时间 - 上午7时至晚上10时；4. 其他设施 - 开放时间 - 上午5时30分至晚上11时30分",
+          "facility_types": "篮球场,手球场,硬地球场,公园,网球场,露天剧场",
+          "details": "7人足球场",
+          "hours_note": "1. 青衣公园 - 开放时间 - 上午5时30分至晚上11时30分；2. 网球场 - 开放时间 - 上午7时至晚上11时；[ 青衣公园网球场 (6号及7号) 于2026 年 8月 5日至2027 年 2月上旬期间暂停开放以便进行翻新工程。不便之处，敬请原谅。如有任何查询，请致电2435 0533与场地主管联络。]；3. 七人足球场兼手球场及篮球场 - 开放时间 - 上午7时至晚上10时；4. 其他设施 - 开放时间 - 上午5时30分至晚上11时30分",
+          "source_row_date_utc": "2026-09-11",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-e796822e32ce",
+      "category": "park",
+      "name": "环保大道宠物公园",
+      "name_tc": "環保大道寵物公園",
+      "name_en": "Wan Po Road Pet Garden",
+      "district": "西贡",
+      "address": "西贡将军澳环保大道",
+      "longitude": 114.2688542,
+      "latitude": 22.3050271,
+      "evidence": [
+        {
+          "id": "source:PARK-e796822e32ce:105",
+          "source_ref": "park",
+          "source_row": 105,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园。设施说明：休憩草坪, 狗只饮水器, 狗厕所, 公园座椅, 洗手间。来源时段或服务备注：每日上午七时至下午九时",
+          "facility_types": "狗公园/宠物公园",
+          "details": "休憩草坪, 狗只饮水器, 狗厕所, 公园座椅, 洗手间",
+          "hours_note": "每日上午七时至下午九时",
+          "source_row_date_utc": "2016-06-14"
+        }
+      ]
+    },
+    {
+      "id": "PARK-e820841eadd4",
+      "category": "park",
+      "name": "宝康公园",
+      "name_tc": "寶康公園",
+      "name_en": "Po Hong Park",
+      "district": "西贡",
+      "address": "将军澳运隆路",
+      "longitude": 114.2576568,
+      "latitude": 22.3187749,
+      "evidence": [
+        {
+          "id": "source:PARK-e820841eadd4:18",
+          "source_ref": "park",
+          "source_row": 18,
+          "scope": "venue_listing",
+          "text": "设施类别：公园, 硬地球场, 手球场, 篮球场, 排球场, 门球场, 滚轴溜冰场, 缓跑径/健身径。设施说明：五人硬地足球兼手球场",
+          "facility_types": "公园, 硬地球场, 手球场, 篮球场, 排球场, 门球场, 滚轴溜冰场, 缓跑径/健身径",
+          "details": "五人硬地足球兼手球场",
+          "source_row_date_utc": "2026-07-07",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-e945425d2f64",
+      "category": "park",
+      "name": "中环码头海滨长廊",
+      "name_tc": "中環碼頭海濱長廊",
+      "name_en": "Central Pier Waterfront",
+      "district": "中西区",
+      "address": "中环民光街",
+      "longitude": 114.158967,
+      "latitude": 22.287335,
+      "evidence": [
+        {
+          "id": "source:PARK-e945425d2f64:86",
+          "source_ref": "park",
+          "source_row": 86,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-ea14dd2fe1c7",
+      "category": "park",
+      "name": "城门河第三海滨花园",
+      "name_tc": "城門河第三海濱花園",
+      "name_en": "Shing Mun River Promenade Garden No.3",
+      "district": "沙田",
+      "address": "沙田第一城大涌桥路",
+      "longitude": 114.1991047,
+      "latitude": 22.3914705,
+      "evidence": [
+        {
+          "id": "source:PARK-ea14dd2fe1c7:72",
+          "source_ref": "park",
+          "source_row": 72,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-edc0823da238",
+      "category": "park",
+      "name": "马窝路花园",
+      "name_tc": "馬窩路花園",
+      "name_en": "Ma Wo Road Garden",
+      "district": "大埔",
+      "address": "新界大埔马窝路2号",
+      "longitude": 114.165557,
+      "latitude": 22.4427386,
+      "evidence": [
+        {
+          "id": "source:PARK-edc0823da238:94",
+          "source_ref": "park",
+          "source_row": 94,
+          "scope": "venue_listing",
+          "text": "设施类别：公园。设施说明：2个篮球暨排球场、健身区、卵石路步行径、棋枱、男、女洗手间及更衣室、 育婴室、通用洗手间、 无障碍设施： 畅通易达洗手间、触觉引路带、触觉点字及触觉平面图。来源时段或服务备注：每日上午7时至晚上11时",
+          "facility_types": "公园",
+          "details": "2个篮球暨排球场、健身区、卵石路步行径、棋枱、男、女洗手间及更衣室、 育婴室、通用洗手间、 无障碍设施： 畅通易达洗手间、触觉引路带、触觉点字及触觉平面图",
+          "hours_note": "每日上午7时至晚上11时",
+          "source_row_date_utc": "2021-06-22"
+        }
+      ]
+    },
+    {
+      "id": "PARK-f011682315c1",
+      "category": "park",
+      "name": "宝翠公园",
+      "name_tc": "寶翠公園",
+      "name_en": "Po Tsui Park",
+      "district": "西贡",
+      "address": "新界将军澳毓雅里",
+      "longitude": 114.2529916,
+      "latitude": 22.3250173,
+      "evidence": [
+        {
+          "id": "source:PARK-f011682315c1:19",
+          "source_ref": "park",
+          "source_row": 19,
+          "scope": "venue_listing",
+          "text": "设施类别：健身站,草地球场,手球场,硬地球场,曲棍球场,缓跑径/健身径,公园,网球场,长者健体园地,儿童游乐设施。设施说明：11人人造草地足球场兼曲棍球场, 5人/7人足球兼手球场, 网球练习场",
+          "facility_types": "健身站,草地球场,手球场,硬地球场,曲棍球场,缓跑径/健身径,公园,网球场,长者健体园地,儿童游乐设施",
+          "details": "11人人造草地足球场兼曲棍球场, 5人/7人足球兼手球场, 网球练习场",
+          "source_row_date_utc": "2026-07-03",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-f16f09ff8ac2",
+      "category": "park",
+      "name": "荃湾海滨公园",
+      "name_tc": "荃灣海濱公園",
+      "name_en": "Tsuen Wan Riviera Park",
+      "district": "荃湾",
+      "address": "荃湾怡康街2A号",
+      "longitude": 114.1121541,
+      "latitude": 22.3633751,
+      "evidence": [
+        {
+          "id": "source:PARK-f16f09ff8ac2:124",
+          "source_ref": "park",
+          "source_row": 124,
+          "scope": "venue_listing",
+          "text": "设施类别：公园, 草地球场, 网球场, 篮球场, 排球场, 门球场。设施说明：11人天然草地足球场, 篮球场暨排球场",
+          "facility_types": "公园, 草地球场, 网球场, 篮球场, 排球场, 门球场",
+          "details": "11人天然草地足球场, 篮球场暨排球场",
+          "source_row_date_utc": "2009-07-16",
+          "venue_website": "http://www.lcsd.gov.hk/b5/ls_park.php"
+        }
+      ]
+    },
+    {
+      "id": "PARK-f2c44ef3cf22",
+      "category": "park",
+      "name": "二号码头花园",
+      "name_tc": "二號碼頭花園",
+      "name_en": "Pier 2 Garden",
+      "district": "中西区",
+      "address": "中环民光街2号码头天台",
+      "longitude": 114.1565565,
+      "latitude": 22.2882143,
+      "evidence": [
+        {
+          "id": "source:PARK-f2c44ef3cf22:85",
+          "source_ref": "park",
+          "source_row": 85,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-f3e4e88dd266",
+      "category": "park",
+      "name": "蒲岗村道 / 崇华街休憩处",
+      "name_tc": "蒲崗村道 / 崇華街休憩處",
+      "name_en": "Po Kong Village Road / Shung Wah Street Sitting-out Area",
+      "district": "黄大仙",
+      "address": "蒲岗村道 / 崇华街交界",
+      "longitude": 114.1995906,
+      "latitude": 22.3458707,
+      "evidence": [
+        {
+          "id": "source:PARK-f3e4e88dd266:108",
+          "source_ref": "park",
+          "source_row": 108,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园。设施说明：宠物角、荫棚连坐椅、宠物游戏设施、 饮水器。来源时段或服务备注：每日24小时开放",
+          "facility_types": "狗公园/宠物公园",
+          "details": "宠物角、荫棚连坐椅、宠物游戏设施、 饮水器",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2015-05-13"
+        }
+      ]
+    },
+    {
+      "id": "PARK-f53487600bde",
+      "category": "park",
+      "name": "英皇道游乐场",
+      "name_tc": "英皇道遊樂場",
+      "name_en": "King's Road Playground",
+      "district": "东区",
+      "address": "北角英皇道",
+      "longitude": 114.2032627,
+      "latitude": 22.2921824,
+      "evidence": [
+        {
+          "id": "source:PARK-f53487600bde:52",
+          "source_ref": "park",
+          "source_row": 52,
+          "scope": "venue_listing",
+          "text": "设施类别：儿童游乐场,滚轴溜冰场。设施说明：儿童游乐场 、滚轴溜冰场、 男、女洗手间及畅通易达洗手间。来源时段或服务备注：每日24小时开放",
+          "facility_types": "儿童游乐场,滚轴溜冰场",
+          "details": "儿童游乐场 、滚轴溜冰场、 男、女洗手间及畅通易达洗手间",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2023-04-25"
+        }
+      ]
+    },
+    {
+      "id": "PARK-f7e01fb7db32",
+      "category": "park",
+      "name": "鲗鱼涌海滨花园",
+      "name_tc": "鰂魚涌海濱花園",
+      "name_en": "Quarry Bay Promenade",
+      "district": "东区",
+      "address": "鲗鱼涌海裕街",
+      "longitude": 114.2143695,
+      "latitude": 22.2903949,
+      "evidence": [
+        {
+          "id": "source:PARK-f7e01fb7db32:111",
+          "source_ref": "park",
+          "source_row": 111,
+          "scope": "venue_listing",
+          "text": "设施类别：狗公园/宠物公园。设施说明：凉亭、座椅及狗粪收集箱。来源时段或服务备注：每日24小时",
+          "facility_types": "狗公园/宠物公园",
+          "details": "凉亭、座椅及狗粪收集箱",
+          "hours_note": "每日24小时",
+          "source_row_date_utc": "2014-09-16"
+        }
+      ]
+    },
+    {
+      "id": "PARK-f9708f561c84",
+      "category": "park",
+      "name": "坪利路休憩处",
+      "name_tc": "坪利路休憩處",
+      "name_en": "Peng Lei Road Sitting-out Area",
+      "district": "离岛",
+      "address": "坪洲坪利路",
+      "longitude": 114.0357808,
+      "latitude": 22.2884523,
+      "evidence": [
+        {
+          "id": "source:PARK-f9708f561c84:65",
+          "source_ref": "park",
+          "source_row": 65,
+          "scope": "venue_listing",
+          "text": "设施类别：宠物共享公园。设施说明：狗粪收集箱, 洗手间(设有畅通易达洗手间)。来源时段或服务备注：每日24小时开放",
+          "facility_types": "宠物共享公园",
+          "details": "狗粪收集箱, 洗手间(设有畅通易达洗手间)",
+          "hours_note": "每日24小时开放",
+          "source_row_date_utc": "2022-01-31"
+        }
+      ]
+    },
+    {
+      "id": "PARK-fc6fb483d9ed",
+      "category": "park",
+      "name": "安睦街花园",
+      "name_tc": "安睦街花園",
+      "name_en": "On Muk Street Garden",
+      "district": "沙田",
+      "address": "沙田安睦街",
+      "longitude": 114.2051154,
+      "latitude": 22.3893998,
+      "evidence": [
+        {
+          "id": "source:PARK-fc6fb483d9ed:99",
+          "source_ref": "park",
+          "source_row": 99,
+          "scope": "venue_listing",
+          "text": "设施类别：公园",
+          "facility_types": "公园",
+          "source_row_date_utc": "2019-10-18"
+        }
+      ]
+    }
+  ]
+}

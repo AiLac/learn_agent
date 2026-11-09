@@ -1,0 +1,2473 @@
+{
+  "attribution": "香港特别行政区政府康乐及文化事务署。数据来自 DATA.GOV.HK 和 CSDI Portal。原始资料知识产权归香港特别行政区政府及相关机构。",
+  "terms": [
+    "https://data.gov.hk/en/terms-and-conditions",
+    "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC"
+  ],
+  "source": {
+    "id": "sports",
+    "label": "体育馆",
+    "provider": "香港特别行政区政府康乐及文化事务署",
+    "catalog": "https://data.gov.hk/en-data/dataset/hk-lcsd-csdi-sports-centres",
+    "url": "https://portal.csdi.gov.hk/server/rest/services/common/lcsd_rcd_1629267205215_31341/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "raw_sha256": "122943d59e52be11cbee4fb77076ce815ca9ca79b7a327a17aa5a838146ee515",
+    "source_rows": 106,
+    "places": 106,
+    "shard": "venues/sports.json",
+    "retrieved_on": "2026-11-09"
+  },
+  "records": [
+    {
+      "id": "SPORTS-013ed1ff4af7",
+      "category": "sports",
+      "name": "蓝田(南)体育馆",
+      "name_tc": "藍田(南)體育館",
+      "name_en": "Lam Tin South Sports Centre",
+      "district": "观塘",
+      "address": "观塘蓝田碧云道170号",
+      "longitude": 114.2388401,
+      "latitude": 22.3038646,
+      "evidence": [
+        {
+          "id": "source:SPORTS-013ed1ff4af7:63",
+          "source_ref": "sports",
+          "source_row": 63,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,投球场,羽毛球场,活动室,健身室,壁球场,乒乓球台,儿童游戏室",
+          "facility_types": "篮球场,排球场,投球场,羽毛球场,活动室,健身室,壁球场,乒乓球台,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-0164c014a1f6",
+      "category": "sports",
+      "name": "富亨体育馆",
+      "name_tc": "富亨體育館",
+      "name_en": "Fu Heng Sports Centre",
+      "district": "大埔",
+      "address": "大埔富亨邨富亨商场一楼",
+      "longitude": 114.1709796,
+      "latitude": 22.4580695,
+      "evidence": [
+        {
+          "id": "source:SPORTS-0164c014a1f6:15",
+          "source_ref": "sports",
+          "source_row": 15,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2025-04-16",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-045ee9a8b458",
+      "category": "sports",
+      "name": "香港单车馆",
+      "name_tc": "香港單車館",
+      "name_en": "Hong Kong Velodrome",
+      "district": "西贡",
+      "address": "将军澳宝康路105-107号",
+      "longitude": 114.2625064,
+      "latitude": 22.3130807,
+      "evidence": [
+        {
+          "id": "source:SPORTS-045ee9a8b458:23",
+          "source_ref": "sports",
+          "source_row": 23,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,舞蹈室,健身室,观众席看台,乒乓球台,排球场,木制单车赛道。来源时段或服务备注：每日上午7时至晚上11时（定期保养日除外）",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,舞蹈室,健身室,观众席看台,乒乓球台,排球场,木制单车赛道",
+          "hours_note": "每日上午7时至晚上11时（定期保养日除外）",
+          "source_row_date_utc": "2024-11-25"
+        }
+      ],
+      "source_district": "将军澳"
+    },
+    {
+      "id": "SPORTS-04d2ed001611",
+      "category": "sports",
+      "name": "西湾河体育馆",
+      "name_tc": "西灣河體育館",
+      "name_en": "Sai Wan Ho Sports Centre",
+      "district": "东区",
+      "address": "筲箕湾道111号西湾河市政大厦二楼",
+      "longitude": 114.2227229,
+      "latitude": 22.282052,
+      "evidence": [
+        {
+          "id": "source:SPORTS-04d2ed001611:10",
+          "source_ref": "sports",
+          "source_row": 10,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "facility_types": "篮球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "source_row_date_utc": "2025-04-28",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-0751e9b21473",
+      "category": "sports",
+      "name": "界限街一号体育馆",
+      "name_tc": "界限街一號體育館",
+      "name_en": "Boundary Street Sports Centre No. 1",
+      "district": "油尖旺",
+      "address": "太子洗衣街200号",
+      "longitude": 114.1709146,
+      "latitude": 22.325595,
+      "evidence": [
+        {
+          "id": "source:SPORTS-0751e9b21473:94",
+          "source_ref": "sports",
+          "source_row": 94,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场",
+          "facility_types": "篮球场,排球场,羽毛球场",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-081613802d7f",
+      "category": "sports",
+      "name": "调景岭体育馆",
+      "name_tc": "調景嶺體育館",
+      "name_en": "Tiu Keng Leng Sports Centre",
+      "district": "西贡",
+      "address": "将军澳翠岭路2号",
+      "longitude": 114.2548516,
+      "latitude": 22.3064141,
+      "evidence": [
+        {
+          "id": "source:SPORTS-081613802d7f:30",
+          "source_ref": "sports",
+          "source_row": 30,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,健身室,室内缓跑径,运动攀登设施,乒乓球台,排球场。来源时段或服务备注：每日上午7时至晚上11时(定期保养日除外)",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,健身室,室内缓跑径,运动攀登设施,乒乓球台,排球场",
+          "hours_note": "每日上午7时至晚上11时(定期保养日除外)",
+          "source_row_date_utc": "2023-05-10",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/facilities.php?ftid=0&did=8"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-09df5131c2b8",
+      "category": "sports",
+      "name": "圆洲角体育馆",
+      "name_tc": "圓洲角體育館",
+      "name_en": "Yuen Chau Kok Sports Centre",
+      "district": "沙田",
+      "address": "新界沙田银城街35号",
+      "longitude": 114.2044939,
+      "latitude": 22.3797454,
+      "evidence": [
+        {
+          "id": "source:SPORTS-09df5131c2b8:34",
+          "source_ref": "sports",
+          "source_row": 34,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,健身室,运动攀登设施,乒乓球台,排球场,室内草地滚球场。来源时段或服务备注：每日上午7时至晚上11时",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,健身室,运动攀登设施,乒乓球台,排球场,室内草地滚球场",
+          "hours_note": "每日上午7时至晚上11时",
+          "source_row_date_utc": "2023-05-09",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/facilities.php?ftid=0&did=10#1312"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-09eee92e2029",
+      "category": "sports",
+      "name": "太和体育馆",
+      "name_tc": "太和體育館",
+      "name_en": "Tai Wo Sports Centre",
+      "district": "大埔",
+      "address": "大埔太和邨太和商场平台",
+      "longitude": 114.1605822,
+      "latitude": 22.4510011,
+      "evidence": [
+        {
+          "id": "source:SPORTS-09eee92e2029:76",
+          "source_ref": "sports",
+          "source_row": 76,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-0d7aaffd2926",
+      "category": "sports",
+      "name": "将军澳体育馆",
+      "name_tc": "將軍澳體育館",
+      "name_en": "Tseung Kwan O Sports Centre",
+      "district": "西贡",
+      "address": "西贡将军澳运隆路9号",
+      "longitude": 114.2596261,
+      "latitude": 22.3171032,
+      "evidence": [
+        {
+          "id": "source:SPORTS-0d7aaffd2926:103",
+          "source_ref": "sports",
+          "source_row": 103,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-107b1c2399e8",
+      "category": "sports",
+      "name": "骆克道体育馆",
+      "name_tc": "駱克道體育館",
+      "name_en": "Lockhart Road Sports Centre",
+      "district": "湾仔",
+      "address": "湾仔轩尼诗道225号骆克道市政大厦11楼",
+      "longitude": 114.1754189,
+      "latitude": 22.278076,
+      "evidence": [
+        {
+          "id": "source:SPORTS-107b1c2399e8:75",
+          "source_ref": "sports",
+          "source_row": 75,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-13ef2c42cb71",
+      "category": "sports",
+      "name": "长沙湾体育馆",
+      "name_tc": "長沙灣體育館",
+      "name_en": "Cheung Sha Wan Sports Centre",
+      "district": "深水埗",
+      "address": "深水埗兴华街与长沙湾道交界",
+      "longitude": 114.1534702,
+      "latitude": 22.3379653,
+      "evidence": [
+        {
+          "id": "source:SPORTS-13ef2c42cb71:52",
+          "source_ref": "sports",
+          "source_row": 52,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,户外乒乓球台",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,户外乒乓球台",
+          "source_row_date_utc": "2010-04-08",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-15929c07bddd",
+      "category": "sports",
+      "name": "佛光街体育馆",
+      "name_tc": "佛光街體育館",
+      "name_en": "Fat Kwong Street Sports Centre",
+      "district": "九龙城",
+      "address": "何文田牧爱街18号",
+      "longitude": 114.181106,
+      "latitude": 22.3148306,
+      "evidence": [
+        {
+          "id": "source:SPORTS-15929c07bddd:85",
+          "source_ref": "sports",
+          "source_row": 85,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-1700cd481f56",
+      "category": "sports",
+      "name": "凤琴街体育馆",
+      "name_tc": "鳳琴街體育館",
+      "name_en": "Fung Kam Street Sports Centre",
+      "district": "元朗",
+      "address": "元朗攸北街二十号",
+      "longitude": 114.0330312,
+      "latitude": 22.4430633,
+      "evidence": [
+        {
+          "id": "source:SPORTS-1700cd481f56:82",
+          "source_ref": "sports",
+          "source_row": 82,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-1782dd894a93",
+      "category": "sports",
+      "name": "坪洲体育馆",
+      "name_tc": "坪洲體育館",
+      "name_en": "Peng Chau Sports Centre",
+      "district": "离岛",
+      "address": "坪洲宝坪街6号坪洲市政大厦",
+      "longitude": 114.038055,
+      "latitude": 22.284889,
+      "evidence": [
+        {
+          "id": "source:SPORTS-1782dd894a93:91",
+          "source_ref": "sports",
+          "source_row": 91,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-20cc8e4ce60e",
+      "category": "sports",
+      "name": "东涌文东路体育馆",
+      "name_tc": "東涌文東路體育館",
+      "name_en": "Tung Chung Man Tung Road Sports Centre",
+      "district": "离岛",
+      "address": "东涌文东路39号东涌市政大楼地下",
+      "longitude": 113.9438309,
+      "latitude": 22.2905878,
+      "evidence": [
+        {
+          "id": "source:SPORTS-20cc8e4ce60e:7",
+          "source_ref": "sports",
+          "source_row": 7,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,儿童游戏室",
+          "source_row_date_utc": "2026-01-08",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-23e585700bc8",
+      "category": "sports",
+      "name": "大角咀体育馆",
+      "name_tc": "大角咀體育館",
+      "name_en": "Tai Kok Tsui Sports Centre",
+      "district": "油尖旺",
+      "address": "九龙大角咀福全街63号大角咀市政大厦五楼至七楼",
+      "longitude": 114.1627908,
+      "latitude": 22.3218829,
+      "evidence": [
+        {
+          "id": "source:SPORTS-23e585700bc8:98",
+          "source_ref": "sports",
+          "source_row": 98,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,运动攀登设施,健身室,儿童游戏室,乒乓球台,活动室",
+          "facility_types": "篮球场,排球场,羽毛球场,运动攀登设施,健身室,儿童游戏室,乒乓球台,活动室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-25e0022a3e1a",
+      "category": "sports",
+      "name": "天瑞体育馆",
+      "name_tc": "天瑞體育館",
+      "name_en": "Tin Shui Sports Centre",
+      "district": "元朗",
+      "address": "天水围天瑞路7号",
+      "longitude": 113.9979759,
+      "latitude": 22.4547678,
+      "evidence": [
+        {
+          "id": "source:SPORTS-25e0022a3e1a:59",
+          "source_ref": "sports",
+          "source_row": 59,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,手球场,乒乓球台,活动室,健身室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,手球场,乒乓球台,活动室,健身室,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-277896b53fbe",
+      "category": "sports",
+      "name": "青衣体育馆",
+      "name_tc": "青衣體育館",
+      "name_en": "Tsing Yi Sports Centre",
+      "district": "葵青",
+      "address": "青衣青绿街38号青衣市政大厦2楼",
+      "longitude": 114.1065081,
+      "latitude": 22.3542058,
+      "evidence": [
+        {
+          "id": "source:SPORTS-277896b53fbe:71",
+          "source_ref": "sports",
+          "source_row": 71,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-2c1aeae108aa",
+      "category": "sports",
+      "name": "天水围体育馆",
+      "name_tc": "天水圍體育館",
+      "name_en": "Tin Shui Wai Sports Centre",
+      "district": "元朗",
+      "address": "元朗天水围天柏路1号",
+      "longitude": 114.0065445,
+      "latitude": 22.4550119,
+      "evidence": [
+        {
+          "id": "source:SPORTS-2c1aeae108aa:68",
+          "source_ref": "sports",
+          "source_row": 68,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-2d529f12b1d9",
+      "category": "sports",
+      "name": "赛马会屯门蝴蝶湾体育馆",
+      "name_tc": "賽馬會屯門蝴蝶灣體育館",
+      "name_en": "The Jockey Club Tuen Mun Butterfly Beach Sports Centre",
+      "district": "屯门",
+      "address": "屯门湖山道",
+      "longitude": 113.9646999,
+      "latitude": 22.3786912,
+      "evidence": [
+        {
+          "id": "source:SPORTS-2d529f12b1d9:102",
+          "source_ref": "sports",
+          "source_row": 102,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-2dca0e0425f7",
+      "category": "sports",
+      "name": "青衣西南体育馆",
+      "name_tc": "青衣西南體育館",
+      "name_en": "Tsing Yi Southwest Sports Centre",
+      "district": "葵青",
+      "address": "青衣涌美路70 号",
+      "longitude": 114.1020669,
+      "latitude": 22.3515443,
+      "evidence": [
+        {
+          "id": "source:SPORTS-2dca0e0425f7:33",
+          "source_ref": "sports",
+          "source_row": 33,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,舞蹈室,运动攀登设施,乒乓球台,排球场。来源时段或服务备注：每日上午7时至晚上11时（定期保养日除外）",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,舞蹈室,运动攀登设施,乒乓球台,排球场",
+          "hours_note": "每日上午7时至晚上11时（定期保养日除外）",
+          "source_row_date_utc": "2023-05-09",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/facilities.php?ftid=0&did=5#1448"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-2e71928b2fc2",
+      "category": "sports",
+      "name": "红磡市政大厦体育馆",
+      "name_tc": "紅磡市政大廈體育館",
+      "name_en": "Hung Hom Municipal Services Building Sports Centre",
+      "district": "九龙城",
+      "address": "九龙红磡马头围道11号红磡市政大厦3-5楼",
+      "longitude": 114.1873559,
+      "latitude": 22.3072717,
+      "evidence": [
+        {
+          "id": "source:SPORTS-2e71928b2fc2:79",
+          "source_ref": "sports",
+          "source_row": 79,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-2f411ec5a302",
+      "category": "sports",
+      "name": "美林体育馆",
+      "name_tc": "美林體育館",
+      "name_en": "Mei Lam Sports Centre",
+      "district": "沙田",
+      "address": "沙田大围美林邨第三期",
+      "longitude": 114.1754955,
+      "latitude": 22.3790831,
+      "evidence": [
+        {
+          "id": "source:SPORTS-2f411ec5a302:84",
+          "source_ref": "sports",
+          "source_row": 84,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-32280570e728",
+      "category": "sports",
+      "name": "屏山天水围体育馆",
+      "name_tc": "屏山天水圍體育館",
+      "name_en": "Ping Shan Tin Shui Wai Sports Centre",
+      "district": "元朗",
+      "address": "元朗屏山天水围聚星路1号",
+      "longitude": 114.0046536,
+      "latitude": 22.4473927,
+      "evidence": [
+        {
+          "id": "source:SPORTS-32280570e728:49",
+          "source_ref": "sports",
+          "source_row": 49,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,儿童游戏室",
+          "source_row_date_utc": "2012-03-02"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-3246b199b5a4",
+      "category": "sports",
+      "name": "九龙城体育馆",
+      "name_tc": "九龍城體育館",
+      "name_en": "Kowloon City Sports Centre",
+      "district": "九龙城",
+      "address": "九龙城衙前围道100号市政大厦三楼",
+      "longitude": 114.1888912,
+      "latitude": 22.3296403,
+      "evidence": [
+        {
+          "id": "source:SPORTS-3246b199b5a4:88",
+          "source_ref": "sports",
+          "source_row": 88,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-3345e12c4cb1",
+      "category": "sports",
+      "name": "荃湾西约体育馆",
+      "name_tc": "荃灣西約體育館",
+      "name_en": "Tsuen Wan West Sports Centre",
+      "district": "荃湾",
+      "address": "荃湾海安路68号",
+      "longitude": 114.1005091,
+      "latitude": 22.370477,
+      "evidence": [
+        {
+          "id": "source:SPORTS-3345e12c4cb1:89",
+          "source_ref": "sports",
+          "source_row": 89,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-35608f284b2d",
+      "category": "sports",
+      "name": "长洲体育馆",
+      "name_tc": "長洲體育館",
+      "name_en": "Cheung Chau Sports Centre",
+      "district": "离岛",
+      "address": "长洲医院路三号",
+      "longitude": 114.0311775,
+      "latitude": 22.2075083,
+      "evidence": [
+        {
+          "id": "source:SPORTS-35608f284b2d:4",
+          "source_ref": "sports",
+          "source_row": 4,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,门球场,乒乓球台,活动室,健身室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,门球场,乒乓球台,活动室,健身室,儿童游戏室",
+          "source_row_date_utc": "2026-02-12",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-35bd5a410fc2",
+      "category": "sports",
+      "name": "联和墟体育馆",
+      "name_tc": "聯和墟體育館",
+      "name_en": "Luen Wo Hui Sports Centre",
+      "district": "北区",
+      "address": "新界粉岭联和墟和满街9号3楼",
+      "longitude": 114.145017,
+      "latitude": 22.5002777,
+      "evidence": [
+        {
+          "id": "source:SPORTS-35bd5a410fc2:28",
+          "source_ref": "sports",
+          "source_row": 28,
+          "scope": "venue_listing",
+          "text": "设施类别：乒乓球台,健身室,活动室,舞蹈室,儿童游戏室。来源时段或服务备注：每日上午7时至晚上11时(定期保养日除外)",
+          "facility_types": "乒乓球台,健身室,活动室,舞蹈室,儿童游戏室",
+          "hours_note": "每日上午7时至晚上11时(定期保养日除外)",
+          "source_row_date_utc": "2023-05-19",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Facility/Details.do?ftid=0&fcid=&did=7"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-3693fd647bd8",
+      "category": "sports",
+      "name": "兆麟体育馆",
+      "name_tc": "兆麟體育館",
+      "name_en": "Siu Lun Sports Centre",
+      "district": "屯门",
+      "address": "新界屯门兆麟街19号屯门兆麟政府综合大楼2至5楼",
+      "longitude": 113.9791988,
+      "latitude": 22.3842542,
+      "evidence": [
+        {
+          "id": "source:SPORTS-3693fd647bd8:42",
+          "source_ref": "sports",
+          "source_row": 42,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,健身室,手球场,运动攀登设施,乒乓球台,排球场。来源时段或服务备注：每日上午7时至晚上11时 (定期保养日除外)",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,健身室,手球场,运动攀登设施,乒乓球台,排球场",
+          "hours_note": "每日上午7时至晚上11时 (定期保养日除外)",
+          "source_row_date_utc": "2020-06-29",
+          "venue_website": "https://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-3f8a4995c935",
+      "category": "sports",
+      "name": "东启德体育馆",
+      "name_tc": "東啟德體育館",
+      "name_en": "Kai Tak East Sports Centre",
+      "district": "黄大仙",
+      "address": "新蒲岗六合街30号",
+      "longitude": 114.2005597,
+      "latitude": 22.3359514,
+      "evidence": [
+        {
+          "id": "source:SPORTS-3f8a4995c935:97",
+          "source_ref": "sports",
+          "source_row": 97,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,运动攀登设施",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,运动攀登设施",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-43db55813b04",
+      "category": "sports",
+      "name": "北河街体育馆",
+      "name_tc": "北河街體育館",
+      "name_en": "Pei Ho Street Sports Centre",
+      "district": "深水埗",
+      "address": "深水埗基隆街333号北河街市政大厦5至U6楼",
+      "longitude": 114.1611302,
+      "latitude": 22.3292427,
+      "evidence": [
+        {
+          "id": "source:SPORTS-43db55813b04:17",
+          "source_ref": "sports",
+          "source_row": 17,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "source_row_date_utc": "2025-03-26",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-4683231beefa",
+      "category": "sports",
+      "name": "东昌街体育馆",
+      "name_tc": "東昌街體育館",
+      "name_en": "Tung Cheong Street Sports Centre",
+      "district": "大埔",
+      "address": "大埔东昌街25号大埔东昌街康体大楼地下及3楼",
+      "longitude": 114.1700273,
+      "latitude": 22.4498875,
+      "evidence": [
+        {
+          "id": "source:SPORTS-4683231beefa:3",
+          "source_ref": "sports",
+          "source_row": 3,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,草地滚球场,儿童游戏室,健身室,乒乓球台,排球场。来源时段或服务备注：早上七时至晚上11时",
+          "facility_types": "活动室,羽毛球场,篮球场,草地滚球场,儿童游戏室,健身室,乒乓球台,排球场",
+          "hours_note": "早上七时至晚上11时",
+          "source_row_date_utc": "2026-04-02",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-494b4c3480db",
+      "category": "sports",
+      "name": "大埔体育馆",
+      "name_tc": "大埔體育館",
+      "name_en": "Tai Po Sports Centre",
+      "district": "大埔",
+      "address": "大埔汀太路13号",
+      "longitude": 114.1648953,
+      "latitude": 22.4553361,
+      "evidence": [
+        {
+          "id": "source:SPORTS-494b4c3480db:87",
+          "source_ref": "sports",
+          "source_row": 87,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-4cd0b3b199b5",
+      "category": "sports",
+      "name": "鸭脷洲体育馆",
+      "name_tc": "鴨脷洲體育館",
+      "name_en": "Ap Lei Chau Sports Centre",
+      "district": "南区",
+      "address": "鸭脷洲洪圣街8号",
+      "longitude": 114.1554162,
+      "latitude": 22.2444805,
+      "evidence": [
+        {
+          "id": "source:SPORTS-4cd0b3b199b5:54",
+          "source_ref": "sports",
+          "source_row": 54,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,投球场,羽毛球场,草地滚球场,壁球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "facility_types": "篮球场,排球场,投球场,羽毛球场,草地滚球场,壁球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-4e07a7b483d1",
+      "category": "sports",
+      "name": "长发体育馆",
+      "name_tc": "長發體育館",
+      "name_en": "Cheung Fat Sports Centre",
+      "district": "葵青",
+      "address": "青衣长发邨长发广场四楼",
+      "longitude": 114.102697,
+      "latitude": 22.3624752,
+      "evidence": [
+        {
+          "id": "source:SPORTS-4e07a7b483d1:40",
+          "source_ref": "sports",
+          "source_row": 40,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2021-02-19",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-51b9c7b2b1ad",
+      "category": "sports",
+      "name": "香港公园体育馆",
+      "name_tc": "香港公園體育館",
+      "name_en": "Hong Kong Park Sports Centre",
+      "district": "中西区",
+      "address": "中环红棉路29号",
+      "longitude": 114.1592924,
+      "latitude": 22.2773436,
+      "evidence": [
+        {
+          "id": "source:SPORTS-51b9c7b2b1ad:43",
+          "source_ref": "sports",
+          "source_row": 43,
+          "scope": "venue_listing",
+          "text": "设施类别：羽毛球场,篮球场,舞蹈室,健身室,室内缓跑径,投球场,乒乓球台,排球场",
+          "facility_types": "羽毛球场,篮球场,舞蹈室,健身室,室内缓跑径,投球场,乒乓球台,排球场",
+          "source_row_date_utc": "2018-12-03",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-547f1250ec89",
+      "category": "sports",
+      "name": "彩虹道体育馆",
+      "name_tc": "彩虹道體育館",
+      "name_en": "Choi Hung Road Sports Centre",
+      "district": "黄大仙",
+      "address": "黄大仙双喜街",
+      "longitude": 114.1964538,
+      "latitude": 22.3371259,
+      "evidence": [
+        {
+          "id": "source:SPORTS-547f1250ec89:80",
+          "source_ref": "sports",
+          "source_row": 80,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-548c775ab326",
+      "category": "sports",
+      "name": "中山纪念公园体育馆",
+      "name_tc": "中山紀念公園體育館",
+      "name_en": "Sun Yat Sen Memorial Park Sports Centre",
+      "district": "中西区",
+      "address": "西营盘东边街北18号",
+      "longitude": 114.1434928,
+      "latitude": 22.2901736,
+      "evidence": [
+        {
+          "id": "source:SPORTS-548c775ab326:44",
+          "source_ref": "sports",
+          "source_row": 44,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,投球场,羽毛球场,手球场,健身室,舞蹈室,壁球场,活动室,乒乓球台,儿童游戏室",
+          "facility_types": "篮球场,排球场,投球场,羽毛球场,手球场,健身室,舞蹈室,壁球场,活动室,乒乓球台,儿童游戏室",
+          "source_row_date_utc": "2018-12-03",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-58e262ccfe26",
+      "category": "sports",
+      "name": "港湾道体育馆",
+      "name_tc": "港灣道體育館",
+      "name_en": "Harbour Road Sports Centre",
+      "district": "湾仔",
+      "address": "湾仔港湾道27号",
+      "longitude": 114.1767084,
+      "latitude": 22.2812728,
+      "evidence": [
+        {
+          "id": "source:SPORTS-58e262ccfe26:46",
+          "source_ref": "sports",
+          "source_row": 46,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "source_row_date_utc": "2017-06-05",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-58fb3d58837f",
+      "category": "sports",
+      "name": "石硖尾公园体育馆",
+      "name_tc": "石硤尾公園體育館",
+      "name_en": "Shek Kip Mei Park Sports Centre",
+      "district": "深水埗",
+      "address": "石硖尾南昌街290号",
+      "longitude": 114.1699628,
+      "latitude": 22.3372895,
+      "evidence": [
+        {
+          "id": "source:SPORTS-58fb3d58837f:96",
+          "source_ref": "sports",
+          "source_row": 96,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,投球场,手球场,羽毛球场,活动室,舞蹈室,健身室,儿童游戏室,运动攀登设施",
+          "facility_types": "篮球场,排球场,投球场,手球场,羽毛球场,活动室,舞蹈室,健身室,儿童游戏室,运动攀登设施",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-5c36df3dcf1f",
+      "category": "sports",
+      "name": "界限街二号体育馆",
+      "name_tc": "界限街二號體育館",
+      "name_en": "Boundary Street Sports Centre No. 2",
+      "district": "油尖旺",
+      "address": "太子洗衣街200号",
+      "longitude": 114.1705264,
+      "latitude": 22.3260826,
+      "evidence": [
+        {
+          "id": "source:SPORTS-5c36df3dcf1f:95",
+          "source_ref": "sports",
+          "source_row": 95,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-5eec8bc4017c",
+      "category": "sports",
+      "name": "竹园体育馆",
+      "name_tc": "竹園體育館",
+      "name_en": "Chuk Yuen Sports Centre",
+      "district": "黄大仙",
+      "address": "九龙竹园道10号",
+      "longitude": 114.1935135,
+      "latitude": 22.3455247,
+      "evidence": [
+        {
+          "id": "source:SPORTS-5eec8bc4017c:1",
+          "source_ref": "sports",
+          "source_row": 1,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2026-10-05",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-63e39c973b80",
+      "category": "sports",
+      "name": "上环体育馆",
+      "name_tc": "上環體育館",
+      "name_en": "Sheung Wan Sports Centre",
+      "district": "中西区",
+      "address": "上环皇后大道中345号上环市政大厦11至13楼",
+      "longitude": 114.1496265,
+      "latitude": 22.2860026,
+      "evidence": [
+        {
+          "id": "source:SPORTS-63e39c973b80:13",
+          "source_ref": "sports",
+          "source_row": 13,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2025-04-28",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-67b5a264a431",
+      "category": "sports",
+      "name": "花园街体育馆",
+      "name_tc": "花園街體育館",
+      "name_en": "Fa Yuen Street Sports Centre",
+      "district": "油尖旺",
+      "address": "旺角花园街123A号花园街市政大厦10-13楼",
+      "longitude": 114.1707013,
+      "latitude": 22.3207817,
+      "evidence": [
+        {
+          "id": "source:SPORTS-67b5a264a431:9",
+          "source_ref": "sports",
+          "source_row": 9,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2025-06-09",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-6b70508593c4",
+      "category": "sports",
+      "name": "车公庙体育馆",
+      "name_tc": "車公廟體育館",
+      "name_en": "Che Kung Temple Sports Centre",
+      "district": "沙田",
+      "address": "沙田沙田头路10号",
+      "longitude": 114.185574,
+      "latitude": 22.3722286,
+      "evidence": [
+        {
+          "id": "source:SPORTS-6b70508593c4:41",
+          "source_ref": "sports",
+          "source_row": 41,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,舞蹈室,健身室,乒乓球台,排球场。来源时段或服务备注：早上七时至晚上11时",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,舞蹈室,健身室,乒乓球台,排球场",
+          "hours_note": "早上七时至晚上11时",
+          "source_row_date_utc": "2020-07-06"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-6f68ccfd2020",
+      "category": "sports",
+      "name": "士美非路体育馆",
+      "name_tc": "士美非路體育館",
+      "name_en": "Smithfield Sports Centre",
+      "district": "中西区",
+      "address": "香港坚尼地城士美菲路12 K号士美非路市政大厦4至7楼",
+      "longitude": 114.1286388,
+      "latitude": 22.281943,
+      "evidence": [
+        {
+          "id": "source:SPORTS-6f68ccfd2020:14",
+          "source_ref": "sports",
+          "source_row": 14,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,健身室,舞蹈室,活动室,乒乓球台,壁球场,美式桌球台,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,健身室,舞蹈室,活动室,乒乓球台,壁球场,美式桌球台,儿童游戏室",
+          "source_row_date_utc": "2025-04-24",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-6fa6f639a05b",
+      "category": "sports",
+      "name": "翠林体育馆",
+      "name_tc": "翠林體育館",
+      "name_en": "Tsui Lam Sports Centre",
+      "district": "西贡",
+      "address": "西贡将军澳翠林邨",
+      "longitude": 114.2495347,
+      "latitude": 22.3222284,
+      "evidence": [
+        {
+          "id": "source:SPORTS-6fa6f639a05b:69",
+          "source_ref": "sports",
+          "source_row": 69,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-79fb38dbaf5a",
+      "category": "sports",
+      "name": "良田体育馆",
+      "name_tc": "良田體育館",
+      "name_en": "Leung Tin Sports Centre",
+      "district": "屯门",
+      "address": "屯门田景邨停车场四字褛",
+      "longitude": 113.9650849,
+      "latitude": 22.4066048,
+      "evidence": [
+        {
+          "id": "source:SPORTS-79fb38dbaf5a:86",
+          "source_ref": "sports",
+          "source_row": 86,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-7bc0fb73cda8",
+      "category": "sports",
+      "name": "显径体育馆",
+      "name_tc": "顯徑體育館",
+      "name_en": "Hin Keng Sports Centre",
+      "district": "沙田",
+      "address": "沙田显径邨显径商场",
+      "longitude": 114.1713402,
+      "latitude": 22.3630718,
+      "evidence": [
+        {
+          "id": "source:SPORTS-7bc0fb73cda8:67",
+          "source_ref": "sports",
+          "source_row": 67,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-83996b77b7c6",
+      "category": "sports",
+      "name": "杨屋道体育馆",
+      "name_tc": "楊屋道體育館",
+      "name_en": "Yeung Uk Road Sports Centre",
+      "district": "荃湾",
+      "address": "荃湾杨屋道45号杨屋道市政大厦四楼",
+      "longitude": 114.1145206,
+      "latitude": 22.368993,
+      "evidence": [
+        {
+          "id": "source:SPORTS-83996b77b7c6:92",
+          "source_ref": "sports",
+          "source_row": 92,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-847b5242e27c",
+      "category": "sports",
+      "name": "振华道体育馆",
+      "name_tc": "振華道體育館",
+      "name_en": "Chun Wah Road Sports Centre",
+      "district": "观塘",
+      "address": "观塘牛头角振华道50号乐雅苑停车场顶楼",
+      "longitude": 114.2205133,
+      "latitude": 22.3224736,
+      "evidence": [
+        {
+          "id": "source:SPORTS-847b5242e27c:106",
+          "source_ref": "sports",
+          "source_row": 106,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-86ed584a681c",
+      "category": "sports",
+      "name": "蕙荃体育馆",
+      "name_tc": "蕙荃體育館",
+      "name_en": "Wai Tsuen Sports Centre",
+      "district": "荃湾",
+      "address": "荃湾庙岗街6号",
+      "longitude": 114.1224907,
+      "latitude": 22.3723191,
+      "evidence": [
+        {
+          "id": "source:SPORTS-86ed584a681c:57",
+          "source_ref": "sports",
+          "source_row": 57,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-8a7c53893918",
+      "category": "sports",
+      "name": "北葵涌邓肇坚体育馆",
+      "name_tc": "北葵涌鄧肇堅體育館",
+      "name_en": "North Kwai Chung Tang Shiu Kin Sports Centre",
+      "district": "葵青",
+      "address": "新界葵涌和宜合道292号",
+      "longitude": 114.1375577,
+      "latitude": 22.3738713,
+      "evidence": [
+        {
+          "id": "source:SPORTS-8a7c53893918:20",
+          "source_ref": "sports",
+          "source_row": 20,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,网球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,网球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2025-03-24",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-8abbd7bd28a1",
+      "category": "sports",
+      "name": "小西湾体育馆",
+      "name_tc": "小西灣體育館",
+      "name_en": "Siu Sai Wan Sports Centre",
+      "district": "东区",
+      "address": "香港小西湾道15号小西湾综合大楼二至四楼",
+      "longitude": 114.2495578,
+      "latitude": 22.2636522,
+      "evidence": [
+        {
+          "id": "source:SPORTS-8abbd7bd28a1:51",
+          "source_ref": "sports",
+          "source_row": 51,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,儿童游戏室。来源时段或服务备注：每日上午7时至晚上11时 (定期保养日除外) 定期保养日:每月第一和第三个星期一上午7时至下午1时 (如该日为公众假期，保养日则顺延至下一个工作日)",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,儿童游戏室",
+          "hours_note": "每日上午7时至晚上11时 (定期保养日除外) 定期保养日:每月第一和第三个星期一上午7时至下午1时 (如该日为公众假期，保养日则顺延至下一个工作日)",
+          "source_row_date_utc": "2011-06-07",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-8acd573c8524",
+      "category": "sports",
+      "name": "保安道体育馆",
+      "name_tc": "保安道體育館",
+      "name_en": "Po On Road Sports Centre",
+      "district": "深水埗",
+      "address": "深水埗保安道325-329号保安道市政大厦2至3楼",
+      "longitude": 114.1573918,
+      "latitude": 22.3386187,
+      "evidence": [
+        {
+          "id": "source:SPORTS-8acd573c8524:66",
+          "source_ref": "sports",
+          "source_row": 66,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-8cff98597279",
+      "category": "sports",
+      "name": "蒲岗村道体育馆",
+      "name_tc": "蒲崗村道體育館",
+      "name_en": "Po Kong Village Road Sports Centre",
+      "district": "黄大仙",
+      "address": "黄大仙蒲岗村道120号",
+      "longitude": 114.2015904,
+      "latitude": 22.3454605,
+      "evidence": [
+        {
+          "id": "source:SPORTS-8cff98597279:65",
+          "source_ref": "sports",
+          "source_row": 65,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-90c8c29b34f4",
+      "category": "sports",
+      "name": "渔光道体育馆",
+      "name_tc": "漁光道體育館",
+      "name_en": "Yue Kwong Road Sports Centre",
+      "district": "南区",
+      "address": "香港香港仔渔光道43号",
+      "longitude": 114.1570062,
+      "latitude": 22.2505132,
+      "evidence": [
+        {
+          "id": "source:SPORTS-90c8c29b34f4:12",
+          "source_ref": "sports",
+          "source_row": 12,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,活动室",
+          "facility_types": "篮球场,排球场,羽毛球场,活动室",
+          "source_row_date_utc": "2025-04-28",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-96171e27805a",
+      "category": "sports",
+      "name": "元朗体育馆",
+      "name_tc": "元朗體育館",
+      "name_en": "Yuen Long Sports Centre",
+      "district": "元朗",
+      "address": "元朗马田路52号元朗文化康乐大楼3楼及4楼",
+      "longitude": 114.0238643,
+      "latitude": 22.4414664,
+      "evidence": [
+        {
+          "id": "source:SPORTS-96171e27805a:8",
+          "source_ref": "sports",
+          "source_row": 8,
+          "scope": "venue_listing",
+          "text": "设施类别：羽毛球场,活动室,篮球场,排球场,健身室,乒乓球台,儿童游戏室。来源时段或服务备注：每日上午7时至晚上11时；(定期保养日除外)",
+          "facility_types": "羽毛球场,活动室,篮球场,排球场,健身室,乒乓球台,儿童游戏室",
+          "hours_note": "每日上午7时至晚上11时；(定期保养日除外)",
+          "source_row_date_utc": "2025-06-18",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/facilities.php?ftid=0&did=18"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-99823deb8d25",
+      "category": "sports",
+      "name": "摩士公园体育馆",
+      "name_tc": "摩士公園體育館",
+      "name_en": "Morse Park Sports Centre",
+      "district": "黄大仙",
+      "address": "黄大仙凤舞街40号",
+      "longitude": 114.1901248,
+      "latitude": 22.3383096,
+      "evidence": [
+        {
+          "id": "source:SPORTS-99823deb8d25:35",
+          "source_ref": "sports",
+          "source_row": 35,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台",
+          "source_row_date_utc": "2023-01-20",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-9a8ab5381476",
+      "category": "sports",
+      "name": "枫树窝体育馆",
+      "name_tc": "楓樹窩體育館",
+      "name_en": "Fung Shue Wo Sports Centre",
+      "district": "葵青",
+      "address": "青衣枫树窝路10号青衣邨第二期",
+      "longitude": 114.102693,
+      "latitude": 22.355481,
+      "evidence": [
+        {
+          "id": "source:SPORTS-9a8ab5381476:105",
+          "source_ref": "sports",
+          "source_row": 105,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-9b813342ac19",
+      "category": "sports",
+      "name": "源禾路体育馆",
+      "name_tc": "源禾路體育館",
+      "name_en": "Yuen Wo Road Sports Centre",
+      "district": "沙田",
+      "address": "沙田源禾路4号",
+      "longitude": 114.1925663,
+      "latitude": 22.3829383,
+      "evidence": [
+        {
+          "id": "source:SPORTS-9b813342ac19:74",
+          "source_ref": "sports",
+          "source_row": 74,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,投球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,投球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-9bb701694254",
+      "category": "sports",
+      "name": "大窝口体育馆",
+      "name_tc": "大窩口體育館",
+      "name_en": "Tai Wo Hau Sports Centre",
+      "district": "葵青",
+      "address": "葵涌大窝口大厦街39号",
+      "longitude": 114.12495,
+      "latitude": 22.3701986,
+      "evidence": [
+        {
+          "id": "source:SPORTS-9bb701694254:61",
+          "source_ref": "sports",
+          "source_row": 61,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-9e80d109f91c",
+      "category": "sports",
+      "name": "九龙公园体育馆",
+      "name_tc": "九龍公園體育館",
+      "name_en": "Kowloon Park Sports Centre",
+      "district": "油尖旺",
+      "address": "尖沙咀柯士甸道22号",
+      "longitude": 114.1699578,
+      "latitude": 22.3018589,
+      "evidence": [
+        {
+          "id": "source:SPORTS-9e80d109f91c:53",
+          "source_ref": "sports",
+          "source_row": 53,
+          "scope": "venue_listing",
+          "text": "设施类别：排球场,投球场,羽毛球场,手球场,壁球场,活动室,健身室,舞蹈室,乒乓球台",
+          "facility_types": "排球场,投球场,羽毛球场,手球场,壁球场,活动室,健身室,舞蹈室,乒乓球台",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-9f50ae8c5b37",
+      "category": "sports",
+      "name": "马鞍山体育馆",
+      "name_tc": "馬鞍山體育館",
+      "name_en": "Ma On Shan Sports Centre",
+      "district": "沙田",
+      "address": "马鞍山鞍骏街14号",
+      "longitude": 114.2295597,
+      "latitude": 22.4260241,
+      "evidence": [
+        {
+          "id": "source:SPORTS-9f50ae8c5b37:90",
+          "source_ref": "sports",
+          "source_row": 90,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,手球场,乒乓球台,健身室,舞蹈室,活动室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,手球场,乒乓球台,健身室,舞蹈室,活动室,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-9f8a515bc2a6",
+      "category": "sports",
+      "name": "友爱体育馆",
+      "name_tc": "友愛體育館",
+      "name_en": "Yau Oi Sports Centre",
+      "district": "屯门",
+      "address": "屯门兴安里3号",
+      "longitude": 113.9718016,
+      "latitude": 22.3854596,
+      "evidence": [
+        {
+          "id": "source:SPORTS-9f8a515bc2a6:73",
+          "source_ref": "sports",
+          "source_row": 73,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,投球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,投球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-a122ddf9ec8d",
+      "category": "sports",
+      "name": "荔景体育馆",
+      "name_tc": "荔景體育館",
+      "name_en": "Lai King Sports Centre",
+      "district": "葵青",
+      "address": "葵涌荔景丽祖路60号",
+      "longitude": 114.1276748,
+      "latitude": 22.3498564,
+      "evidence": [
+        {
+          "id": "source:SPORTS-a122ddf9ec8d:60",
+          "source_ref": "sports",
+          "source_row": 60,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-a54ccaaf574d",
+      "category": "sports",
+      "name": "天平体育馆",
+      "name_tc": "天平體育館",
+      "name_en": "Tin Ping Sports Centre",
+      "district": "北区",
+      "address": "上水天平邨天平商场3楼",
+      "longitude": 114.1336454,
+      "latitude": 22.5033183,
+      "evidence": [
+        {
+          "id": "source:SPORTS-a54ccaaf574d:26",
+          "source_ref": "sports",
+          "source_row": 26,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,健身室,乒乓球台,排球场。来源时段或服务备注：每日上午7时至晚上11时(定期保养日除外)",
+          "facility_types": "活动室,羽毛球场,健身室,乒乓球台,排球场",
+          "hours_note": "每日上午7时至晚上11时(定期保养日除外)",
+          "source_row_date_utc": "2023-05-19",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Facility/Details.do?ftid=0&fcid=&did=7"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-a56d5347d2ec",
+      "category": "sports",
+      "name": "荃湾体育馆",
+      "name_tc": "荃灣體育館",
+      "name_en": "Tsuen Wan Sports Centre",
+      "district": "荃湾",
+      "address": "荃湾永顺街53号",
+      "longitude": 114.1126364,
+      "latitude": 22.3659553,
+      "evidence": [
+        {
+          "id": "source:SPORTS-a56d5347d2ec:32",
+          "source_ref": "sports",
+          "source_row": 32,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,舞蹈室,健身室,运动攀登设施,乒乓球台,排球场。来源时段或服务备注：每日上午7时至晚上11时 (定期保养日除外)",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,舞蹈室,健身室,运动攀登设施,乒乓球台,排球场",
+          "hours_note": "每日上午7时至晚上11时 (定期保养日除外)",
+          "source_row_date_utc": "2023-05-09",
+          "venue_website": "https://www.lcsd.gov.hk/tc/facilities/facilitieslist.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-ac7a80604f44",
+      "category": "sports",
+      "name": "黄竹坑体育馆",
+      "name_tc": "黃竹坑體育館",
+      "name_en": "Wong Chuk Hang Sports Centre",
+      "district": "南区",
+      "address": "黄竹坑道168号",
+      "longitude": 114.1733916,
+      "latitude": 22.2497378,
+      "evidence": [
+        {
+          "id": "source:SPORTS-ac7a80604f44:58",
+          "source_ref": "sports",
+          "source_row": 58,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,投球场,羽毛球场,活动室",
+          "facility_types": "篮球场,排球场,投球场,羽毛球场,活动室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-b13e4745e771",
+      "category": "sports",
+      "name": "梅窝体育馆",
+      "name_tc": "梅窩體育館",
+      "name_en": "Mui Wo Sports Centre",
+      "district": "离岛",
+      "address": "大屿山银石街9号梅窝市政大厦一楼",
+      "longitude": 113.9964788,
+      "latitude": 22.2669856,
+      "evidence": [
+        {
+          "id": "source:SPORTS-b13e4745e771:55",
+          "source_ref": "sports",
+          "source_row": 55,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,门球场,活动室,健身室,壁球场",
+          "facility_types": "篮球场,排球场,羽毛球场,门球场,活动室,健身室,壁球场",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-b75c6076341f",
+      "category": "sports",
+      "name": "石瑭咀体育馆",
+      "name_tc": "石瑭咀體育館",
+      "name_en": "Shek Tong Tsui Sports Centre",
+      "district": "中西区",
+      "address": "皇后大道西470号石瑭咀市政大厦5至6楼",
+      "longitude": 114.1360511,
+      "latitude": 22.2857198,
+      "evidence": [
+        {
+          "id": "source:SPORTS-b75c6076341f:16",
+          "source_ref": "sports",
+          "source_row": 16,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "source_row_date_utc": "2025-04-03",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-b7e6889d68b1",
+      "category": "sports",
+      "name": "富善体育馆",
+      "name_tc": "富善體育館",
+      "name_en": "Fu Shin Sports Centre",
+      "district": "大埔",
+      "address": "大埔富善邨多层停车场",
+      "longitude": 114.1741153,
+      "latitude": 22.4538826,
+      "evidence": [
+        {
+          "id": "source:SPORTS-b7e6889d68b1:78",
+          "source_ref": "sports",
+          "source_row": 78,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-be872e6f0dfd",
+      "category": "sports",
+      "name": "晓光街体育馆",
+      "name_tc": "曉光街體育館",
+      "name_en": "Hiu Kwong Street Sports Centre",
+      "district": "观塘",
+      "address": "观塘晓光街2号",
+      "longitude": 114.227695,
+      "latitude": 22.3197985,
+      "evidence": [
+        {
+          "id": "source:SPORTS-be872e6f0dfd:72",
+          "source_ref": "sports",
+          "source_row": 72,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-c11436a93171",
+      "category": "sports",
+      "name": "黄泥涌体育馆",
+      "name_tc": "黃泥涌體育館",
+      "name_en": "Wong Nai Chung Sports Centre",
+      "district": "湾仔",
+      "address": "跑马地毓秀街2号黄泥涌市政大厦4字楼",
+      "longitude": 114.1857521,
+      "latitude": 22.2689458,
+      "evidence": [
+        {
+          "id": "source:SPORTS-c11436a93171:81",
+          "source_ref": "sports",
+          "source_row": 81,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-c12434036eb2",
+      "category": "sports",
+      "name": "坑口体育馆",
+      "name_tc": "坑口體育館",
+      "name_en": "Hang Hau Sports Centre",
+      "district": "西贡",
+      "address": "将军澳培成路38号西贡将军澳政府综合大楼1至3楼",
+      "longitude": 114.2683759,
+      "latitude": 22.3173156,
+      "evidence": [
+        {
+          "id": "source:SPORTS-c12434036eb2:25",
+          "source_ref": "sports",
+          "source_row": 25,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,儿童游戏室,室内缓跑径",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,儿童游戏室,室内缓跑径",
+          "source_row_date_utc": "2023-05-31"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-c177d85ea00f",
+      "category": "sports",
+      "name": "荔枝角公园体育馆",
+      "name_tc": "荔枝角公園體育館",
+      "name_en": "Lai Chi Kok Park Sports Centre",
+      "district": "深水埗",
+      "address": "荔枝角荔湾道1号",
+      "longitude": 114.1382096,
+      "latitude": 22.3406986,
+      "evidence": [
+        {
+          "id": "source:SPORTS-c177d85ea00f:77",
+          "source_ref": "sports",
+          "source_row": 77,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-c54595cc12df",
+      "category": "sports",
+      "name": "彩荣路体育馆",
+      "name_tc": "彩榮路體育館",
+      "name_en": "Choi Wing Road Sports Centre",
+      "district": "观塘",
+      "address": "观塘彩荣路58号",
+      "longitude": 114.216519,
+      "latitude": 22.3293501,
+      "evidence": [
+        {
+          "id": "source:SPORTS-c54595cc12df:39",
+          "source_ref": "sports",
+          "source_row": 39,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,健身室,室内缓跑径,乒乓球台。来源时段或服务备注：每日上午7时至晚上11时 (定期保养日除外)；定期保养日: 每月第一及第三个星期一上午9时至下午3时 (如该日为公众假期，保养日则顺延至下一个工作日）",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,健身室,室内缓跑径,乒乓球台",
+          "hours_note": "每日上午7时至晚上11时 (定期保养日除外)；定期保养日: 每月第一及第三个星期一上午9时至下午3时 (如该日为公众假期，保养日则顺延至下一个工作日）",
+          "source_row_date_utc": "2021-11-30"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-c6a094f49a6a",
+      "category": "sports",
+      "name": "柴湾体育馆",
+      "name_tc": "柴灣體育館",
+      "name_en": "Chai Wan Sports Centre",
+      "district": "东区",
+      "address": "香港柴湾怡顺街6号",
+      "longitude": 114.2399095,
+      "latitude": 22.2648519,
+      "evidence": [
+        {
+          "id": "source:SPORTS-c6a094f49a6a:50",
+          "source_ref": "sports",
+          "source_row": 50,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2011-12-12",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-c89c427f8227",
+      "category": "sports",
+      "name": "深水埗体育馆",
+      "name_tc": "深水埗體育館",
+      "name_en": "Sham Shui Po Sports Centre",
+      "district": "深水埗",
+      "address": "九龙深水埗深旺道38号深水埗康乐文化大楼2楼",
+      "longitude": 114.149114,
+      "latitude": 22.3305141,
+      "evidence": [
+        {
+          "id": "source:SPORTS-c89c427f8227:36",
+          "source_ref": "sports",
+          "source_row": 36,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,健身室,手球场,乒乓球台,排球场。来源时段或服务备注：早上七时至下午十一时",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,健身室,手球场,乒乓球台,排球场",
+          "hours_note": "早上七时至下午十一时",
+          "source_row_date_utc": "2022-09-15",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Facility/Details.do?ftid=0&fcid=&did=9"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-c943b222842c",
+      "category": "sports",
+      "name": "保荣路体育馆",
+      "name_tc": "保榮路體育館",
+      "name_en": "Po Wing Road Sports Centre",
+      "district": "北区",
+      "address": "新界上水百和路19号",
+      "longitude": 114.1283402,
+      "latitude": 22.4969766,
+      "evidence": [
+        {
+          "id": "source:SPORTS-c943b222842c:27",
+          "source_ref": "sports",
+          "source_row": 27,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球室,美式桌球台,活动室,健身室,儿童游戏室,室内缓跑径,运动攀登设施。来源时段或服务备注：每日上午7时至晚上11时(定期保养日除外)",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球室,美式桌球台,活动室,健身室,儿童游戏室,室内缓跑径,运动攀登设施",
+          "hours_note": "每日上午7时至晚上11时(定期保养日除外)",
+          "source_row_date_utc": "2023-05-19",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Facility/Details.do?ftid=0&fcid=&did=7"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-cb769505887e",
+      "category": "sports",
+      "name": "海傍街体育馆",
+      "name_tc": "海傍街體育館",
+      "name_en": "Praya Street Sports Centre",
+      "district": "离岛",
+      "address": "长洲大兴堤路长洲市政大厦一楼及二楼",
+      "longitude": 114.0283464,
+      "latitude": 22.2068194,
+      "evidence": [
+        {
+          "id": "source:SPORTS-cb769505887e:21",
+          "source_ref": "sports",
+          "source_row": 21,
+          "scope": "venue_listing",
+          "text": "设施类别：羽毛球场,活动室,壁球场,门球场",
+          "facility_types": "羽毛球场,活动室,壁球场,门球场",
+          "source_row_date_utc": "2025-03-17",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-cc9fbbd2f08c",
+      "category": "sports",
+      "name": "鲤鱼门体育馆",
+      "name_tc": "鯉魚門體育館",
+      "name_en": "Lei Yue Mun Sports Centre",
+      "district": "观塘",
+      "address": "九龙油塘鲤鱼门市政大厦二楼至五楼",
+      "longitude": 114.2386796,
+      "latitude": 22.2920617,
+      "evidence": [
+        {
+          "id": "source:SPORTS-cc9fbbd2f08c:99",
+          "source_ref": "sports",
+          "source_row": 99,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,活动室,健身室,运动攀登设施,散手训练场,乒乓球台,美式桌球台,壁球场,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,活动室,健身室,运动攀登设施,散手训练场,乒乓球台,美式桌球台,壁球场,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-cd715a9de983",
+      "category": "sports",
+      "name": "朗屏体育馆",
+      "name_tc": "朗屏體育館",
+      "name_en": "Long Ping Sports Centre",
+      "district": "元朗",
+      "address": "元朗朗屏邨朗屏商场二楼202号",
+      "longitude": 114.0231921,
+      "latitude": 22.4502966,
+      "evidence": [
+        {
+          "id": "source:SPORTS-cd715a9de983:45",
+          "source_ref": "sports",
+          "source_row": 45,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2018-10-09",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-cdedf8616300",
+      "category": "sports",
+      "name": "九龙湾体育馆",
+      "name_tc": "九龍灣體育館",
+      "name_en": "Kowloon Bay Sports Centre",
+      "district": "观塘",
+      "address": "九龙湾启乐街15号",
+      "longitude": 114.2112353,
+      "latitude": 22.3268647,
+      "evidence": [
+        {
+          "id": "source:SPORTS-cdedf8616300:104",
+          "source_ref": "sports",
+          "source_row": 104,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-d6309cf6f447",
+      "category": "sports",
+      "name": "宝林体育馆",
+      "name_tc": "寶林體育館",
+      "name_en": "Po Lam Sports Centre",
+      "district": "西贡",
+      "address": "西贡将军澳宝林邨",
+      "longitude": 114.2551081,
+      "latitude": 22.3258561,
+      "evidence": [
+        {
+          "id": "source:SPORTS-d6309cf6f447:70",
+          "source_ref": "sports",
+          "source_row": 70,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-d63a22422569",
+      "category": "sports",
+      "name": "瑞和街体育馆",
+      "name_tc": "瑞和街體育館",
+      "name_en": "Shui Wo Street Sports Centre",
+      "district": "观塘",
+      "address": "观塘瑞和街9号瑞和街市政大厦8楼及9楼",
+      "longitude": 114.224277,
+      "latitude": 22.3156635,
+      "evidence": [
+        {
+          "id": "source:SPORTS-d63a22422569:2",
+          "source_ref": "sports",
+          "source_row": 2,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室",
+          "source_row_date_utc": "2026-07-14",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-d8d465b581ef",
+      "category": "sports",
+      "name": "鲗鱼涌体育馆",
+      "name_tc": "鰂魚涌體育館",
+      "name_en": "Quarry Bay Sports Centre",
+      "district": "东区",
+      "address": "香港鲗鱼涌街38号鲗鱼涌市政大厦6楼及7楼",
+      "longitude": 114.2117875,
+      "latitude": 22.2836893,
+      "evidence": [
+        {
+          "id": "source:SPORTS-d8d465b581ef:11",
+          "source_ref": "sports",
+          "source_row": 11,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2025-04-28",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-db6e31bef275",
+      "category": "sports",
+      "name": "和兴体育馆",
+      "name_tc": "和興體育館",
+      "name_en": "Wo Hing Sports Centre",
+      "district": "北区",
+      "address": "粉岭和鸣里8号",
+      "longitude": 114.1431354,
+      "latitude": 22.4847541,
+      "evidence": [
+        {
+          "id": "source:SPORTS-db6e31bef275:22",
+          "source_ref": "sports",
+          "source_row": 22,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,美式桌球台,羽毛球场,篮球场,健身室,壁球场,乒乓球台,排球场,室内网球场。来源时段或服务备注：每日上午7时至晚上11时(定期保养日除外)",
+          "facility_types": "活动室,美式桌球台,羽毛球场,篮球场,健身室,壁球场,乒乓球台,排球场,室内网球场",
+          "hours_note": "每日上午7时至晚上11时(定期保养日除外)",
+          "source_row_date_utc": "2025-03-17",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Facility/Details.do?ftid=0&fcid=&did=7"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-de1efbddb318",
+      "category": "sports",
+      "name": "牛池湾体育馆",
+      "name_tc": "牛池灣體育館",
+      "name_en": "Ngau Chi Wan Sports Centre",
+      "district": "黄大仙",
+      "address": "九龙清水湾道11号牛池湾市政大厦1楼",
+      "longitude": 114.2096355,
+      "latitude": 22.3345501,
+      "evidence": [
+        {
+          "id": "source:SPORTS-de1efbddb318:93",
+          "source_ref": "sports",
+          "source_row": 93,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-e089dde6f59e",
+      "category": "sports",
+      "name": "港岛东体育馆",
+      "name_tc": "港島東體育館",
+      "name_en": "Island East Sports Centre",
+      "district": "东区",
+      "address": "西湾河鲤景道52号",
+      "longitude": 114.2222871,
+      "latitude": 22.2847252,
+      "evidence": [
+        {
+          "id": "source:SPORTS-e089dde6f59e:38",
+          "source_ref": "sports",
+          "source_row": 38,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,草地滚球场,儿童游戏室,舞蹈室,健身室,高尔夫球设施,乒乓球台,排球场",
+          "facility_types": "活动室,羽毛球场,篮球场,草地滚球场,儿童游戏室,舞蹈室,健身室,高尔夫球设施,乒乓球台,排球场",
+          "source_row_date_utc": "2022-04-08",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-e11a569e1417",
+      "category": "sports",
+      "name": "何文田体育馆",
+      "name_tc": "何文田體育館",
+      "name_en": "Ho Man Tin Sports Centre",
+      "district": "九龙城",
+      "address": "九龙何文田忠义街1号",
+      "longitude": 114.1812418,
+      "latitude": 22.3119679,
+      "evidence": [
+        {
+          "id": "source:SPORTS-e11a569e1417:56",
+          "source_ref": "sports",
+          "source_row": 56,
+          "scope": "venue_listing",
+          "text": "设施类别：乒乓球台,美式桌球台,活动室,网球场,健身室,儿童游戏室",
+          "facility_types": "乒乓球台,美式桌球台,活动室,网球场,健身室,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-e22bb0b3201b",
+      "category": "sports",
+      "name": "荃景围体育馆",
+      "name_tc": "荃景圍體育館",
+      "name_en": "Tsuen King Circuit Sports Centre",
+      "district": "荃湾",
+      "address": "荃湾荃景围美环街38号",
+      "longitude": 114.1112445,
+      "latitude": 22.3776701,
+      "evidence": [
+        {
+          "id": "source:SPORTS-e22bb0b3201b:47",
+          "source_ref": "sports",
+          "source_row": 47,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,活动室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,活动室",
+          "source_row_date_utc": "2017-05-08",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-e261fc45cfad",
+      "category": "sports",
+      "name": "香港仔体育馆",
+      "name_tc": "香港仔體育館",
+      "name_en": "Aberdeen Sports Centre",
+      "district": "南区",
+      "address": "香港香港仔大道203号香港仔巿政大厦5楼及6楼",
+      "longitude": 114.154358,
+      "latitude": 22.2495647,
+      "evidence": [
+        {
+          "id": "source:SPORTS-e261fc45cfad:5",
+          "source_ref": "sports",
+          "source_row": 5,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "source_row_date_utc": "2026-01-30",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-e5b3ee4348c0",
+      "category": "sports",
+      "name": "官涌体育馆",
+      "name_tc": "官涌體育館",
+      "name_en": "Kwun Chung Sports Centre",
+      "district": "油尖旺",
+      "address": "佐敦宝灵街17号官涌市政大厦五楼至七楼",
+      "longitude": 114.1682564,
+      "latitude": 22.3044362,
+      "evidence": [
+        {
+          "id": "source:SPORTS-e5b3ee4348c0:100",
+          "source_ref": "sports",
+          "source_row": 100,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-e894f507744f",
+      "category": "sports",
+      "name": "大埔墟体育馆",
+      "name_tc": "大埔墟體育館",
+      "name_en": "Tai Po Hui Sports Centre",
+      "district": "大埔",
+      "address": "大埔乡事会街8号大埔综合大楼6楼",
+      "longitude": 114.1664042,
+      "latitude": 22.4462941,
+      "evidence": [
+        {
+          "id": "source:SPORTS-e894f507744f:37",
+          "source_ref": "sports",
+          "source_row": 37,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室。来源时段或服务备注：早上七时至晚上11时",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,舞蹈室,儿童游戏室",
+          "hours_note": "早上七时至晚上11时",
+          "source_row_date_utc": "2022-08-22",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-e96cd7979efd",
+      "category": "sports",
+      "name": "恒安体育馆",
+      "name_tc": "恒安體育館",
+      "name_en": "Heng On Sports Centre",
+      "district": "沙田",
+      "address": "沙田马鞍山恒安邨恒安商场四楼",
+      "longitude": 114.2278661,
+      "latitude": 22.4166871,
+      "evidence": [
+        {
+          "id": "source:SPORTS-e96cd7979efd:48",
+          "source_ref": "sports",
+          "source_row": 48,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2017-01-27",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-ea2af3aa8f6f",
+      "category": "sports",
+      "name": "顺利邨体育馆",
+      "name_tc": "順利邨體育館",
+      "name_en": "Shun Lee Tsuen Sports Centre",
+      "district": "观塘",
+      "address": "观塘顺利邨道",
+      "longitude": 114.2254369,
+      "latitude": 22.3296877,
+      "evidence": [
+        {
+          "id": "source:SPORTS-ea2af3aa8f6f:101",
+          "source_ref": "sports",
+          "source_row": 101,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,投球场,羽毛球场,体操训练场,健身室,舞蹈室,乒乓球台,壁球场,活动室,高尔夫球设施,运动攀登设施,儿童游戏室",
+          "facility_types": "篮球场,投球场,羽毛球场,体操训练场,健身室,舞蹈室,乒乓球台,壁球场,活动室,高尔夫球设施,运动攀登设施,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-eb8531fb09ad",
+      "category": "sports",
+      "name": "渣华道体育馆",
+      "name_tc": "渣華道體育館",
+      "name_en": "Java Road Sports Centre",
+      "district": "东区",
+      "address": "北角渣华道99号渣华道市政大厦3-5楼",
+      "longitude": 114.1993976,
+      "latitude": 22.2922525,
+      "evidence": [
+        {
+          "id": "source:SPORTS-eb8531fb09ad:19",
+          "source_ref": "sports",
+          "source_row": 19,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室,儿童游戏室,美式桌球台",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室,儿童游戏室,美式桌球台",
+          "source_row_date_utc": "2025-03-24",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-eb9e702930b5",
+      "category": "sports",
+      "name": "龙琛路体育馆",
+      "name_tc": "龍琛路體育館",
+      "name_en": "Lung Sum Avenue Sports Centre",
+      "district": "北区",
+      "address": "上水马会道155号",
+      "longitude": 114.1304474,
+      "latitude": 22.504979,
+      "evidence": [
+        {
+          "id": "source:SPORTS-eb9e702930b5:29",
+          "source_ref": "sports",
+          "source_row": 29,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室。来源时段或服务备注：每日上午7时至晚上11时(定期保养日除外)",
+          "facility_types": "篮球场,排球场,羽毛球场,壁球场,乒乓球台,活动室,健身室,舞蹈室",
+          "hours_note": "每日上午7时至晚上11时(定期保养日除外)",
+          "source_row_date_utc": "2023-05-19",
+          "venue_website": "https://www.lcsd.gov.hk/clpss/tc/webApp/Facility/Details.do?ftid=0&fcid=&did=7"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-f22bee7e7b00",
+      "category": "sports",
+      "name": "赤柱体育馆",
+      "name_tc": "赤柱體育館",
+      "name_en": "Stanley Sports Centre",
+      "district": "南区",
+      "address": "赤柱市场道6号",
+      "longitude": 114.212208,
+      "latitude": 22.219156,
+      "evidence": [
+        {
+          "id": "source:SPORTS-f22bee7e7b00:64",
+          "source_ref": "sports",
+          "source_row": 64,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,舞蹈室,活动室,儿童游戏室",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,舞蹈室,活动室,儿童游戏室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-f4443aa3dabf",
+      "category": "sports",
+      "name": "大兴体育馆",
+      "name_tc": "大興體育館",
+      "name_en": "Tai Hing Sports Centre",
+      "district": "屯门",
+      "address": "屯门青松观路38号",
+      "longitude": 113.9730718,
+      "latitude": 22.4033822,
+      "evidence": [
+        {
+          "id": "source:SPORTS-f4443aa3dabf:62",
+          "source_ref": "sports",
+          "source_row": 62,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,投球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室,健身室",
+          "facility_types": "篮球场,排球场,投球场,羽毛球场,壁球场,乒乓球台,活动室,舞蹈室,健身室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-f52f70445659",
+      "category": "sports",
+      "name": "天晖路体育馆",
+      "name_tc": "天暉路體育館",
+      "name_en": "Tin Fai Road Sports Centre",
+      "district": "元朗",
+      "address": "天水围天瑞路63号",
+      "longitude": 113.9970215,
+      "latitude": 22.4647959,
+      "evidence": [
+        {
+          "id": "source:SPORTS-f52f70445659:31",
+          "source_ref": "sports",
+          "source_row": 31,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,健身室,室内缓跑径,运动攀登设施,乒乓球台,排球场。来源时段或服务备注：每日上午7时至晚上11时",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,健身室,室内缓跑径,运动攀登设施,乒乓球台,排球场",
+          "hours_note": "每日上午7时至晚上11时",
+          "source_row_date_utc": "2023-05-09"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-f703f3292f54",
+      "category": "sports",
+      "name": "牛头角道体育馆",
+      "name_tc": "牛頭角道體育館",
+      "name_en": "Ngau Tau Kok Road Sports Centre",
+      "district": "观塘",
+      "address": "观塘牛头角道183号牛头角市政大厦2楼至4楼",
+      "longitude": 114.2163782,
+      "latitude": 22.3214813,
+      "evidence": [
+        {
+          "id": "source:SPORTS-f703f3292f54:18",
+          "source_ref": "sports",
+          "source_row": 18,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室",
+          "source_row_date_utc": "2025-03-24",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-f814649b3188",
+      "category": "sports",
+      "name": "土瓜湾体育馆",
+      "name_tc": "土瓜灣體育館",
+      "name_en": "To Kwa Wan Sports Centre",
+      "district": "九龙城",
+      "address": "土瓜湾下乡道66号",
+      "longitude": 114.190123,
+      "latitude": 22.3188487,
+      "evidence": [
+        {
+          "id": "source:SPORTS-f814649b3188:24",
+          "source_ref": "sports",
+          "source_row": 24,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,健身室,壁球场,乒乓球台,排球场",
+          "facility_types": "活动室,羽毛球场,篮球场,健身室,壁球场,乒乓球台,排球场",
+          "source_row_date_utc": "2023-06-08",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-fcfa1aa5b809",
+      "category": "sports",
+      "name": "林士德体育馆",
+      "name_tc": "林士德體育館",
+      "name_en": "Osman Ramju Sadick Memorial Sports Centre",
+      "district": "葵青",
+      "address": "葵涌兴芳路176号",
+      "longitude": 114.1295243,
+      "latitude": 22.3611235,
+      "evidence": [
+        {
+          "id": "source:SPORTS-fcfa1aa5b809:83",
+          "source_ref": "sports",
+          "source_row": 83,
+          "scope": "venue_listing",
+          "text": "设施类别：篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,舞蹈室",
+          "facility_types": "篮球场,排球场,羽毛球场,乒乓球台,活动室,健身室,舞蹈室",
+          "source_row_date_utc": "2010-01-13",
+          "venue_website": "http://www.lcsd.gov.hk/tc/facilities/facilitieslist/landsports/sportcentre.html"
+        }
+      ]
+    },
+    {
+      "id": "SPORTS-fec56e11f147",
+      "category": "sports",
+      "name": "马仔坑体育馆",
+      "name_tc": "馬仔坑體育館",
+      "name_en": "Ma Chai Hang Sports Centre",
+      "district": "黄大仙",
+      "address": "黄大仙马仔坑道30号",
+      "longitude": 114.1892182,
+      "latitude": 22.3444883,
+      "evidence": [
+        {
+          "id": "source:SPORTS-fec56e11f147:6",
+          "source_ref": "sports",
+          "source_row": 6,
+          "scope": "venue_listing",
+          "text": "设施类别：活动室,羽毛球场,篮球场,儿童游戏室,健身室,网球场,排球场。来源时段或服务备注：0700hr - 2300hr",
+          "facility_types": "活动室,羽毛球场,篮球场,儿童游戏室,健身室,网球场,排球场",
+          "hours_note": "0700hr - 2300hr",
+          "source_row_date_utc": "2026-01-12"
+        }
+      ]
+    }
+  ]
+}
