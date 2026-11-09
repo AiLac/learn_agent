@@ -1,8 +1,14 @@
 # 第 1 周 · 实践讲义｜把模型接到一个真实的 Java 工具上
 
+## 先看一份能运行的实现，再动手改
+
+第一天从 [Java 完整例题](../../examples/day-01/RoomSearch.java) 开始。安装 JDK 17+ 与 Python 3.9+ 后，在仓库根目录运行 `py -3 examples/day-01/run.py "油尖旺" --limit 1`。macOS/Linux 可用 `python3` 替代 `py -3`。可以先跳过建 Maven 工程，等能独立解释检索结果后，再把检索函数接入自己的模型宿主。
+
+观察第一行：`scanned=36` 说的是本快照，`totalMatched=2` 说的是按检索条件命中的集合，`returned=1` 说的是这一页展示的集合。运行 `--simulate-timeout` 后后两者应为 unknown。把命令换为查“花园街”，若一次检索既返回地址又宣布今晚可入座，先指出后一个断言需要的证据在什么地方产生。完整操作与参考解均在[第 1 天](daily.md)。
+
 ## 实验目标与准备
 
-用 JDK 17+、Maven 和你熟悉的 JSON 库建立 Java 命令行项目。建议用 JUnit 5；从仓库根目录读取[已提交的名录](../../data/hk-study-rooms/library-study-rooms.json)。选择一个支持工具调用的模型，密钥放在本地环境变量。仓库提供课件与输入数据，下面的类名、测试名和输出路径都是你要实现的练习约定。
+第 1 天可以直接用上面的示例开始。做后续模型集成时，用 JDK 17+、Maven 和你熟悉的 JSON 库建立自己的 Java 命令行项目。建议用 JUnit 5；从仓库根目录读取[已提交的名录](../../data/hk-study-rooms/library-study-rooms.json)。选择一个支持工具调用的模型，密钥放在本地环境变量。仓库提供本地检索参考程序；后续的工具注册、模型连接和评测由你逐步实现。
 
 ## 第一次上机的 90 分钟
 

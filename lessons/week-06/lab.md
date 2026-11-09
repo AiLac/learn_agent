@@ -1,5 +1,11 @@
 # 第 6 周 · 实践讲义｜MCP 工具边界与可恢复的只读查询
 
+## 老师先核对一次 MCP 调用
+
+测试时把三列并排：模型调用 c7、协议请求 17、地点 E06。向服务端发送的 JSON-RPC 请求用 id=17；从工具响应取出的记录应带 E06；给模型的结果消息要关联 c7。因此即使 RPC 正常返回，如果宿主把结果写进另一轮模型会话，也属于端到端错误。
+
+先用同一个正确参数跑一次跨进程和同进程调用，比较地点、主题、证据 ID。然后关闭服务端重试，再以一个合法但未收录的主题重试。两次界面都可能没有结果，但轨迹分别是传输失败与成功空集。把用户提示的断言写在这两条轨迹后面。
+
 ## 交付物
 
 一个通过本地 stdio 启动的只读 MCP 证据服务、一个能调用它的客户端，以及三种故障轨迹。服务与客户端可以都用 Java。按所选 SDK 版本的官方快速开始建立工程，把版本和启动参数记入实验记录。[Java SDK 快速开始](https://java.sdk.modelcontextprotocol.io/latest/quickstart/) · [服务端](https://java.sdk.modelcontextprotocol.io/latest/server/) · [客户端](https://java.sdk.modelcontextprotocol.io/latest/client/)
