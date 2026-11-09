@@ -6,19 +6,23 @@ import subprocess
 import sys
 
 HERE = Path(__file__).resolve().parent
-SNAPSHOT = HERE.parents[1] / "data" / "hk-study-rooms" / "library-study-rooms.json"
+DATA = HERE.parents[1] / "data" / "hk-study-rooms"
+SNAPSHOTS = {"starter": DATA / "library-study-rooms.json",
+             "expanded": DATA / "search-v2" / "places.json"}
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("query")
+    parser.add_argument("--dataset", choices=tuple(SNAPSHOTS), default="starter",
+                        help="select the directory snapshot; matching uses name, district and address")
     parser.add_argument("--limit", type=int, default=2, choices=range(1, 37), metavar="1..36")
     parser.add_argument("--simulate-timeout", action="store_true")
     args = parser.parse_args()
     if not args.query.strip():
         parser.error("query must be nonblank")
 
-    records = json.loads(SNAPSHOT.read_text(encoding="utf-8-sig"))["records"]
+    records = json.loads(SNAPSHOTS[args.dataset].read_text(encoding="utf-8-sig"))["records"]
     lines = []
     ids = set()
     for item in records:

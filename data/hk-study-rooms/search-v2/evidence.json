@@ -1,0 +1,1863 @@
+{
+  "checked_on": "2026-11-09",
+  "source_note": "事实摘编，原资料来源见每张卡。图书馆资料：香港特别行政区政府康乐及文化事务署／香港公共图书馆；青年空间资料：香港青年协会。",
+  "documents": [
+    {
+      "id": "hours:G04",
+      "place_id": "G04",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／九龍",
+      "text": "九龙公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:R03",
+      "place_id": "R03",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／荃灣",
+      "text": "荃湾公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:P07",
+      "place_id": "P07",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／屯門",
+      "text": "屯门公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:D02",
+      "place_id": "D02",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／香港仔",
+      "text": "香港仔公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:A05",
+      "place_id": "A05",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／柴灣",
+      "text": "柴湾公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:J17",
+      "place_id": "J17",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／藍田",
+      "text": "蓝田公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:B02",
+      "place_id": "B02",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／駱克道",
+      "text": "骆克道公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:K08",
+      "place_id": "K08",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／馬鞍山",
+      "text": "马鞍山公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:H06",
+      "place_id": "H06",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／牛池灣",
+      "text": "牛池湾公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:S04",
+      "place_id": "S04",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／北葵涌",
+      "text": "北葵涌公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:F04",
+      "place_id": "F04",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／保安道",
+      "text": "保安道公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:F08",
+      "place_id": "F08",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／深水埗",
+      "text": "深水埗公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:C02",
+      "place_id": "C02",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／石塘咀",
+      "text": "石塘咀公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:M02",
+      "place_id": "M02",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／上水",
+      "text": "上水公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:J13",
+      "place_id": "J13",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／瑞和街",
+      "text": "瑞和街公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:N03",
+      "place_id": "N03",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／將軍澳",
+      "text": "将军澳公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:T04",
+      "place_id": "T04",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／東涌",
+      "text": "东涌公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:E01",
+      "place_id": "E01",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／油蔴地",
+      "text": "油麻地公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:Q11",
+      "place_id": "Q11",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／元朗",
+      "text": "元朗公共图书馆学生自修室，普通非节假日自修时段：周一 12:00-22:00；周二、三、四、五 09:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "12:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "4": "09:00-22:00",
+        "5": "09:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:Q06",
+      "place_id": "Q06",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／屏山天水圍",
+      "text": "屏山天水围公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:K17",
+      "place_id": "K17",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／沙田",
+      "text": "沙田公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:T03",
+      "place_id": "T03",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／長洲",
+      "text": "长洲公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:E06",
+      "place_id": "E06",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／花園街",
+      "text": "花园街公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:M03",
+      "place_id": "M03",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／粉嶺",
+      "text": "粉岭公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:F06",
+      "place_id": "F06",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／荔枝角",
+      "text": "荔枝角公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:J03",
+      "place_id": "J03",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／牛頭角",
+      "text": "牛头角公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:A11",
+      "place_id": "A11",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／鰂魚涌",
+      "text": "鲗鱼涌公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:N01",
+      "place_id": "N01",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／西貢",
+      "text": "西贡公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:H11",
+      "place_id": "H11",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／新蒲崗",
+      "text": "新蒲岗公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:S16",
+      "place_id": "S16",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／南葵涌",
+      "text": "南葵涌公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:L03",
+      "place_id": "L03",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／大埔",
+      "text": "大埔公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:N02",
+      "place_id": "N02",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／調景嶺",
+      "text": "调景岭公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:G01",
+      "place_id": "G01",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／土瓜灣",
+      "text": "土瓜湾公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:S11",
+      "place_id": "S11",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／青衣",
+      "text": "青衣公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:K11",
+      "place_id": "K11",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／圓洲角",
+      "text": "圆洲角公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 09:00-22:00；周四 12:00-22:00；周六 09:00-20:00；周日 09:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "09:00-22:00",
+        "2": "09:00-22:00",
+        "3": "09:00-22:00",
+        "5": "09:00-22:00",
+        "4": "12:00-22:00",
+        "6": "09:00-20:00",
+        "7": "09:00-17:00"
+      }
+    },
+    {
+      "id": "hours:D07",
+      "place_id": "D07",
+      "scope": "study_room",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/opening-hours-04.html",
+      "locator": "平日開放時間（一月至二月及六月至十二月）／薄扶林",
+      "text": "薄扶林公共图书馆学生自修室，普通非节假日自修时段：周一、二、三、五 10:00-22:00；周四 不开放；周六、日 10:00-17:00。",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordinary_nonholiday": true,
+      "timezone": "Asia/Hong_Kong",
+      "weekday_intervals": {
+        "1": "10:00-22:00",
+        "2": "10:00-22:00",
+        "3": "10:00-22:00",
+        "5": "10:00-22:00",
+        "4": "closed",
+        "6": "10:00-17:00",
+        "7": "10:00-17:00"
+      }
+    },
+    {
+      "id": "branch:A05",
+      "place_id": "A05",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/eastern/library/chai-wan.html ",
+      "locator": "服務及設施",
+      "text": "柴灣公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、无障碍洗手间、咖啡区、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "无障碍洗手间",
+        "咖啡区",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "3df0ccbb3ef1c177d2024aebf0c779f547f43fa712cefc2e06a0dd879f15635f"
+    },
+    {
+      "id": "branch:A11",
+      "place_id": "A11",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/eastern/library/quarry-bay.html",
+      "locator": "服務及設施",
+      "text": "鰂魚涌公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、无障碍洗手间、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "无障碍洗手间",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "61c50e3b2fe72857996f5bc6a99c993281c684169e4382845c4476272893a9af"
+    },
+    {
+      "id": "branch:B02",
+      "place_id": "B02",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/wan-chai/library/lockhart-road.html ",
+      "locator": "服務及設施",
+      "text": "駱克道公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、研讨室、咖啡区、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "研讨室",
+        "咖啡区",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "07491362b1f36a763b8a2f6c8a3783a3942c07139010cb656a49a4c65980f8db"
+    },
+    {
+      "id": "branch:C02",
+      "place_id": "C02",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/central-and-western/library/shek-tong-tsui.html",
+      "locator": "服務及設施",
+      "text": "石塘咀公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、儿童多媒体资料室、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "儿童多媒体资料室",
+        "推广活动室"
+      ],
+      "source_sha256": "7ab3a661ba9725b2b18758ff7ff93163d833e3f8824475e9ec0d63e72aad67f9"
+    },
+    {
+      "id": "branch:D02",
+      "place_id": "D02",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/southern/library/aberdeen.html ",
+      "locator": "服務及設施",
+      "text": "香港仔公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "77e5485cda5ec86faa7b3a79695ce2dd01812e3e15402cf4474fccdf4760612a"
+    },
+    {
+      "id": "branch:D07",
+      "place_id": "D07",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/southern/library/pok-fu-lam.html",
+      "locator": "服務及設施",
+      "text": "薄扶林公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi"
+      ],
+      "source_sha256": "f488b610b46026b566fa5744ec1729e93ba2d506ed765b346cbf4fdb5a8a685c"
+    },
+    {
+      "id": "branch:E01",
+      "place_id": "E01",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/yau-tsim-mong/library/yau-ma-tei.html",
+      "locator": "服務及設施",
+      "text": "油蔴地公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、育婴间、无障碍洗手间、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "育婴间",
+        "无障碍洗手间",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "ad93e75dac80ed89d6ad40fc241a0b3ed11455f919d3d516c22ef4256503c24a"
+    },
+    {
+      "id": "branch:E06",
+      "place_id": "E06",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/yau-tsim-mong/library/fa-yuen-street.html",
+      "locator": "服務及設施",
+      "text": "花園街公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "a832203018a6e9b90619765ffe06c0580459a85b7fdf83261ca48f96f1ad7d75"
+    },
+    {
+      "id": "branch:F04",
+      "place_id": "F04",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sham-shui-po/library/po-on-road.html",
+      "locator": "服務及設施",
+      "text": "保安道公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "cf24c041c901e6ff9e9112001b10b73c9d358c23c569fb0f1898b0eae96effaf"
+    },
+    {
+      "id": "branch:F06",
+      "place_id": "F06",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sham-shui-po/library/lai-chi-kok.html",
+      "locator": "服務及設施",
+      "text": "荔枝角公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "推广活动室"
+      ],
+      "source_sha256": "f1cd7457ea685378fc4aa537d7a212fbba117187c6c136caebe34fa7bcb92089"
+    },
+    {
+      "id": "branch:F08",
+      "place_id": "F08",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sham-shui-po/library/sham-shui-po.html",
+      "locator": "服務及設施",
+      "text": "深水埗公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、育婴间、无障碍洗手间、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "育婴间",
+        "无障碍洗手间",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "9b5abb7e508e1f017771c37bdf4a4c29e0f16717b4132980fe8b827057f4fdff"
+    },
+    {
+      "id": "branch:G01",
+      "place_id": "G01",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/kowloon-city/library/to-kwa-wan.html",
+      "locator": "服務及設施",
+      "text": "土瓜灣公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "26233e780b43dcad2592abf0bfb3bebdf82a407b54d8e3c386b2e4f4ecdf570d"
+    },
+    {
+      "id": "branch:G04",
+      "place_id": "G04",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/kowloon-city/library/kowloon.html ",
+      "locator": "服務及設施",
+      "text": "九龍公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、无障碍洗手间、咖啡区、参考图书馆、电脑资讯中心、智能图书机全天借阅、推广活动室、教育资源中心。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "无障碍洗手间",
+        "咖啡区",
+        "参考图书馆",
+        "电脑资讯中心",
+        "智能图书机全天借阅",
+        "推广活动室",
+        "教育资源中心"
+      ],
+      "source_sha256": "eee5227a37ee56038c0254385445b7614219a32ffc36eaea3fc551f5e3649d0e"
+    },
+    {
+      "id": "branch:H06",
+      "place_id": "H06",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/wong-tai-sin/library/ngau-chi-wan.html",
+      "locator": "服務及設施",
+      "text": "牛池灣公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "f6cd1ec9c2e40b847d21a771e91d73f710e74c457abd98602daca24a8708163b"
+    },
+    {
+      "id": "branch:H11",
+      "place_id": "H11",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/wong-tai-sin/library/san-po-kong.html",
+      "locator": "服務及設施",
+      "text": "新蒲崗公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、儿童多媒体资料室、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "儿童多媒体资料室",
+        "推广活动室"
+      ],
+      "source_sha256": "cadc2879035fa6c7213456409c5e7660d93a58441ad5b384e83c2ce5bd9e6e96"
+    },
+    {
+      "id": "branch:J03",
+      "place_id": "J03",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/kwun-tong/library/ngau-tau-kok.html",
+      "locator": "服務及設施",
+      "text": "牛頭角公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、儿童多媒体资料室、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "儿童多媒体资料室",
+        "推广活动室"
+      ],
+      "source_sha256": "b8f463d77b2ba3b87196dd6f20b19aef81de896dc6008eb0534543efb74ed9f8"
+    },
+    {
+      "id": "branch:J13",
+      "place_id": "J13",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/kwun-tong/library/shui-wo-street.html",
+      "locator": "服務及設施",
+      "text": "瑞和街公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "84250c7ffa404315d60a522ea18b0db05db5759d672913a9757387078c5b3e6b"
+    },
+    {
+      "id": "branch:J17",
+      "place_id": "J17",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/kwun-tong/library/lam-tin.html ",
+      "locator": "服務及設施",
+      "text": "藍田公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、育婴间、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "育婴间",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "225810003dce74fea365c0ce05a936994078c851e7c6b6492f06c2121b4952a6"
+    },
+    {
+      "id": "branch:K08",
+      "place_id": "K08",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sha-tin/library/ma-on-shan.html",
+      "locator": "服務及設施",
+      "text": "馬鞍山公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、咖啡区、电脑资讯中心、智能图书机全天借阅、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "咖啡区",
+        "电脑资讯中心",
+        "智能图书机全天借阅",
+        "推广活动室"
+      ],
+      "source_sha256": "506b6ba8a2ba694bc62bc4ed4d316432391364c2a43be1ca84c3040cd9e37919"
+    },
+    {
+      "id": "branch:K11",
+      "place_id": "K11",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sha-tin/library/yuen-chau-kok.html",
+      "locator": "服務及設施",
+      "text": "圓洲角公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、育婴间、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "育婴间",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "d232f2d8631dd8abdbf056e347b153b0daa9812e880bb85fe077e93f6ac9bac6"
+    },
+    {
+      "id": "branch:K17",
+      "place_id": "K17",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sha-tin/library/sha-tin.html",
+      "locator": "服務及設施",
+      "text": "沙田公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、咖啡区、儿童多媒体资料室、参考图书馆、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "咖啡区",
+        "儿童多媒体资料室",
+        "参考图书馆",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "c49b7a28e352d3d880ba7ff94b9fba21ebcd34c6aaef571a8061ffffeb1df7b3"
+    },
+    {
+      "id": "branch:L03",
+      "place_id": "L03",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/tai-po/library/tai-po.html",
+      "locator": "服務及設施",
+      "text": "大埔公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、育婴间、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "育婴间",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "0d628bb86aad463218e37a282e7df6e4bf0edf3abe90d83e47ede8d5668547a1"
+    },
+    {
+      "id": "branch:M02",
+      "place_id": "M02",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/north/library/sheung-shui.html",
+      "locator": "服務及設施",
+      "text": "上水公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、儿童多媒体资料室、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "儿童多媒体资料室",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "34bbe9787c09e3bc26b613bd0b7bb58a54f6061edb26cb78aa3fd3536b1dba0d"
+    },
+    {
+      "id": "branch:M03",
+      "place_id": "M03",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/north/library/fanling.html",
+      "locator": "服務及設施",
+      "text": "粉嶺公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "a692916e6751aa77f9987d3f971e0193b31b01d6b14e56016a8ee4d8499aaceb"
+    },
+    {
+      "id": "branch:N01",
+      "place_id": "N01",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sai-kung/library/sai-kung.html",
+      "locator": "服務及設施",
+      "text": "西貢公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "推广活动室"
+      ],
+      "source_sha256": "497c89124482425ef97d0c4f75a1784a4910e9069e70ee18ba08ed8db49c710d"
+    },
+    {
+      "id": "branch:N02",
+      "place_id": "N02",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sai-kung/library/tiu-keng-leng.html",
+      "locator": "服務及設施",
+      "text": "調景嶺公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、育婴间、无障碍洗手间、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "育婴间",
+        "无障碍洗手间",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "3775dc51adfb3d3be458e5ff55aa286f368375a52493839a72798c51a300d444"
+    },
+    {
+      "id": "branch:N03",
+      "place_id": "N03",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/sai-kung/library/tseung-kwan-o.html",
+      "locator": "服務及設施",
+      "text": "將軍澳公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "97d5e0ac71ce16f2d4b4570ded6119778a407c27e01f46e2880e78695ee23899"
+    },
+    {
+      "id": "branch:P07",
+      "place_id": "P07",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/tuen-mun/library/tuen-mun.html ",
+      "locator": "服務及設施",
+      "text": "屯門公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、无障碍洗手间、咖啡区、参考图书馆、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "无障碍洗手间",
+        "咖啡区",
+        "参考图书馆",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "d50dd9191c16bb406b7c0a910ed776ffcd02df12f3aa017b3de671ad5bf51dde"
+    },
+    {
+      "id": "branch:Q06",
+      "place_id": "Q06",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/yuen-long/library/ping-shan-tin-shui-wai.html",
+      "locator": "服務及設施",
+      "text": "屏山天水圍公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、无障碍洗手间、咖啡区、参考图书馆、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "无障碍洗手间",
+        "咖啡区",
+        "参考图书馆",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "c1b3c065e676dabbd639749d901fb49a1372fdc222ffc5a2be58df1dc86851da"
+    },
+    {
+      "id": "branch:Q11",
+      "place_id": "Q11",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/yuen-long/library/yuen-long.html",
+      "locator": "服務及設施",
+      "text": "元朗公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、育婴间、无障碍洗手间、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "育婴间",
+        "无障碍洗手间",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "fc33be642fdbc1a0a86c55616fd675c44a3739132c449567f69a7f7bb80c7d73"
+    },
+    {
+      "id": "branch:R03",
+      "place_id": "R03",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/tsuen-wan/library/tsuen-wan.html ",
+      "locator": "服務及設施",
+      "text": "荃灣公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、育婴间、无障碍洗手间、研讨室、咖啡区、参考图书馆、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "育婴间",
+        "无障碍洗手间",
+        "研讨室",
+        "咖啡区",
+        "参考图书馆",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "72ed8392e4c8d14af27fab4b3c397b5a866ca59cca0be2da0c0bc4f338224ae4"
+    },
+    {
+      "id": "branch:S04",
+      "place_id": "S04",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/kwai-tsing/library/north-kwai-chung.html",
+      "locator": "服務及設施",
+      "text": "北葵涌公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、自助复印、电子储物柜、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "自助复印",
+        "电子储物柜",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "d5cd9020a662a495b27ee091afeb0d87ae2894b1f98e7162c36ab5a11a7450ba"
+    },
+    {
+      "id": "branch:S11",
+      "place_id": "S11",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/kwai-tsing/library/tsing-yi.html",
+      "locator": "服務及設施",
+      "text": "青衣公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、电脑资讯中心、智能图书机全天借阅、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "电脑资讯中心",
+        "智能图书机全天借阅",
+        "推广活动室"
+      ],
+      "source_sha256": "595f39cfe31f0dfeabb305d3ef816c90a1493e730a711620c5f975d3fb0d7e5e"
+    },
+    {
+      "id": "branch:S16",
+      "place_id": "S16",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/kwai-tsing/library/south-kwai-chung.html",
+      "locator": "服務及設施",
+      "text": "南葵涌公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "推广活动室"
+      ],
+      "source_sha256": "f16a7f565d1f8d490c543393b38cbcb3562d89847390d2e7f9dc321c55c0e67f"
+    },
+    {
+      "id": "branch:T03",
+      "place_id": "T03",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/islands/library/cheung-chau.html",
+      "locator": "服務及設施",
+      "text": "長洲公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "推广活动室"
+      ],
+      "source_sha256": "85d4c35da0cd10b471a446f16ebe5f58c2ff8dafc6d6fc428f226da242841e38"
+    },
+    {
+      "id": "branch:T04",
+      "place_id": "T04",
+      "scope": "library_branch",
+      "source_url": "https://www.hkpl.gov.hk/tc/locations/islands/library/tung-chung.html",
+      "locator": "服務及設施",
+      "text": "東涌公共圖書館，分馆范围资料列有自助打印、公共 Wi-Fi、视障读者电脑服务、自助复印、电子储物柜、咖啡区、电脑资讯中心、推广活动室。",
+      "features": [
+        "自助打印",
+        "公共 Wi-Fi",
+        "视障读者电脑服务",
+        "自助复印",
+        "电子储物柜",
+        "咖啡区",
+        "电脑资讯中心",
+        "推广活动室"
+      ],
+      "source_sha256": "0ee7779aa5e5d949e92b10d7ad9f746b04375b36ffaf001c06360fedec7289e1"
+    },
+    {
+      "id": "youth:N07",
+      "place_id": "N07",
+      "scope": "study_room",
+      "source_url": "https://youthspot21.hkfyg.org.hk/center/ls/",
+      "locator": "單位設施／自修室",
+      "text": "康城青年空间的自修室适合做功课或阅读。室内可用电源和免费 Wi-Fi。青年可免费使用，需向职员预约。普通周六 10:00–22:00；周日及公假休息。",
+      "features": [
+        "电源",
+        "免费 Wi-Fi"
+      ],
+      "reservation": "需向职员预约"
+    },
+    {
+      "id": "youth:H12",
+      "place_id": "H12",
+      "scope": "study_room",
+      "source_url": "https://youthspot21.hkfyg.org.hk/center/wth/",
+      "locator": "單位設施／流動自修室",
+      "text": "横头磡青年空间的流动自修室免费，提供充电插位及免费 Wi-Fi。服务月份为 2、3、4、5、6、11 月，具体开放钟点须询问中心。",
+      "features": [
+        "电源",
+        "免费 Wi-Fi"
+      ],
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        11
+      ]
+    },
+    {
+      "id": "youth:A04",
+      "place_id": "A04",
+      "scope": "study_room",
+      "source_url": "https://youthspot21.hkfyg.org.hk/center/hfc/",
+      "locator": "單位設施／自修室",
+      "text": "杏花邨青年空间的自修室免费，入内需出示有效会员证，7–8 月暂停借用。普通周三至周六下午 2 时至晚上 9 时 45 分。",
+      "features": [
+        "会员证",
+        "暑期暂停"
+      ]
+    },
+    {
+      "id": "youth:N08",
+      "place_id": "N08",
+      "scope": "study_room",
+      "source_url": "https://youthspot21.hkfyg.org.hk/center/tko/",
+      "locator": "單位設施／自修室",
+      "text": "将军澳青年空间可免费借房温习，使用自修室须向职员预约。",
+      "features": [
+        "免费",
+        "预约"
+      ]
+    },
+    {
+      "id": "aux:N07-cafe",
+      "place_id": "N07",
+      "scope": "other_area",
+      "source_url": "https://youthspot21.hkfyg.org.hk/center/ls/",
+      "locator": "單位設施／Ucafe",
+      "text": "康城青年空间的 Ucafe 有书刊、座位和免费 Wi-Fi；此条描述咖啡阅读区。"
+    },
+    {
+      "id": "aux:A04-hall",
+      "place_id": "A04",
+      "scope": "other_area",
+      "source_url": "https://youthspot21.hkfyg.org.hk/center/hfc/",
+      "locator": "單位設施／跳舞室",
+      "text": "杏花邨青年空间的跳舞室列有投影、音响和银幕；收费须问职员。此条的适用范围仅是跳舞室。"
+    },
+    {
+      "id": "power:M02",
+      "place_id": "M02",
+      "scope": "study_room",
+      "source_url": "https://www.districtcouncils.gov.hk/north/doc/2024_2027/en/committee_meetings_doc/cicrc/28777/n_cicrc_2025_025_response_lcsd_ch.pdf",
+      "locator": "康文署回复，2025 年 9 月，第 1 页",
+      "text": "康文署在 2025 年 9 月确认上水公共图书馆学生自修室内有供笔记本等设备充电的插座，当时配置 178 个座位。该数字为当时容量。",
+      "facts_as_of": "2025-09",
+      "capacity_at_source_date": 178,
+      "features": [
+        "电源"
+      ]
+    }
+  ]
+}

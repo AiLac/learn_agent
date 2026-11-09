@@ -1,0 +1,171 @@
+{
+  "purpose": "公开开卷的开发示例。place_ids 为参考涉及的地点，不等同于推荐结果；证据和答案仅给评分端。nov_sat 与 nov_sun 共享问题组。",
+  "cases": [
+    {
+      "id": "area",
+      "type": "名录枚举",
+      "query": "扩展名录中油尖旺区有哪些自修点？",
+      "place_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "evidence_ids": [],
+      "insufficient_on_its_own": [],
+      "reference": "本快照中按 district 精确匹配共 6 条，使用 36 条入门子集时则只有 E01、E06。"
+    },
+    {
+      "id": "alias",
+      "type": "跨语言实体",
+      "query": "Fa Yuen Street Public Library Students’ Study Room 对应哪条记录？",
+      "place_ids": [
+        "E06"
+      ],
+      "evidence_ids": [],
+      "insufficient_on_its_own": [],
+      "reference": "英文名与简繁体场馆名指向 E06。"
+    },
+    {
+      "id": "radius",
+      "type": "距离约束",
+      "query": "以 E06 为起点，直线 500 米内还有哪处名录地点？",
+      "place_ids": [
+        "E02"
+      ],
+      "evidence_ids": [],
+      "insufficient_on_its_own": [],
+      "reference": "排除 E06 本身，按 WGS84 坐标以球面距离估算，E02 约 368 米。不能据此推断步行时间。"
+    },
+    {
+      "id": "charge",
+      "type": "设施与预约",
+      "query": "康城附近，青年想带笔记本复习，需要接电和免费上网。哪个自修室有明确依据，使用前还要做什么？",
+      "place_ids": [
+        "N07"
+      ],
+      "evidence_ids": [
+        "youth:N07"
+      ],
+      "insufficient_on_its_own": [
+        "aux:N07-cafe"
+      ],
+      "reference": "N07 的自修室资料支持电源、免费 Wi-Fi 和向职员预约。咖啡区的资料不能代替。"
+    },
+    {
+      "id": "summer",
+      "type": "明确不满足",
+      "query": "八月有有效会员证，杏花邨青年空间自修室可以借用吗？",
+      "place_ids": [
+        "A04"
+      ],
+      "evidence_ids": [
+        "youth:A04"
+      ],
+      "insufficient_on_its_own": [],
+      "reference": "该自修室七至八月暂停借用；持有效会员证不足以满足当月条件。"
+    },
+    {
+      "id": "scope",
+      "type": "证据范围",
+      "query": "杏花邨青年空间的自修室明确有投影仪吗？",
+      "place_ids": [
+        "A04"
+      ],
+      "evidence_ids": [
+        "youth:A04",
+        "aux:A04-hall"
+      ],
+      "insufficient_on_its_own": [
+        "aux:A04-hall"
+      ],
+      "reference": "投影设备证据适用于跳舞室。可以指出范围差异，对自修室是否有投影仪应答未知。"
+    },
+    {
+      "id": "season",
+      "type": "开放月份",
+      "query": "横头磡的流动自修室，十一月是否属于服务月？晚上九点是否一定能充电？",
+      "place_ids": [
+        "H12"
+      ],
+      "evidence_ids": [
+        "youth:H12"
+      ],
+      "insufficient_on_its_own": [],
+      "reference": "十一月在列，资料证实充电与 Wi-Fi，但具体钟点需查询，不能保证九点开放。"
+    },
+    {
+      "id": "capacity",
+      "type": "历史与实时",
+      "query": "上水学生自修室能给笔记本充电吗？现在是否一定还有座？",
+      "place_ids": [
+        "M02"
+      ],
+      "evidence_ids": [
+        "power:M02"
+      ],
+      "insufficient_on_its_own": [],
+      "reference": "2025-09 的官方回复支持室内有插座、当时容量 178。现时可用座位数未知。"
+    },
+    {
+      "id": "scope_wifi",
+      "type": "未知事实",
+      "query": "花园街分馆列出 Wi-Fi，我坐在学生自修室的座位上一定能连到吗？",
+      "place_ids": [
+        "E06"
+      ],
+      "evidence_ids": [
+        "branch:E06"
+      ],
+      "insufficient_on_its_own": [
+        "branch:E06"
+      ],
+      "reference": "能确认分馆公开列有 Wi-Fi；单凭分馆级资料无法保证自修室座位处的覆盖。"
+    },
+    {
+      "id": "nov_sat",
+      "type": "时间对照",
+      "query": "普通十一月周六 19:00，花园街和薄扶林哪个自修室按表仍开放？",
+      "place_ids": [
+        "E06",
+        "D07"
+      ],
+      "evidence_ids": [
+        "hours:E06",
+        "hours:D07"
+      ],
+      "insufficient_on_its_own": [],
+      "reference": "E06 开放至 20:00；D07 至 17:00，只有 E06 满足。"
+    },
+    {
+      "id": "nov_sun",
+      "type": "时间对照",
+      "query": "把上一题换成普通十一月周日 19:00，两个结果怎样变化？",
+      "place_ids": [
+        "E06",
+        "D07"
+      ],
+      "evidence_ids": [
+        "hours:E06",
+        "hours:D07"
+      ],
+      "insufficient_on_its_own": [],
+      "reference": "沿用上一题地点。两馆均到 17:00，19:00 都不满足。"
+    },
+    {
+      "id": "reserve",
+      "type": "操作条件",
+      "query": "将军澳青年空间的自修室是免费借用吗？要事先跟谁联系？",
+      "place_ids": [
+        "N08"
+      ],
+      "evidence_ids": [
+        "youth:N08"
+      ],
+      "insufficient_on_its_own": [],
+      "reference": "运营方列明免费，需向职员预约。"
+    }
+  ]
+}
